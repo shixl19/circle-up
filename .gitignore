@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+*.swp
+
+# Local prospectus files and generated review outputs.
+*.pdf
+*.csv
+!tests/fixtures/*.pdf
+!tests/fixtures/*.csv
