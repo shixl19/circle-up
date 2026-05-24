@@ -257,6 +257,7 @@ STRONG_NON_COMFORT_PAGE_KEYWORDS = (
     "global offering statistics",
     "future plans and use of proceeds",
     "use of proceeds",
+    "pricing strategy",
     "structure of the global offering",
     "underwriting",
     "how to apply",
@@ -362,6 +363,11 @@ NON_FINANCIAL_TABLE_KEYWORDS = (
     "offer price",
     "offer shares",
     "global offering",
+    "pricing strategy",
+    "price range",
+    "pricing tier",
+    "monetization method",
+    "subscription plan",
     "share capital",
     "ordinary shares",
     "shares held",
@@ -528,14 +534,10 @@ TABLE_NUMBER_PATTERN = re.compile(
 def detect_table_numeric_regions(fitz_module, lines: list[list[tuple]]) -> list[TableRegion]:
     candidates = []
 
-    for line in lines:
+    for line_index, line in enumerate(lines):
         data_cell_words = [word for word in line if is_table_data_cell_word(str(word[4]))]
         numeric_words = [word for word in line if is_table_number_word(str(word[4]))]
         if len(data_cell_words) < 2:
-            continue
-        numeric_density = len(numeric_words) / max(len(line), 1)
-        cell_density = len(data_cell_words) / max(len(line), 1)
-        if numeric_density < 0.35 and cell_density < 0.55:
             continue
         if is_header_numeric_line(numeric_words):
             continue
@@ -544,54 +546,83 @@ def detect_table_numeric_regions(fitz_module, lines: list[list[tuple]]) -> list[
         if max(x_values) - min(x_values) < 45:
             continue
 
-        candidates.append((line, data_cell_words))
+        candidates.append((line_index, line, data_cell_words))
 
     regions: list[TableRegion] = []
-    current: list[tuple[list[tuple], list[tuple]]] = []
+    current: list[tuple[int, list[tuple], list[tuple]]] = []
 
     for candidate in candidates:
         if not current:
             current = [candidate]
             continue
 
-        previous_y = line_mid_y(current[-1][0])
-        current_y = line_mid_y(candidate[0])
-        if current_y - previous_y <= 68:
+        previous_y = line_mid_y(current[-1][1])
+        current_y = line_mid_y(candidate[1])
+        if current_y - previous_y <= 95:
             current.append(candidate)
         else:
-            append_table_region(fitz_module, regions, current)
+            append_table_region(fitz_module, regions, current, lines)
             current = [candidate]
 
-    append_table_region(fitz_module, regions, current)
+    append_table_region(fitz_module, regions, current, lines)
     return regions
 
 
-def append_table_region(fitz_module, regions: list[TableRegion], rows: list[tuple[list[tuple], list[tuple]]]) -> None:
+def append_table_region(
+    fitz_module,
+    regions: list[TableRegion],
+    rows: list[tuple[int, list[tuple], list[tuple]]],
+    all_lines: list[list[tuple]],
+) -> None:
     if len(rows) < 3:
         return
-    if not has_repeated_data_columns(rows):
+    context = build_table_context(rows, all_lines)
+    min_repeated_columns = 2 if is_customer_supplier_financial_table_context(" ".join(context.lower().split())) else 3
+    if not has_repeated_data_columns(rows, min_repeated_columns=min_repeated_columns):
         return
 
-    data_cell_words = [word for _, row_data_cell_words in rows for word in row_data_cell_words]
+    data_cell_words = [word for _, _, row_data_cell_words in rows for word in row_data_cell_words]
     x0 = min(word[0] for word in data_cell_words) - 2.0
-    y0 = min(min(word[1] for word in line) for line, _ in rows) - 2.0
+    y0 = min(min(word[1] for word in line) for _, line, _ in rows) - 2.0
     x1 = max(word[2] for word in data_cell_words) + 2.0
-    y1 = max(max(word[3] for word in line) for line, _ in rows) + 2.0
+    y1 = max(max(word[3] for word in line) for _, line, _ in rows) + 2.0
 
-    contexts = [compact_context(join_words(line), limit=80) for line, _ in rows[:3]]
     regions.append(
         TableRegion(
             rect=fitz_module.Rect(x0, y0, x1, y1),
             row_count=len(rows),
-            context=" | ".join(contexts),
+            context=context,
         )
     )
 
 
-def has_repeated_data_columns(rows: list[tuple[list[tuple], list[tuple]]]) -> bool:
+def build_table_context(rows: list[tuple[int, list[tuple], list[tuple]]], all_lines: list[list[tuple]]) -> str:
+    first_index = rows[0][0]
+    last_index = rows[-1][0]
+    first_y = line_mid_y(rows[0][1])
+    last_y = line_mid_y(rows[-1][1])
+
+    context_lines: list[str] = []
+    for index, line in enumerate(all_lines):
+        y = line_mid_y(line)
+        is_near_header = index < first_index and first_y - 115 <= y < first_y
+        is_table_body = first_index <= index <= last_index and first_y <= y <= last_y + 1
+        if is_near_header or is_table_body:
+            text = compact_context(join_words(line), limit=100)
+            if text:
+                context_lines.append(text)
+
+    return compact_context(" | ".join(context_lines), limit=420)
+
+
+def has_repeated_data_columns(
+    rows: list[tuple[int, list[tuple], list[tuple]]],
+    *,
+    min_repeated_columns: int = 3,
+) -> bool:
     clusters: list[dict] = []
 
-    for row_index, (_, data_cell_words) in enumerate(rows):
+    for row_index, (_, _, data_cell_words) in enumerate(rows):
         for word in data_cell_words:
             x = word[0]
             for cluster in clusters:
@@ -605,7 +636,7 @@ def has_repeated_data_columns(rows: list[tuple[list[tuple], list[tuple]]]) -> bo
 
     min_row_support = min(3, len(rows))
     repeated_columns = [cluster for cluster in clusters if len(cluster["rows"]) >= min_row_support]
-    return len(repeated_columns) >= 3
+    return len(repeated_columns) >= min_repeated_columns
 
 
 def is_table_data_cell_word(text: str) -> bool:

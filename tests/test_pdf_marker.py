@@ -132,6 +132,7 @@ class PdfMarkerTests(unittest.TestCase):
         self.assertFalse(is_financial_table_context("Number of customers 11,131 115,378 212,247"))
         self.assertFalse(is_financial_table_context("Offer Price HK$151.00 per Share Global Offering"))
         self.assertFalse(is_financial_table_context("Use of Proceeds 90.0% HK$3,436.4 million"))
+        self.assertFalse(is_financial_table_context("Pricing Strategy Monetization Method Currency Price Range USD 19.69 US$15"))
 
     def test_should_process_table_region_uses_section_and_context(self):
         financial_region = detect_table_numeric_regions(
@@ -147,6 +148,47 @@ class PdfMarkerTests(unittest.TestCase):
 
         self.assertTrue(should_process_table_region("FINANCIAL INFORMATION", financial_region, core))
         self.assertFalse(should_process_table_region("GLOBAL OFFERING", financial_region, skipped))
+
+    def test_table_context_uses_header_and_full_body(self):
+        lines = [
+            [word(360, 80, "US$"), word(430, 80, "%")],
+            [word(80, 100, "AI-native"), word(120, 100, "products"), word(200, 100, "-"), word(260, 100, "758"), word(320, 100, "21.9")],
+            [word(80, 115, "Services"), word(200, 115, "-"), word(260, 115, "2,702"), word(320, 115, "78.1")],
+            [word(80, 130, "Total"), word(110, 130, "revenue"), word(200, 130, "-"), word(260, 130, "3,460"), word(320, 130, "100.0")],
+        ]
+
+        regions = detect_table_numeric_regions(fitz, lines)
+
+        self.assertEqual(len(regions), 1)
+        self.assertIn("Total revenue", regions[0].context)
+        self.assertTrue(is_financial_table_context(regions[0].context))
+
+    def test_user_unit_header_excludes_user_table(self):
+        lines = [
+            [word(260, 80, "('000"), word(300, 80, "users)")],
+            [word(80, 100, "AI-native"), word(120, 100, "products"), word(200, 100, "-"), word(260, 100, "11,131"), word(320, 100, "115,378")],
+            [word(80, 115, "MiniMax"), word(200, 115, "-"), word(260, 115, "686"), word(320, 115, "13,541")],
+            [word(80, 130, "Total"), word(200, 130, "-"), word(260, 130, "11,144"), word(320, 130, "115,420")],
+        ]
+
+        regions = detect_table_numeric_regions(fitz, lines)
+
+        self.assertEqual(len(regions), 1)
+        self.assertIn("users", regions[0].context)
+        self.assertFalse(is_financial_table_context(regions[0].context))
+
+    def test_customer_supplier_financial_header_enables_table(self):
+        lines = [
+            [word(200, 80, "Revenue"), word(250, 80, "contribution"), word(330, 80, "%")],
+            [word(80, 100, "Customer"), word(200, 100, "13,400"), word(260, 100, "44.1")],
+            [word(80, 115, "Customer"), word(200, 115, "11,600"), word(260, 115, "21.7")],
+            [word(80, 130, "Customer"), word(200, 130, "7,800"), word(260, 130, "14.7")],
+        ]
+
+        regions = detect_table_numeric_regions(fitz, lines)
+
+        self.assertEqual(len(regions), 1)
+        self.assertTrue(is_financial_table_context(regions[0].context))
 
     def test_adjacent_financial_table_regions_are_merged(self):
         first = TableRegion(
