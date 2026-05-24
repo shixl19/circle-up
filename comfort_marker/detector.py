@@ -135,6 +135,16 @@ NON_COMFORT_KEYWORDS = (
     "capitalization",
     "market capitalisation",
     "market capitalization",
+    "beneficial interests",
+    "voting rights",
+    "shareholding",
+    "shareholder",
+    "shareholders",
+    "ordinary shares",
+    "class a ordinary shares",
+    "class b ordinary shares",
+    "shares held",
+    "shares interested",
     "募资用途",
     "募集资金用途",
     "所得款项用途",
@@ -152,6 +162,35 @@ NON_COMFORT_KEYWORDS = (
     "已发行股本",
     "法定股本",
     "市值",
+    "持股",
+    "股权",
+    "股东",
+    "投票权",
+    "表决权",
+    "普通股",
+)
+
+NON_FINANCIAL_OPERATING_KEYWORDS = (
+    "users",
+    "user",
+    "members",
+    "member",
+    "employees",
+    "employee",
+    "headcount",
+    "r&d team",
+    "research and development team",
+    "monthly active users",
+    "active users",
+    "paying users",
+    "customers",
+    "api calls",
+    "用户",
+    "成员",
+    "雇员",
+    "员工",
+    "人数",
+    "客户",
 )
 
 PERIOD_KEYWORDS = (
@@ -231,6 +270,7 @@ def find_numeric_hits(text: str, *, mode: str = "conservative") -> list[NumericH
     has_market_data_context = any(keyword in normalized for keyword in MARKET_DATA_KEYWORDS)
     has_non_comfort_context = is_non_comfort_context(normalized)
     has_director_emoluments_context = any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS)
+    has_non_financial_operating_context = is_non_financial_operating_context(normalized)
 
     for match in NUMBER_PATTERN.finditer(text):
         raw = match.group(0)
@@ -247,6 +287,7 @@ def find_numeric_hits(text: str, *, mode: str = "conservative") -> list[NumericH
             has_market_data_context=has_market_data_context,
             has_non_comfort_context=has_non_comfort_context,
             has_director_emoluments_context=has_director_emoluments_context,
+            has_non_financial_operating_context=has_non_financial_operating_context,
             mode=mode,
         )
         if reason:
@@ -263,6 +304,7 @@ def classify_number(
     has_market_data_context: bool,
     has_non_comfort_context: bool,
     has_director_emoluments_context: bool,
+    has_non_financial_operating_context: bool,
     mode: str,
 ) -> str | None:
     compact = value.replace(" ", "").lower()
@@ -274,6 +316,8 @@ def classify_number(
     if is_year:
         return None
     if has_non_comfort_context and not has_director_emoluments_context:
+        return None
+    if has_non_financial_operating_context and not has_currency and not has_percent:
         return None
     if has_market_data_context and not has_financial_context:
         return None
@@ -292,6 +336,10 @@ def classify_number(
 
 def is_non_comfort_context(normalized_text: str) -> bool:
     return any(keyword in normalized_text for keyword in NON_COMFORT_KEYWORDS)
+
+
+def is_non_financial_operating_context(normalized_text: str) -> bool:
+    return any(keyword in normalized_text for keyword in NON_FINANCIAL_OPERATING_KEYWORDS)
 
 
 def is_likely_date_component(text: str, start: int, end: int, value: str) -> bool:

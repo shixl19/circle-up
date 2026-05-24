@@ -5,7 +5,12 @@ from pathlib import Path
 import csv
 import re
 
-from .detector import DIRECTOR_EMOLUMENTS_KEYWORDS, NON_COMFORT_KEYWORDS, find_numeric_hits, is_non_comfort_context
+from .detector import (
+    DIRECTOR_EMOLUMENTS_KEYWORDS,
+    NON_COMFORT_KEYWORDS,
+    find_numeric_hits,
+    is_non_comfort_context,
+)
 
 
 @dataclass(frozen=True)
@@ -14,6 +19,18 @@ class Finding:
     text: str
     reason: str
     context: str
+
+
+@dataclass(frozen=True)
+class SectionState:
+    name: str
+    policy: str
+
+
+PROCESS_ALL = "process_all"
+PROCESS_ISSUER_REVENUE_ONLY = "issuer_revenue_only"
+PROCESS_DIRECTOR_EMOLUMENTS_ONLY = "director_emoluments_only"
+SKIP_SECTION = "skip_section"
 
 
 def mark_pdf(
@@ -34,10 +51,12 @@ def mark_pdf(
 
     document = fitz.open(input_pdf)
     findings: list[Finding] = []
+    section = SectionState("unknown", SKIP_SECTION)
 
     for page_index, page in enumerate(document):
         page_text = page.get_text("text")
-        if should_skip_page(page_text):
+        section = update_section_state(section, page_text)
+        if should_skip_page(page_text, section):
             continue
 
         words = page.get_text("words")
@@ -46,7 +65,7 @@ def mark_pdf(
         numeric_regions = [
             region
             for region in numeric_regions
-            if not is_non_comfort_table_region(page_text, region.context)
+            if should_process_table_region(page_text, region, section)
         ]
 
         for region in numeric_regions:
@@ -65,6 +84,8 @@ def mark_pdf(
 
         for line_words in lines:
             line_text = join_words(line_words)
+            if not should_process_line(line_text, section):
+                continue
             hits = find_numeric_hits(line_text, mode=mode)
             if not hits:
                 continue
@@ -119,10 +140,94 @@ APPENDIX_KEYWORDS = (
 )
 
 
-def should_skip_page(page_text: str) -> bool:
+CORE_SECTION_PATTERNS = (
+    ("summary", "summary"),
+    ("risk factors", "risk factors"),
+    ("business", "business"),
+    ("financial information", "financial information"),
+    ("概要", "summary"),
+    ("摘要", "summary"),
+    ("风险因素", "risk factors"),
+    ("風險因素", "risk factors"),
+    ("业务", "business"),
+    ("業務", "business"),
+    ("财务资料", "financial information"),
+    ("財務資料", "financial information"),
+)
+
+INDUSTRY_SECTION_PATTERNS = (
+    "industry overview",
+    "行业概览",
+    "行業概覽",
+)
+
+DIRECTOR_SECTION_PATTERNS = (
+    "directors and senior management",
+    "directors, supervisors and senior management",
+    "statutory and general information",
+    "董事及高级管理层",
+    "董事、监事及高级管理层",
+    "董事及高級管理層",
+    "董事、監事及高級管理層",
+    "法定及一般资料",
+    "法定及一般資料",
+)
+
+STOP_SECTION_PATTERNS = (
+    "history, reorganization and corporate structure",
+    "relationship with our controlling shareholders",
+    "connected transactions",
+    "share capital",
+    "substantial shareholders",
+    "cornerstone investors",
+    "future plans and use of proceeds",
+    "underwriting",
+    "structure of the global offering",
+    "how to apply",
+    "appendix",
+    "附录",
+    "附錄",
+)
+
+
+def update_section_state(current: SectionState, page_text: str) -> SectionState:
+    headings = get_page_heading_candidates(page_text)
+    if not headings:
+        return current
+
+    joined = " ".join(headings)
+    for pattern, section_name in CORE_SECTION_PATTERNS:
+        if heading_contains(joined, pattern):
+            return SectionState(section_name, PROCESS_ALL)
+    if any(heading_contains(joined, pattern) for pattern in INDUSTRY_SECTION_PATTERNS):
+        return SectionState("industry overview", PROCESS_ISSUER_REVENUE_ONLY)
+    if any(heading_contains(joined, pattern) for pattern in DIRECTOR_SECTION_PATTERNS):
+        return SectionState("directors/statutory", PROCESS_DIRECTOR_EMOLUMENTS_ONLY)
+    if any(heading_contains(joined, pattern) for pattern in STOP_SECTION_PATTERNS):
+        return SectionState("other", SKIP_SECTION)
+    return current
+
+
+def get_page_heading_candidates(page_text: str) -> list[str]:
+    lines = [line.strip().lower() for line in page_text.splitlines() if line.strip()]
+    candidates: list[str] = []
+    for line in lines[:18]:
+        cleaned = re.sub(r"\s+", " ", line)
+        if len(cleaned) <= 90:
+            candidates.append(cleaned)
+    return candidates
+
+
+def heading_contains(text: str, pattern: str) -> bool:
+    return pattern.lower() in text.lower()
+
+
+def should_skip_page(page_text: str, section: SectionState | None = None) -> bool:
     normalized = " ".join(page_text.lower().split())
     if any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS):
         return False
+    if section and section.policy == SKIP_SECTION:
+        return True
     return is_appendix_page(page_text)
 
 
@@ -143,6 +248,126 @@ def is_non_comfort_table_region(page_text: str, region_context: str) -> bool:
         return True
     page_head = normalized_page[:1200]
     return any(keyword in page_head for keyword in NON_COMFORT_KEYWORDS)
+
+
+def should_process_table_region(page_text: str, region: TableRegion, section: SectionState) -> bool:
+    if section.policy != PROCESS_ALL:
+        return False
+    if is_non_comfort_table_region(page_text, region.context):
+        return False
+    surrounding = get_region_surrounding_text(page_text, region.context)
+    return is_financial_table_context(surrounding)
+
+
+def should_process_line(line_text: str, section: SectionState) -> bool:
+    normalized = " ".join(line_text.lower().split())
+    if section.policy == PROCESS_ALL:
+        return True
+    if section.policy == PROCESS_ISSUER_REVENUE_ONLY:
+        return is_issuer_revenue_line(normalized)
+    if section.policy == PROCESS_DIRECTOR_EMOLUMENTS_ONLY:
+        return any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS)
+    return False
+
+
+def is_issuer_revenue_line(normalized_line: str) -> bool:
+    issuer_terms = ("our", "we", "company", "group", "the company", "本公司", "我们", "我們", "集团", "集團")
+    revenue_terms = ("revenue", "revenues", "total revenue", "收入", "收益", "营业额", "營業額")
+    return any(term in normalized_line for term in issuer_terms) and any(term in normalized_line for term in revenue_terms)
+
+
+FINANCIAL_TABLE_KEYWORDS = (
+    "revenue",
+    "gross profit",
+    "net profit",
+    "loss",
+    "cost of sales",
+    "expenses",
+    "ebitda",
+    "cash flow",
+    "assets",
+    "liabilities",
+    "equity",
+    "borrowings",
+    "receivables",
+    "payables",
+    "inventories",
+    "income statement",
+    "balance sheet",
+    "financial position",
+    "current assets",
+    "current liabilities",
+    "non-current assets",
+    "non-current liabilities",
+    "收入",
+    "收益",
+    "毛利",
+    "净利",
+    "純利",
+    "亏损",
+    "虧損",
+    "销售成本",
+    "銷售成本",
+    "开支",
+    "開支",
+    "现金流",
+    "現金流",
+    "资产",
+    "資產",
+    "负债",
+    "負債",
+    "权益",
+    "權益",
+)
+
+NON_FINANCIAL_TABLE_KEYWORDS = (
+    "users",
+    "user",
+    "members",
+    "employees",
+    "headcount",
+    "customers",
+    "api calls",
+    "offer price",
+    "offer shares",
+    "global offering",
+    "share capital",
+    "ordinary shares",
+    "shares held",
+    "shares interested",
+    "beneficial interests",
+    "voting rights",
+    "use of proceeds",
+    "net proceeds",
+    "market capitalization",
+    "per share",
+    "用户",
+    "使用者",
+    "成员",
+    "员工",
+    "雇员",
+    "客户",
+    "发售",
+    "發售",
+    "股份",
+    "股本",
+    "持股",
+    "投票权",
+    "表决权",
+    "所得款项",
+    "募资用途",
+)
+
+
+def is_financial_table_context(context: str) -> bool:
+    normalized = " ".join(context.lower().split())
+    if any(keyword in normalized for keyword in NON_FINANCIAL_TABLE_KEYWORDS):
+        return False
+    return any(keyword in normalized for keyword in FINANCIAL_TABLE_KEYWORDS)
+
+
+def get_region_surrounding_text(page_text: str, region_context: str) -> str:
+    return f"{page_text[:1600]} {region_context}"
 
 
 def group_words_by_line(words: list[tuple]) -> list[list[tuple]]:

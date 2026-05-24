@@ -6,15 +6,18 @@ It reads a text-based PDF, draws red boxes around likely comfort items, and writ
 
 ## What It Marks
 
-- Issuer financial and operating figures in the body text
+- Issuer financial figures in Summary, Risk Factors, Business, and Financial Information
+- Issuer revenue figures in Industry Overview, when the line refers to the prospectus company's revenue
 - Financial table data areas, including numbers, dashes used as nil/zero values, and draft placeholders such as `[768]`, `[*]`, and `[·]`
 - Directors' emoluments / remuneration, including where this appears in Statutory and General Information
 
 ## What It Skips
 
 - Market or industry data, such as market size, market share, GDP, CAGR, IDC / Frost & Sullivan statistics
-- Offering, share capital, Offer Shares, Offer Price, and Global Offering figures
+- Offering, share capital, shareholding, voting rights, Offer Shares, Offer Price, and Global Offering figures
 - Use of proceeds / net proceeds / IPO proceeds allocation figures
+- User, member, employee, customer, headcount, and similar non-financial operating tables or figures
+- Sections outside the scoped chapters, unless directors' emoluments / remuneration is mentioned
 - Appendix pages by default, except directors' emoluments / remuneration
 
 ## Requirements

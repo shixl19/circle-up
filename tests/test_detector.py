@@ -23,7 +23,7 @@ class DetectorTests(unittest.TestCase):
         self.assertEqual([hit.text for hit in hits], ["RMB88.0 million"])
 
     def test_broad_mode_captures_operating_numbers(self):
-        hits = find_numeric_hits("The platform had 12,500 active users in 2025.", mode="broad")
+        hits = find_numeric_hits("The platform processed 12,500 workloads in 2025.", mode="broad")
 
         self.assertEqual([hit.text for hit in hits], ["12,500"])
 
@@ -71,6 +71,21 @@ class DetectorTests(unittest.TestCase):
         text = "Directors' emoluments amounted to US$1.2 million for the year ended December 31, 2025."
 
         self.assertEqual([hit.text for hit in find_numeric_hits(text)], ["US$1.2 million"])
+
+    def test_skips_non_financial_operating_headcount(self):
+        text = "We have built an R&D team of around 300 members, structured into specialized groups."
+
+        self.assertEqual(find_numeric_hits(text), [])
+
+    def test_skips_shareholding_and_voting_rights_data(self):
+        samples = [
+            "Dr. Yan is interested in 67.1% and 32.9% of the voting rights.",
+            "The approximate percentage of beneficial interests in the issued share capital was 25.36%.",
+        ]
+
+        for sample in samples:
+            with self.subTest(sample=sample):
+                self.assertEqual(find_numeric_hits(sample), [])
 
 
 if __name__ == "__main__":
