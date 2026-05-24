@@ -67,6 +67,7 @@ def mark_pdf(
             for region in numeric_regions
             if should_process_table_region(page_text, region, section)
         ]
+        numeric_regions = merge_table_regions(fitz, numeric_regions)
 
         for region in numeric_regions:
             annot = page.add_rect_annot(region.rect)
@@ -226,6 +227,8 @@ def should_skip_page(page_text: str, section: SectionState | None = None) -> boo
     normalized = " ".join(page_text.lower().split())
     if any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS):
         return False
+    if is_non_comfort_page(normalized):
+        return True
     if section and section.policy == SKIP_SECTION:
         return True
     return is_appendix_page(page_text)
@@ -248,6 +251,29 @@ def is_non_comfort_table_region(page_text: str, region_context: str) -> bool:
         return True
     page_head = normalized_page[:1200]
     return any(keyword in page_head for keyword in NON_COMFORT_KEYWORDS)
+
+
+STRONG_NON_COMFORT_PAGE_KEYWORDS = (
+    "global offering statistics",
+    "future plans and use of proceeds",
+    "use of proceeds",
+    "structure of the global offering",
+    "underwriting",
+    "how to apply",
+    "offer price",
+    "offer shares",
+    "offer size adjustment option",
+    "over-allotment option",
+    "share capital",
+    "substantial shareholders",
+    "beneficial interests",
+    "voting rights",
+)
+
+
+def is_non_comfort_page(normalized_page_text: str) -> bool:
+    page_head = normalized_page_text[:1800]
+    return any(keyword in page_head for keyword in STRONG_NON_COMFORT_PAGE_KEYWORDS)
 
 
 def should_process_table_region(page_text: str, region: TableRegion, section: SectionState) -> bool:
@@ -285,6 +311,9 @@ FINANCIAL_TABLE_KEYWORDS = (
     "expenses",
     "ebitda",
     "cash flow",
+    "operating activities",
+    "investing activities",
+    "financing activities",
     "assets",
     "liabilities",
     "equity",
@@ -299,6 +328,8 @@ FINANCIAL_TABLE_KEYWORDS = (
     "current liabilities",
     "non-current assets",
     "non-current liabilities",
+    "loss per share",
+    "earnings per share",
     "收入",
     "收益",
     "毛利",
@@ -340,7 +371,6 @@ NON_FINANCIAL_TABLE_KEYWORDS = (
     "use of proceeds",
     "net proceeds",
     "market capitalization",
-    "per share",
     "用户",
     "使用者",
     "成员",
@@ -367,7 +397,48 @@ def is_financial_table_context(context: str) -> bool:
 
 
 def get_region_surrounding_text(page_text: str, region_context: str) -> str:
-    return f"{page_text[:1600]} {region_context}"
+    return region_context
+
+
+def merge_table_regions(fitz_module, regions: list[TableRegion]) -> list[TableRegion]:
+    if not regions:
+        return []
+
+    sorted_regions = sorted(regions, key=lambda region: (region.rect.y0, region.rect.x0))
+    merged: list[TableRegion] = []
+
+    for region in sorted_regions:
+        if not merged:
+            merged.append(region)
+            continue
+
+        previous = merged[-1]
+        if should_merge_table_regions(previous, region):
+            merged.append(merge_two_table_regions(fitz_module, previous, region))
+            del merged[-2]
+        else:
+            merged.append(region)
+
+    return merged
+
+
+def should_merge_table_regions(first: TableRegion, second: TableRegion) -> bool:
+    vertical_gap = second.rect.y0 - first.rect.y1
+    x_overlap = min(first.rect.x1, second.rect.x1) - max(first.rect.x0, second.rect.x0)
+    min_width = min(first.rect.x1 - first.rect.x0, second.rect.x1 - second.rect.x0)
+    similar_numeric_columns = x_overlap >= min_width * 0.45
+    return 0 <= vertical_gap <= 140 and similar_numeric_columns
+
+
+def merge_two_table_regions(fitz_module, first: TableRegion, second: TableRegion) -> TableRegion:
+    rect = fitz_module.Rect(
+        min(first.rect.x0, second.rect.x0),
+        min(first.rect.y0, second.rect.y0),
+        max(first.rect.x1, second.rect.x1),
+        max(first.rect.y1, second.rect.y1),
+    )
+    context = compact_context(f"{first.context} | {second.context}", limit=220)
+    return TableRegion(rect=rect, row_count=first.row_count + second.row_count, context=context)
 
 
 def group_words_by_line(words: list[tuple]) -> list[list[tuple]]:

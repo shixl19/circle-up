@@ -8,13 +8,16 @@ from comfort_marker.pdf_marker import (
     PROCESS_DIRECTOR_EMOLUMENTS_ONLY,
     PROCESS_ISSUER_REVENUE_ONLY,
     SKIP_SECTION,
+    TableRegion,
     detect_table_numeric_regions,
     is_appendix_page,
     is_financial_table_context,
+    is_non_comfort_page,
     is_dash_word,
     is_non_comfort_table_region,
     is_placeholder_word,
     is_table_data_cell_word,
+    merge_table_regions,
     should_process_line,
     should_process_table_region,
     should_skip_page,
@@ -94,6 +97,16 @@ class PdfMarkerTests(unittest.TestCase):
         )
         self.assertEqual(update_section_state(current, "GLOBAL OFFERING\nStatistics").policy, SKIP_SECTION)
 
+    def test_strong_non_comfort_page_is_skipped_even_inside_summary(self):
+        page_text = """
+        SUMMARY
+        GLOBAL OFFERING STATISTICS
+        Based on an Offer Price of HK$151.00 per Share
+        """
+
+        self.assertTrue(is_non_comfort_page(" ".join(page_text.lower().split())))
+        self.assertTrue(should_skip_page(page_text, SectionState("summary", PROCESS_ALL)))
+
     def test_industry_overview_only_processes_issuer_revenue_lines(self):
         section = SectionState("industry overview", PROCESS_ISSUER_REVENUE_ONLY)
 
@@ -108,6 +121,9 @@ class PdfMarkerTests(unittest.TestCase):
 
     def test_financial_table_context_excludes_users_offering_and_proceeds(self):
         self.assertTrue(is_financial_table_context("Revenue – – 3,460 100.0 30,523 100.0"))
+        self.assertTrue(is_financial_table_context("AI-native products 758 21.9 21,805 71.4 | Total revenue 3,460 100.0"))
+        self.assertTrue(is_financial_table_context("Loss per share Basic and diluted (0.74) (2.56) (4.28)"))
+        self.assertTrue(is_financial_table_context("Net cash used in operating activities (11,019) (64,455)"))
         self.assertFalse(is_financial_table_context("('000 users) AI-native products 11,131 115,378"))
         self.assertFalse(is_financial_table_context("Offer Price HK$151.00 per Share Global Offering"))
         self.assertFalse(is_financial_table_context("Use of Proceeds 90.0% HK$3,436.4 million"))
@@ -126,6 +142,25 @@ class PdfMarkerTests(unittest.TestCase):
 
         self.assertTrue(should_process_table_region("FINANCIAL INFORMATION", financial_region, core))
         self.assertFalse(should_process_table_region("GLOBAL OFFERING", financial_region, skipped))
+
+    def test_adjacent_financial_table_regions_are_merged(self):
+        first = TableRegion(
+            rect=fitz.Rect(200, 100, 520, 220),
+            row_count=8,
+            context="Revenue and cost of sales",
+        )
+        second = TableRegion(
+            rect=fitz.Rect(210, 280, 515, 430),
+            row_count=10,
+            context="Assets and liabilities",
+        )
+
+        merged = merge_table_regions(fitz, [first, second])
+
+        self.assertEqual(len(merged), 1)
+        self.assertEqual(merged[0].row_count, 18)
+        self.assertLessEqual(merged[0].rect.y0, 100)
+        self.assertGreaterEqual(merged[0].rect.y1, 430)
 
 
 if __name__ == "__main__":
