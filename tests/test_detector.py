@@ -77,6 +77,16 @@ class DetectorTests(unittest.TestCase):
 
         self.assertEqual(find_numeric_hits(text), [])
 
+    def test_skips_non_financial_employee_percentages(self):
+        samples = [
+            "R&D personnel accounted for 71.0% of non-manufacturing employees.",
+            "Active users represented 56.3% of all registered users.",
+        ]
+
+        for sample in samples:
+            with self.subTest(sample=sample):
+                self.assertEqual(find_numeric_hits(sample), [])
+
     def test_skips_shareholding_and_voting_rights_data(self):
         samples = [
             "Dr. Yan is interested in 67.1% and 32.9% of the voting rights.",
@@ -86,6 +96,22 @@ class DetectorTests(unittest.TestCase):
         for sample in samples:
             with self.subTest(sample=sample):
                 self.assertEqual(find_numeric_hits(sample), [])
+
+    def test_marks_financial_turnover_days(self):
+        samples = [
+            "Inventory turnover days were 89.4 days, 78.5 days and 61.1 days.",
+            "Trade receivables turnover days were 82.4 days, 72.0 days and 69.5 days.",
+        ]
+
+        for sample in samples:
+            with self.subTest(sample=sample):
+                self.assertEqual(
+                    [hit.text for hit in find_numeric_hits(sample)],
+                    [part.strip() for part in sample.split("were", 1)[1].replace("and", ",").strip(".").split(",")],
+                )
+
+    def test_skips_non_financial_day_counts(self):
+        self.assertEqual(find_numeric_hits("The implementation timetable is expected to take 30 days."), [])
 
 
 if __name__ == "__main__":

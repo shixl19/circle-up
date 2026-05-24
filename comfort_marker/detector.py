@@ -36,6 +36,10 @@ FINANCIAL_KEYWORDS = (
     "equity",
     "borrowings",
     "inventories",
+    "inventory turnover",
+    "turnover days",
+    "receivables turnover",
+    "payables turnover",
     "trade receivables",
     "trade payables",
     "earnings per share",
@@ -193,6 +197,23 @@ NON_FINANCIAL_OPERATING_KEYWORDS = (
     "客户",
 )
 
+NON_FINANCIAL_PERCENT_CONTEXT_KEYWORDS = (
+    "users",
+    "user",
+    "members",
+    "member",
+    "employees",
+    "employee",
+    "personnel",
+    "headcount",
+    "api calls",
+    "用户",
+    "成员",
+    "雇员",
+    "员工",
+    "人数",
+)
+
 PERIOD_KEYWORDS = (
     "year ended",
     "years ended",
@@ -242,7 +263,7 @@ NUMBER_PATTERN = re.compile(
         \(?\d+(?:\.\d+)?\)?
     )
     \s*
-    (?P<suffix>%|percent|percentage\ points?|bps|basis\ points?|million|billion|trillion|thousand|m|bn|tn|万|億|亿|千)?
+    (?P<suffix>%|percent|percentage\ points?|bps|basis\ points?|days?|million|billion|trillion|thousand|m|bn|tn|万|億|亿|千)?
     """,
     re.IGNORECASE | re.VERBOSE,
 )
@@ -271,6 +292,7 @@ def find_numeric_hits(text: str, *, mode: str = "conservative") -> list[NumericH
     has_non_comfort_context = is_non_comfort_context(normalized)
     has_director_emoluments_context = any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS)
     has_non_financial_operating_context = is_non_financial_operating_context(normalized)
+    has_non_financial_percent_context = is_non_financial_percent_context(normalized)
 
     for match in NUMBER_PATTERN.finditer(text):
         raw = match.group(0)
@@ -288,6 +310,7 @@ def find_numeric_hits(text: str, *, mode: str = "conservative") -> list[NumericH
             has_non_comfort_context=has_non_comfort_context,
             has_director_emoluments_context=has_director_emoluments_context,
             has_non_financial_operating_context=has_non_financial_operating_context,
+            has_non_financial_percent_context=has_non_financial_percent_context,
             mode=mode,
         )
         if reason:
@@ -305,19 +328,23 @@ def classify_number(
     has_non_comfort_context: bool,
     has_director_emoluments_context: bool,
     has_non_financial_operating_context: bool,
+    has_non_financial_percent_context: bool,
     mode: str,
 ) -> str | None:
     compact = value.replace(" ", "").lower()
     has_currency = any(token in compact for token in ("hk$", "rmb", "us$", "usd", "hkd", "cny", "$", "人民币", "港元", "美元"))
     has_unit = any(token in compact for token in ("million", "billion", "trillion", "thousand", "bn", "tn", "万", "億", "亿", "千"))
     has_percent = "%" in compact or "percent" in compact or "basis" in compact or compact.endswith("bps")
+    has_day_metric = compact.endswith("day") or compact.endswith("days")
     is_year = bool(DATE_ONLY_PATTERN.match(compact))
 
     if is_year:
         return None
     if has_non_comfort_context and not has_director_emoluments_context:
         return None
-    if has_non_financial_operating_context and not has_currency and not has_percent:
+    if has_percent and has_non_financial_percent_context:
+        return None
+    if has_non_financial_operating_context and not has_currency and not has_percent and not has_day_metric:
         return None
     if has_market_data_context and not has_financial_context:
         return None
@@ -325,6 +352,8 @@ def classify_number(
         return "currency amount"
     if has_percent:
         return "percentage"
+    if has_day_metric and has_financial_context:
+        return "financial operating metric"
     if has_unit and has_financial_context:
         return "financial amount with unit"
     if has_financial_context:
@@ -340,6 +369,10 @@ def is_non_comfort_context(normalized_text: str) -> bool:
 
 def is_non_financial_operating_context(normalized_text: str) -> bool:
     return any(keyword in normalized_text for keyword in NON_FINANCIAL_OPERATING_KEYWORDS)
+
+
+def is_non_financial_percent_context(normalized_text: str) -> bool:
+    return any(keyword in normalized_text for keyword in NON_FINANCIAL_PERCENT_CONTEXT_KEYWORDS)
 
 
 def is_likely_date_component(text: str, start: int, end: int, value: str) -> bool:
