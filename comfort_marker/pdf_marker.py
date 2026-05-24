@@ -388,12 +388,64 @@ NON_FINANCIAL_TABLE_KEYWORDS = (
     "募资用途",
 )
 
+CUSTOMER_SUPPLIER_FINANCIAL_TABLE_KEYWORDS = (
+    "revenue contribution",
+    "revenue contributions",
+    "purchase amount",
+    "purchase amounts",
+    "purchase contribution",
+    "purchase contributions",
+    "amount of purchases",
+    "amount of sales",
+    "sales amount",
+    "sales to",
+    "purchases from",
+    "percentage of total revenue",
+    "percentage of total purchases",
+    "percentage of our total revenue",
+    "percentage of our total purchases",
+    "five largest customers",
+    "top five customers",
+    "five largest suppliers",
+    "top five suppliers",
+    "major customers",
+    "major suppliers",
+    "收入贡献",
+    "收入貢獻",
+    "采购金额",
+    "採購金額",
+    "购买金额",
+    "購買金額",
+    "销售金额",
+    "銷售金額",
+    "占总收入",
+    "佔總收入",
+    "占总采购",
+    "佔總採購",
+    "五大客户",
+    "五大客戶",
+    "五大供应商",
+    "五大供應商",
+    "主要客户",
+    "主要客戶",
+    "主要供应商",
+    "主要供應商",
+)
+
 
 def is_financial_table_context(context: str) -> bool:
     normalized = " ".join(context.lower().split())
+    if is_customer_supplier_financial_table_context(normalized):
+        return True
     if any(keyword in normalized for keyword in NON_FINANCIAL_TABLE_KEYWORDS):
         return False
     return any(keyword in normalized for keyword in FINANCIAL_TABLE_KEYWORDS)
+
+
+def is_customer_supplier_financial_table_context(normalized: str) -> bool:
+    has_customer_or_supplier = any(term in normalized for term in ("customer", "supplier", "客户", "客戶", "供应商", "供應商"))
+    has_financial_column = any(keyword in normalized for keyword in CUSTOMER_SUPPLIER_FINANCIAL_TABLE_KEYWORDS)
+    return has_customer_or_supplier and has_financial_column
 
 
 def get_region_surrounding_text(page_text: str, region_context: str) -> str:

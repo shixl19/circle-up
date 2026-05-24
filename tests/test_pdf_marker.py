@@ -124,7 +124,12 @@ class PdfMarkerTests(unittest.TestCase):
         self.assertTrue(is_financial_table_context("AI-native products 758 21.9 21,805 71.4 | Total revenue 3,460 100.0"))
         self.assertTrue(is_financial_table_context("Loss per share Basic and diluted (0.74) (2.56) (4.28)"))
         self.assertTrue(is_financial_table_context("Net cash used in operating activities (11,019) (64,455)"))
+        self.assertTrue(is_financial_table_context("Five largest customers Revenue contribution HK$13.4 million 44.1%"))
+        self.assertTrue(is_financial_table_context("Five largest suppliers Purchase amount US$49.8 million 63.0%"))
+        self.assertTrue(is_financial_table_context("五大客户 收入贡献 13.4百万 44.1%"))
+        self.assertTrue(is_financial_table_context("五大供应商 采购金额 49.8百万 63.0%"))
         self.assertFalse(is_financial_table_context("('000 users) AI-native products 11,131 115,378"))
+        self.assertFalse(is_financial_table_context("Number of customers 11,131 115,378 212,247"))
         self.assertFalse(is_financial_table_context("Offer Price HK$151.00 per Share Global Offering"))
         self.assertFalse(is_financial_table_context("Use of Proceeds 90.0% HK$3,436.4 million"))
 
