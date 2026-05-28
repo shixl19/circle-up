@@ -1,0 +1,675 @@
+# Paragraphs
+
+[P1] You should read the following discussion in conjunction with the consolidated financial statements and the notes thereto included in the Accountants' Report set out in Appendix I to this document, which have been prepared in accordance with IFRS Accounting Standards, and the selected historical financial information and operating data included elsewhere in this document. Our historical results do not necessarily indicate results expected for any future periods. The following discussion and analysis contains forward-looking statements that involve risks and uncertainties. Our actual results may differ from those anticipated in these forward-looking statements as a result of any number of factors, including those set forth in “Forward-looking Statements” and “Risk Factors.” In evaluating our business, you should carefully consider the information provided in “Risk Factors” in this document.
+[P2] OVERVIEW 
+[P3] We are a Specialist Technology Company focusing on AI infrastructure and agentic model-serving technologies. During the Track Record Period, we were at an early commercialisation stage, with revenue beginning in the fourth quarter of 2024 and increasing substantially in 2025 and the three months ended March 31, 2026. We intend to apply for listing as a Pre-Commercial Company under Chapter 18C of the Listing Rules. Accordingly, investors should read this section together with the disclosures on our Specialist Technology Products, research and development activities, commercialisation progress, working capital, cash operating costs and R&D expenditure set out in this document.
+[P4] BASIS OF PRESENTATION
+[P5] Our historical financial information has been prepared based on accounting policies which conform with International Financial Reporting Standards ( “IFRS Accounting Standards”) issued by the International Accounting Standards Board (“IASB”). In addition, our historical financial information includes applicable disclosures required by the Listing Rules and the Hong Kong Companies Ordinance. Our historical financial information is presented in Renminbi (“RMB”), which is also our functional currency, and all values are rounded to the nearest thousand except when otherwise indicated.
+[P6] KEY FACTORS AFFECTING OUR RESULTS OF OPERATIONS
+[P7] Our results of operations, financial condition and the period-to-period comparability of our financial results are principally affected by the following factors:
+[P8] Commercialisation Stage and Path to Profitability
+[P9] We commenced commercialisation in the fourth quarter of 2024 and continued to scale our revenue-generating business in 2025 and the three months ended March 31, 2026. Our revenue growth during the Track Record Period was primarily driven by (i) the transition from early-stage commercialisation to a broader customer base for our platform software and AGI enterprise solutions, (ii) the launch and rapid ramp-up of Agentic MaaS, which is charged primarily based on customer usage, and (iii) increasing demand from large model companies and enterprise customers for model training, inference and deployment capabilities. We expect our path to profitability to depend principally on continued revenue growth, higher utilisation of computing resources, optimisation of computing resource procurement and leasing arrangements, improved gross profit margin of MaaS and solution projects, and disciplined control of personnel, sales and administrative expenses. We expect to continue to incur substantial R&D expenses in the near term as we invest in our core technologies and products.
+[P10] Development of the AI Industry and Demand for AI Infrastructure
+[P11] The development of the AI industry and the increasing demand for AI model training, inference, agentic applications and enterprise AI adoption have been key drivers of our financial performance. As AI models increase in scale and complexity, customers require more efficient coordination of heterogeneous computing resources, stable training and inference operations, better observability and more cost-efficient token generation. These market requirements have supported demand for our agentic platform software, artificial general intelligence ("AGI") enterprise solutions and Agentic MaaS.
+[P12] Commercialization of Our Products and Services
+[P13] Our financial performance depends on the pace and scale at which we commercialize our products and services. During the Track Record Period, we generated revenue from agentic platform software, AGI enterprise solutions and Agentic MaaS. Our agentic platform software can be deployed through private on-premises environments and public cloud infrastructure and offered under license arrangements or subscription-based pricing models. Our AGI enterprise solutions deliver deployable AI solutions for vertical enterprise scenarios. Our Agentic MaaS is delivered through managed model-serving infrastructure and usage-based service arrangements. 
+[P14] Product Capabilities and Technological Strength
+[P15] Our ability to meet customer requirements and to scale revenue depends on our product capabilities and technological strength. Our agentic platform abstracts the differences among heterogeneous computing resources, provides unified orchestration and intelligent operations management, supports model-aware workload adaptation and optimization, and provides dynamic workload scheduling, elastic resource allocation, operational reliability and observability. These capabilities support large-scale AI model training and inference workloads and help customers improve computing efficiency, deployment stability and operational automation.
+[P16] Access to Computing Resources and Cost Management
+[P17] Our ability to manage cost of sales is important to our gross profit margin. Our products and services require access to substantial AI computing capacity to support model training, inference and MaaS operations. We procure computing resources from third-party providers, including data center operators, AI computing cluster providers and cloud or infrastructure service providers, and integrate such resources with our proprietary platform, optimization technologies and operational capabilities. Our gross profit margin may be affected by our ability to procure computing resources and other service inputs efficiently, improve resource utilization, standardize delivery processes and optimize technical support and implementation costs.
+[P18] Continued Investment in R&D and Talent
+[P19] Our ability to maintain technological competitiveness depends on continued investment in R&D and talent. Our R&D expenses amounted to RMB30.6 million, RMB252.9 million, RMB354.7 million, RMB[●] million and RMB93.4 million in 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, respectively. During the Track Record Period, our R&D expenses increased significantly as we expanded our R&D team and continued to develop heterogeneous computing technologies, inference optimization technologies, model-serving capabilities and agentic infrastructure. Such investment supports our product capabilities and commercialization but materially affects our profitability in the short to medium term.
+[P20] CRITICAL ACCOUNTING POLICIES, JUDGMENTS AND ESTIMATES 
+[P21] The preparation of historical financial statements in conformity with IFRS Accounting Standards requires our management to make judgments, estimates and assumptions that affect the reported amounts of revenues, expenses, assets and liabilities, and the accompanying disclosures, and the disclosure of contingent liabilities. Such judgments, estimates and assumptions are continually evaluated and are based on historical experience and various other factors, including expectations of future events, that are believed to be reasonable under the circumstances, from which our actual results may differ. See Notes 3 and 4 to the Accountants’ Report set out in Appendix I to this prospectus for a detailed description of our material accounting policies, judgments and estimates.
+[P22] RESULTS OF OPERATIONS
+[P23] The following table set forth our consolidated statements of profit or loss and other comprehensive income for the periods indicated. 
+[P24] NON-IFRS MEASURE
+[P25] To supplement our consolidated financial statements, we use adjusted net profit/(loss) (non-IFRS measure) as additional financial measure, which is not required by, or presented in accordance with IFRS Accounting Standards. We define adjusted net profit/(loss) (non-IFRS measure) as profit/(loss) for the period/year adjusted by adding back changes in fair values of financial liabilities on shares with preferential rights, listing expenses and share-based payment expenses. Changes in fair values of financial liabilities on shares with preferential rights reflect changes in our valuation and equity financing activities, which will be automatically converted into ordinary shares upon the Listing and the related financial instruments will be reclassified from financial liabilities to equity. Listing expenses are the expenses arising from activities in relation to the Listing and Global Offering. Share-based payment expenses are non-cash in nature and arise from granting economic rights in our share incentive platforms to senior management and employees. Our presentation of adjusted net profit/(loss) (non-IFRS measure) may not be comparable to similarly titled measures presented by other companies. The use of this non-IFRS measure as an analytical tool has limitations, and you should not consider them in isolation from, or as a substitute for an analysis of, our results of operations or financial conditions as reported under IFRS Accounting Standards.
+[P26] The following table reconciles our adjusted net profit/(loss) (non-IFRS measure) for the periods presented in accordance with IFRS, which is profit/(loss) for the period/year:
+[P27] KEY COMPONENTS OF OUR RESULTS OF OPERATIONS
+[P28] Revenue
+[P29] During the Track Record Period, we generated revenue from provision of our agentic platform software, AGI enterprise solutions and Agentic MaaS. The following table sets forth a breakdown of our revenue by product and service types, both in absolute amount and as a percentage of our total revenue, for the periods indicated.
+[P30] Revenue from Agentic Platform Software
+[P31] Revenue from our agentic platform software increased from nil in 2023 to RMB5.9 million in 2024 and further to RMB12.6 million in 2025. And we generated revenue of RMB[●] million and RMB[●] million from agentic platform software for the three months ended March 31, 2025 and 2026, respectively. The increase was primarily driven by [the continued development of the AI industry and the increase in customer demands for unified heterogeneous computing orchestration, intelligent workload scheduling and full-lifecycle AI operation management capabilities]. The sustained growth in demand for AI infrastructure therefore translated into increased demand for our agentic platform software. [In 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, we had [nil], [●], [●], [●] and [●] customers for our agentic platform software, respectively, and we completed [nil], [●], [●], [●] and [●] projects in relation to our agentic platform software business, respectively.][to confirm operating data disclosed here]
+[P32] [to supplement analysis of agentic platform software business]
+[P33] Revenue from our agentic platform software is recognised at a point in time when the software is delivered to the customer, inspected and accepted by the customer. According to the Accountants' Report, payment is generally due within one to three months from delivery.
+[P34] Revenue from AGI Enterprise Solutions
+[P35] Revenue from our AGI enterprise solutions increased from nil in 2023 to RMB4.2 million in 2024 and further to RMB52.0 million in 2025. And we generated revenue of RMB[●] million and RMB[●] million from AGI enterprise solutions for the three months ended March 31, 2025 and 2026, respectively. The increase was primarily attributable to [accelerating enterprise digital and intelligent transformation, as well as rising corporate needs for customized domain-specific AI deployment solutions tailored to diversified business operational demands]. [In 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, we had [nil], [●], [●], [●] and [●] customers for our AGI enterprise solutions, respectively, and we completed [nil], [●], [●], [●] and [●] projects in relation to our AGI enterprise solutions business, respectively.] [to confirm operating data disclosed here]
+[P36] [to supplement analysis of AGI enterprise solutions business]
+[P37] Revenue from our AGI enterprise solutions is recognised at a point in time when the software platform and related services are delivered to the customer's designated place, inspected and accepted by the customer. According to the Accountants' Report, payment is generally due within one to three months from delivery.
+[P38] Revenue from Agentic MaaS
+[P39] Revenue from our Agentic MaaS increased from nil in 2023, nil in 2024 to RMB10.9 million in 2025. And we generated revenue of RMB[●] million and RMB[●] million from Agentic MaaS for the three months ended March 31, 2025 and 2026, respectively. Such growth was primarily driven by [enterprises choosing cost-effective Agentic MaaS instead of building their own inference infrastructure, as large models gain broader adoption among businesses]. [In 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, we had [nil], [nil], [●], [●] and [●] customers for our Agentic MaaS, respectively, and we completed [nil], [nil], [●], [●] and [●] projects in relation to our Agentic MaaS business, respectively.] [to confirm operating data disclosed here]
+[P40] [to supplement analysis of Agentic MaaS business]
+[P41] Revenue from our Agentic MaaS is recognised as services are rendered based on the customer's consumption of resources for usage-based contracts.
+[P42] Cost of Sales [Company/DTT to provide breakdown]
+[P43] Our cost of sales primarily consisted of computing resource procurement and leasing costs, server and cloud service costs, project delivery costs and other costs directly attributable to the delivery of our products and services. During the Track Record Period, our cost of sales and services was nil, RMB2.2 million, RMB33.9 million, RMB[●] million and RMB64.7 million in 2023, 2024 and 2025 and the three months ended March 31, 2025 and 2026, respectively. The increase was primarily driven by our revenue growth and the change in business mix, particularly the rapid growth of Agentic MaaS and other businesses that require computing resource inputs. Platform software generally involved relatively limited direct costs, while MaaS and computing-resource-intensive solution projects incurred higher direct costs, primarily because they require access to leased or procured computing resources. The following table sets forth a breakdown of our cost of sales by nature, both in absolute amount and as a percentage of total cost of sales, for the periods indicated.
+[P44] Primarily included [●].
+[P45] Gross Profit and Gross Profit Margin
+[P46] In 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, our gross profit was nil, RMB7.8 million, RMB41.7 million, RMB[●] million and RMB16.8 million, respectively. Our revenue in 2023 was nil, and our gross profit margin was 77.7%, 55.2%, [●]% and 20.6% in 2024, 2025 and for the three months ended March 31, 2025 and 2026, respectively. The following table sets forth the breakdown of our gross profit and gross profit margin by product and service types for the periods indicated.
+[P47] Our gross profit margin decreased from 77.7% in 2024 to 55.2% in 2025 and further to 20.6% for the three months ended March 31, 2026, primarily due to changes in our business mix and commercialisation stage. Platform software typically generated a higher gross profit margin because it required limited incremental direct costs after product development. By contrast, Agentic MaaS and certain solution projects required computing resource leasing or procurement, server resources and related delivery inputs. As Agentic MaaS became a more meaningful revenue contributor in 2025 and grew significantly in the first quarter of 2026, the relative contribution of computing-resource-intensive services increased, resulting in a lower overall gross profit margin. Management expects gross profit margin to improve over time if we achieve higher resource utilisation, optimise computing resource procurement and leasing arrangements, improve scheduling efficiency and benefit from scale effects, although the timing and extent of improvement will depend on customer demand, pricing, resource costs and business mix.
+[P48] Other Income  
+[P49] Our other income primarily consisted of (i) government grants, (ii) interest income and (iii) others. According to the Accountants' Report, our government grants amounted to RMB1.2 million, RMB22.0 million and RMB23.2 million in 2023, 2024 and 2025, respectively, and mainly represented subsidies received from local governments in Beijing and Shanghai to reward contributions by our subsidiaries to local economic growth or for industry development. The Accountants' Report states that there were no unfulfilled conditions or contingencies relating to these grants. Our interest income amounted to nil, RMB7.5 million and RMB8.3 million in 2023, 2024 and 2025, respectively. Others amounted to nil, RMB7.8 million and RMB4.2 million in 2023, 2024 and 2025, respectively. Other income amounted to RMB9.0 million for the three months ended March 31, 2026 according to the 2026 Q1 main statements. The following table sets forth the breakdown of our other income in absolute amount and as a percentage of total other income for the periods indicated.
+[P50] Primarily included [●].
+[P51] Other Gains and Losses  
+[P52] Our other gains and losses primarily included [●]. We recorded other gains of RMB0.5 million, RMB0.3 million, RMB1.7 million and RMB[●] million in 2023, 2024, 2025 and for the three months ended March 31, 2025, and other losses of RMB0.7 million for the three months ended March 31, 2026, respectively. 
+[P53] Impairment Losses under ECL Model, Net of Reversal
+[P54] Our impairment losses under ECL model, net of reversal, primarily related to trade receivables and other receivables. We recorded impairment losses under ECL model, net of reversal, of nil, RMB0.4 million, RMB5.9 million, RMB[●] million and RMB3.2 million in 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, respectively.
+[P55] Selling and Distribution Expenses [Company/DTT to provide breakdown]
+[P56] Our selling and distribution expenses primarily consisted of employee benefit expenses for sales and business development personnel, market promotion expenses, customer acquisition and business development expenses and other commercialisation-related expenses. We incurred selling and distribution expenses of RMB2.7 million, RMB32.9 million, RMB84.3 million, RMB[●] million and RMB13.0 million in 2023, 2024, 2025 and for the three months ended March 31, 2025 and 2026, respectively, representing [●]%, 325.6%, 111.6%, [●]% and 16.0% of our revenue for the respective periods. The increase during the Track Record Period was primarily attributable to the expansion of our sales and business development team, increased market promotion and customer engagement activities and higher commercialisation spending to support business growth. The following table sets forth a breakdown of our selling and distribution expenses, both in absolute amount and as a percentage of total selling and distribution expenses, for the periods indicated.
+[P57] Primarily included [●].
+[P58] Administrative Expenses [Company/DTT to provide breakdown]
+[P59] Our administrative expenses primarily consisted of employee benefit expenses for administrative and management personnel, professional service fees, office and general administrative expenses, depreciation and amortisation and other compliance and corporate operation expenses. We incurred administrative expenses of RMB14.7 million, RMB69.3 million, RMB82.9 million, RMB[●] million and RMB20.3 million in 2023, 2024 and 2025 and the three months ended March 31, 2025 and 2026, respectively, representing [●]%, 687.4%, 109.7%, [●]% and 25.0% of our revenue for the respective periods. The increase from 2023 to 2024 was primarily due to the expansion of our personnel and the need to engage third-party professional advisers to support our business growth and compliance functions. The further increase in 2025 primarily reflected higher personnel costs and continued business expansion, while administrative expenses as a percentage of revenue decreased as revenue scaled. The following table sets forth a breakdown of our administrative expenses, both in absolute amount and as a percentage of total administrative expenses, for the periods indicated.
+[P60] Primarily included [●].
+[P61] Our administrative expenses represented 687.4%, 109.7%, [●]% and 25.0% of our revenue in 2024, 2025 and for the three months ended March 31, 2025 and 2026, respectively. [To discuss reasons]
+[P62] Research and Development Expenses [Company/DTT to provide breakdown]
+[P63] Our research and development expenses primarily consisted of employee benefit expenses for R&D personnel, server and computing resource costs, technical service fees, cloud service fees, depreciation and amortisation, share-based payment expenses and other expenses incurred for our core technology and product development activities. We incurred research and development expenses of RMB30.6 million, RMB252.9 million, RMB354.7 million, RMB[●] million and RMB93.4 million in 2023, 2024 and 2025 and the three months ended March 31, 2025 and 2026, respectively, representing [●]%, 2,509.2%, 469.5%, [●]% and 114.6% of our revenue for the respective periods. The significant increase during the Track Record Period was primarily due to the expansion of our R&D team, continued investment in heterogeneous computing scheduling, model training and inference optimisation, MaaS platform capabilities, software and hardware coordination and other frontier technologies, and certain major R&D projects. We did not capitalise our R&D expenses during the Track Record Period. The following table sets forth a breakdown of our research and development expenses, both in absolute amount and as a percentage of total research and development expenses, for the periods indicated.
+[P64] Primarily included [●].
+[P65] Our research and development expenses represented 2,509.2%, 469.5%, [●]% and 114.6% of our revenue in 2024, 2025 and for the three months ended March 31, 2025 and 2026, respectively. The ratio decreased as revenue scaled from a low base, although R&D expenses remained substantial in absolute amount. We expect to continue to invest in R&D to support product iteration and commercialisation, while seeking to improve operating leverage as revenue grows.
+[P66] Finance Costs
+[P67] Our finance costs primarily represented interest on financial liabilities on shares with preferential rights, lease liabilities and bank borrowings. We incurred finance costs of RMB9.9 million, RMB70.3 million, RMB134.1 million, RMB[●] million and RMB44.9 million in 2023, 2024 and 2025 and the three months ended March 31, 2025 and 2026, respectively. According to the Accountants' Report, interest on financial liabilities on shares with preferential rights was RMB9.9 million, RMB64.1 million and RMB111.3 million in 2023, 2024 and 2025, respectively; interest on lease liabilities was nil, RMB6.3 million and RMB21.2 million in 2023, 2024 and 2025, respectively; and interest on bank borrowings was nil, RMB25 thousand and RMB1.6 million in 2023, 2024 and 2025, respectively. According to the 2026 Q1 main statements, our finance costs were RMB44.9 million for the three months ended March 31, 2026. The following table sets forth a breakdown of our finance costs for the periods indicated.
+[P68] Share of Results of Associates
+[P69] Our share of results of associates primarily represented [●]. We recorded share of results of associates of nil, nil, RMB0.04 million, RMB[●] million and nil in 2023, 2024 and 2025 and the three months ended March 31, 2025 and 2026, respectively. 
+[P70] Income Tax Credit
+[P71] Under the Law of the PRC on Enterprise Income Tax ("EIT Law") and Implementation Regulation of the EIT Law, the tax rate of the PRC subsidiaries is generally 25% during the Track Record Period, except for entities entitled to preferential tax treatment. According to the Accountants' Report, Shanghai Infinigence was qualified as a high and new technology enterprise ("HNTE") on December 25, 2025 and Beijing Wuwen was qualified as an HNTE on December 30, 2025, and each was entitled to a preferential tax rate of 15% from 2025 to 2027. Beijing Wuwen and Shanghai Infinigence were also entitled to the R&D expense super deduction during the Track Record Period.
+[P72] In 2023, 2024 and 2025 and the three months ended March 31, 2025 and 2026, our income tax credit was RMB4.4 million, RMB2.2 million, RMB3.4 million, RMB[●] million and RMB3.5 million, respectively.
+[P73]  During the Track Record Period and up to the Latest Practicable Date, we had paid all relevant taxes when due and there were no matters in dispute and unresolved with the relevant tax authorities. [Company to confirm]
+[P74] PERIOD TO PERIOD COMPARISON OF RESULTS OF OPERATIONS
+[P75] Three Months Ended March 31, 2026 Compared to Three Months Ended March 31, 2025 
+[P76] Revenue
+[P77] Our revenue increased by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB81.5 million for the three months ended March 31, 2026 
+[P78] Agentic platform software: Our revenue from agentic platform software increased by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB[●] million for the three months ended March 31, 2026, driven by [●]. [The number of customers] of our agentic platform software increased from [●] for the three months ended March 31, 2025 to [●] for the three months ended March 31, 2026.
+[P79] AGI enterprise solutions: Our revenue from AGI enterprise solutions increased by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB[●] million for the three months ended March 31, 2026, driven by [●]. [The number of customers] of our AGI enterprise solutions increased from [●] for the three months ended March 31, 2025 to [●] for the three months ended March 31, 2026.
+[P80] Agentic MaaS: Our revenue from Agentic MaaS increased by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB[●] million for the three months ended March 31, 2026, driven by [●]. [The number of customers] of our Agentic MaaS increased from [●] for the three months ended March 31, 2025 to [●] for the three months ended March 31, 2026.
+[P81] Cost of Sales
+[P82] Our cost of sales increased by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB64.7 million for the three months ended March 31, 2026, primarily due to [●].
+[P83] Gross Profit and Gross Profit Margin
+[P84] As a result of the above, our gross profit increased by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB16.8 million for the three months ended March 31, 2026. Our gross profit margin [increased/decreased] from [●]% to 20.6%, primarily due to [●].
+[P85] Agentic platform software: Our gross profit margin for agentic platform software [increased/decreased] from [●]% for the three months ended March 31, 2025 to [●]% for the three months ended March 31, 2026, primarily attributable to [●]. 
+[P86] AGI enterprise solutions: Our gross profit margin for AGI enterprise solutions [increased/decreased] from [●]% for the three months ended March 31, 2025 to [●]% for the three months ended March 31, 2026, primarily attributable to [●]. 
+[P87] Agentic MaaS: Our gross profit margin for Agentic MaaS [increased/decreased] from [●]% for the three months ended March 31, 2025 to [●]% for the three months ended March 31, 2026, primarily attributable to [●]. 
+[P88] Other Income
+[P89] Our other income [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB9.0 million for the three months ended March 31, 2026, primarily due to [●].
+[P90] Other Gains and Losses
+[P91] We recorded other [gains] of RMB[●] million for the three months ended March 31, 2025, as compared to other losses of RMB0.7 million for the three months ended March 31, 2026, primarily due to [●]. 
+[P92] Impairment Losses under ECL Model, Net of Reversal
+[P93] Our impairment losses under ECL model, net of reversal, [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB3.2 million for the three months ended March 31, 2026, primarily due to [●]. 
+[P94] Selling and Distribution Expenses
+[P95] Our selling and distribution expenses [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB13.0 million for the three months ended March 31, 2026, primarily due to [●].
+[P96] Administrative Expenses
+[P97] Our administrative expenses [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB20.3 million for the three months ended March 31, 2026, primarily due to [●]. 
+[P98] Research and Development Expenses
+[P99] Our research and development expenses [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB93.4 million for the three months ended March 31, 2026, primarily due to [●]. 
+[P100] Finance Costs
+[P101] 	Our finance costs [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB44.9 million for the three months ended March 31, 2026, primarily due to [●].
+[P102] Share of Results of Associates
+[P103] 	We recorded share of results of associates of RMB[●] million and nil for the three months ended March 31, 2025 and 2026, respectively, in relation to [●].
+[P104] Income Tax Credit
+[P105] Our income tax credit [increased/decreased] by [●]% from RMB[●] million for the three months ended March 31, 2025 to RMB3.5 million for the three months ended March 31, 2026, primarily due to [●].
+[P106] Loss for the Period
+[P107] As a result of the above, we recorded net loss of RMB[●] million and RMB146.1 million for the three months ended March 31, 2025 and 2026, respectively. 
+[P108] Year Ended December 31, 2025 Compared to Year Ended December 31, 2024
+[P109] Revenue
+[P110] Our revenue increased significantly from RMB10.1 million in 2024 to RMB75.5 million in 2025, primarily because 2024 represented the early stage of our commercialisation and we began broader commercialisation only in the fourth quarter of 2024, while 2025 was the first full year in which we commercialised our products and services. The increase was driven by the expansion of our agentic platform software and AGI enterprise solutions business, growth in customer number and project opportunities, and the commencement of revenue contribution from Agentic MaaS in 2025.
+[P111] Agentic platform software: Our revenue from agentic platform software increased significantly from RMB5.9 million in 2024 to RMB12.6 million in 2025, driven by [●]. [The number of customers] of our agentic platform software increased from [●] in 2024 to [●] in 2025.
+[P112] AGI enterprise solutions: Our revenue from AGI enterprise solutions increased significantly from RMB4.2 million in 2024 to RMB52.0 million in 2025, driven by [●]. [The number of customers] of our AGI enterprise solutions increased from [●] in 2024 to [●] in 2025.
+[P113] Agentic MaaS: We recorded revenue of RMB10.9 million from Agentic MaaS in 2025, driven by [●]. [The number of customers] of our Agentic MaaS was [●] in 2025.
+[P114] Cost of Sales
+[P115] Our cost of sales increased significantly from RMB2.2 million in 2024 to RMB33.9 million in 2025, primarily in line with our business and revenue growths of our products and services.
+[P116] Gross Profit and Gross Profit Margin
+[P117] As a result of the above, our gross profit increased significantly from RMB7.8 million in 2024 to RMB41.7 million in 2025. Our gross profit margin decreased from 77.7% in 2024 to 55.2% in 2025, primarily due to [●].
+[P118] Agentic platform software: Our gross profit margin for agentic platform software [increased/decreased] by [●]% from RMB[●] million in 2024 to RMB[●] million in 2025, primarily attributable to [●]. 
+[P119] AGI enterprise solutions: Our gross profit margin for AGI enterprise solutions [increased/decreased] by [●]% from RMB[●] million in 2024 to RMB[●] million in 2025, primarily attributable to [●]. 
+[P120] Agentic MaaS: Our gross profit margin for Agentic MaaS [increased/decreased] by [●]% from RMB[●] million in 2024 to RMB[●] million in 2025, primarily attributable to [●]. 
+[P121] Other Income
+[P122] Our other income remained relatively stable at RMB37.3 million in 2024 and RMB35.7 million in 2025.
+[P123] Other Gains and Losses
+[P124] Our other gains increased from RMB0.3 million in 2024 to RMB1.7 million in 2025, primarily due to [●]. 
+[P125] Impairment Losses under ECL Model, Net of Reversal
+[P126] Our impairment losses under ECL model, net of reversal, increased significantly from RMB0.4 million in 2024 to RMB5.9 million in 2025, primarily due to increase in trade and other receivables as our business expanded. 
+[P127] Selling and Distribution Expenses
+[P128] Our selling and distribution expenses increased significantly from RMB32.9 million in 2024 to RMB84.3 million in 2025, primarily due to, primarily due to [●].
+[P129] Administrative Expenses
+[P130] Our administrative expenses increased by 19.6% from RMB69.3 million in 2024 to RMB82.9 million in 2025, primarily due to [●]. 
+[P131] Research and Development Expenses
+[P132] Our research and development expenses increased by 40.2% from RMB252.9 million in 2024 to RMB354.7 million in 2025, primarily due to [●]. 
+[P133] Finance Costs
+[P134] 	Our finance costs increased by 90.6% from RMB70.3 million in 2024 to RMB134.1 million in 2025, primarily due to an increase of RMB47.2 million in interest on financial liabilities on shares with preferential rights, as a result of the issuance of additional preferred shares.
+[P135] Share of Results of Associates
+[P136] 	We recorded share of results of associates of nil and RMB0.04 million in 2024 and 2025, respectively, reflecting [●].
+[P137] Income Tax Credit
+[P138] Our income tax credit increased by 49.1% from RMB2.2 million in 2024 to RMB3.4 million in 2025, primarily due to movements in deferred tax arising from right-of-use assets, lease liabilities, share-based payments and allowances for credit losses, as set out in the Accountants' Report.
+[P139] Loss for the Year
+[P140] As a result of the above, we recorded net loss of RMB378.2 million and RMB579.3 million in 2024 and 2025, respectively. 
+[P141] Year Ended December 31, 2024 Compared to Year Ended December 31, 2023
+[P142] Revenue
+[P143] Our revenue increased significantly from nil in 2023 to RMB10.1 million in 2024 as we commenced commercialisation and started to generate revenue from the provision of agentic platform software and AGI enterprise solutions in the fourth quarter of 2024.
+[P144] Agentic platform software: We recorded revenue of RMB5.9 million from agentic platform software in 2024, mainly reflecting [●]. [The number of customers] of our agentic platform software was [●] in 2024.
+[P145] AGI enterprise solutions: We recorded revenue of RMB4.2 million from AGI enterprise solutions in 2024, mainly reflecting [●]. [The number of customers] of our AGI enterprise solutions was [●] in 2024.
+[P146] Cost of Sales
+[P147] Our cost of sales increased from nil in 2023 to RMB2.2 million in 2024, in line with the commencement of revenue generation.
+[P148] Gross Profit and Gross Profit Margin
+[P149] As a result of the above, our gross profit increased from nil in 2023 to RMB7.8 million in 2024 with gross profit margin of 77.7% in 2024.
+[P150] Agentic platform software: Our gross profit margin for agentic platform software was [●]% in 2024, primarily related to [●]. 
+[P151] AGI enterprise solutions: Our gross profit margin for AGI enterprise solutions was [●]% in 2024, primarily related to [●]. 
+[P152] Other Income
+[P153] Our other income increased significantly from RMB1.2 million in 2023 to RMB37.3 million in 2024, primarily due to an increase of RMB20.8 million in government grants in relation to [our R&D activities].
+[P154] Other Gains and Losses
+[P155] Our other gains decreased from RMB0.5 million in 2023 to RMB0.3 million in 2024, primarily due to [●]. 
+[P156] Impairment Losses under ECL Model, Net of Reversal
+[P157] We recorded impairment losses under ECL model of nil and RMB0.4 million in 2023 and 2024, respectively, primarily reflecting the recognition of credit loss allowance on trade and other receivables.
+[P158] Selling and Distribution Expenses
+[P159] Our selling and distribution expenses increased significantly from RMB2.7 million in 2023 to RMB32.9 million in 2024, primarily due to, primarily due to [●].
+[P160] Administrative Expenses
+[P161] Our administrative expenses increased significantly from RMB14.7 million in 2023 to RMB69.3 million in 2024, primarily due to [●]. 
+[P162] Research and Development Expenses
+[P163] Our research and development expenses increased significantly from RMB30.6 million in 2023 to RMB252.9 million in 2024, primarily due to [●]. 
+[P164] Finance Costs
+[P165] 	Our finance costs increased significantly from RMB9.9 million in 2023 to RMB70.3 million in 2024, primarily due to an increase of RMB54.2 million in interest on financial liabilities on shares with preferential rights, as a result of the issuance of additional preferred shares.
+[P166] Share of Results of Associates
+[P167] 	We did not record share of results of associates in 2023 and 2024.
+[P168] Income Tax Credit
+[P169] Our income tax credit decreased by 48.4% from RMB4.4 million in 2023 to RMB2.2 million in 2024, primarily due to movements in deferred tax arising from right-of-use assets, lease liabilities, share-based payments and allowances for credit losses, as set out in the Accountants' Report.
+[P170] Loss for the Year
+[P171] As a result of the above, we recorded net loss of RMB51.9 million and RMB378.2 million in 2023 and 2024, respectively. 
+[P172] DISCUSSION OF MAJOR ITEMS OF CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+[P173] The following table sets forth details of our consolidated statements of financial position as of the dates indicated. 
+[P174] [to confirm which items should be discussed below]
+[P175] Property, Plant and Equipment
+[P176] Our property, plant and equipment primarily consisted of electronic equipment, office furniture and others. Our electronic equipment mainly included GPU servers, CPU servers, storage equipment, network security equipment and other equipment used to support our R&D activities and internal computing environment. According to the Accountants' Report, our electronic equipment is depreciated at 33.33% per annum, office furniture at 20% to 25% per annum and others at 33.33% per annum on a straight-line basis after taking into account residual values. The following table sets forth the components of our property, plant and equipment as of the dates indicated.
+[P177] Primarily included [●].
+[P178] Our property, plant and equipment increased from RMB71.4 million as of December 31, 2023 to RMB78.7 million as of December 31, 2024, primarily due to purchase of additional electronic equipment, in line with [●]. Our property, plant and equipment then decreased to RMB51.7 million as of December 31, 2025 and further to RMB41.3 million as of March 31, 2026, primarily due to [depreciation of electronic equipment]. 
+[P179] Right-of-use Assets
+[P180] Our right-of-use assets consisted of leased properties and server devices. According to the Accountants' Report, our right-of-use assets increased from RMB5.6 million as of December 31, 2023 to RMB538.6 million as of December 31, 2024, primarily reflecting additions of RMB591.4 million in server devices in 2024, and decreased to RMB446.7 million as of December 31, 2025, primarily reflecting depreciation charges, including RMB146.5 million for server devices in 2025, partially offset by additions. According to the 2026 Q1 main statements, our right-of-use assets increased to RMB472.3 million as of March 31, 2026. Lease contracts are generally entered into for fixed terms of one to five years and may contain extension and termination options. We generally use leasing arrangements for certain server and computing resources because leasing allows us to spread cash outflows over time and provides greater flexibility than direct purchase of relevant assets.
+[P181] Intangible Assets
+[P182] Our intangible assets consisted of software and patents. According to the Accountants' Report, our intangible assets increased from RMB0.01 million as of December 31, 2023 to RMB0.1 million as of December 31, 2024, and further to RMB115.4 million as of December 31, 2025, primarily due to additions of RMB12.5 million in software and RMB110.6 million in patents in 2025, partially offset by amortisation. The Accountants' Report states that these intangible assets have finite useful lives and are amortised on a straight-line basis over two to ten years. According to the 2026 Q1 main statements, our intangible assets decreased to RMB111.2 million as of March 31, 2026, primarily due to amortisation. As advised by the Company, the patent additions were related to intellectual property rights contributed by Tsinghua University and Shanghai Jiao Tong University and are related to our core R&D technologies.
+[P183] Inventories
+[P184] Our inventories consisted primarily of [●]. The following table sets forth the breakdown of our inventories as of the dates indicated.
+[P185] Our inventories amounted to RMB2.0 million as of December 31, 2025 and RMB3.1 million as of March 31, 2026 according to the 2026 Q1 main statements. Based on management's FDDQ response, inventories primarily represented costs incurred for solution projects before the relevant revenue recognition milestone was reached and are expected to be transferred to cost of sales when the relevant project reaches the revenue recognition point. No inventory balance was separately presented in the Accountants' Report for 2023 to 2025, and the relevant prior-period balances should remain blank unless and until confirmed by the Reporting Accountants.
+[P186] The following table sets forth the aging analysis of our inventories as of the dates indicated.
+[P187] The following table sets forth our inventory turnover days for the periods indicated:
+[P188] [Calculated by the average of the net values of opening and closing inventory balances for such period divided by the cost of sales for the relevant period and multiplied by the number of days during such period (i.e. 90 days for 2026 and 360 days for 2023, 2024 and 2025).] [DTT to confirm]
+[P189] Our inventory turnover days was [●] days, [●] days, [●] days and [●] days in 2023, 2024, 2025 and for the three months ended March 31, 2026, respectively. The [increase/decrease] was primarily due to [●].
+[P190] As of [●], 2026, approximately RMB[●] million, or [●]%, of our inventories as of March 31, 2026 had been subsequently consumed.
+[P191] Trade and Other Receivables
+[P192] Our trade and other receivables primarily consisted of trade receivables from contracts with customers, other receivables, prepayments, value-added tax recoverable and interest receivable. The following table sets forth the breakdown of our trade and other receivables as of the dates indicated.
+[P193] Our trade and other receivables increased from RMB50.3 million as of December 31, 2023 to RMB83.9 million as of December 31, 2024, and further to RMB187.2 million and RMB337.8 million as of December 31, 2025 and March 31, 2026, respectively, primarily in line with our business expansion and revenue growth. According to the Accountants' Report, trade receivables net of allowances increased from nil as of December 31, 2023 to RMB0.6 million as of December 31, 2024 and RMB41.4 million as of December 31, 2025, and all but RMB0.1 million of such trade receivables as of December 31, 2025 were aged within 90 days. The increase as of March 31, 2026 also reflected the rapid growth of revenue in the first quarter of 2026, certain trade receivables that remained within the credit period, and increases in other receivables and deposits relating to computing resource arrangements under which certain resources were procured or leased on a prepayment or deposit basis due to market supply conditions.
+[P194] The following table sets forth the aging analysis of our trade receivables as of the dates indicated.
+[P195] The following table sets forth our trade receivables turnover days for the periods indicated:
+[P196] [Calculated as the average of the net values of opening and closing trade receivables balances for such period divided by the revenue for the relevant period and multiplied by the number of days during such period (i.e. 90 days for 2026 and 360 days for 2023, 2024 and 2025).] [DTT to confirm]
+[P197] Our trade receivables turnover days was [●] days, [●] days, [●] days and [●] days in 2023, 2024, 2025 and for the three months ended March 31, 2026, respectively. The [increase/decrease] was primarily due to [●].
+[P198] As of [●], 2026, approximately RMB[●] million, or [●]%, of our trade receivables as of March 31, 2026 had been subsequently collected.
+[P199] Financial Assets at FVTPL 
+[P200] Our financial assets at FVTPL primarily consisted of our wealth management products issued by banks. We had financial assets at FVTPL of RMB60.2 million as of December 31, 2023 and nil as of December 31, 2024, December 31, 2025 and March 31, 2026, representing [●]. [To supplement details, such as return rate, management policy]
+[P201] Cash and Cash Equivalents 
+[P202] Our cash and cash equivalents consisted of short-term bank deposits. Our cash and cash equivalents increased from RMB147.6 million as of December 31, 2023 to RMB354.9 million as of December 31, 2024, and further to RMB566.2 million as of December 31, 2025, primarily due to financing activities, including issuance of shares with preferential rights and bank borrowings. Our cash and cash equivalents decreased to RMB529.2 million as of March 31, 2026, primarily due to cash used in our daily operations, R&D activities and commercialisation activities. As of May 21, 2026, we had completed the closing of RMB500 million of Series B financing proceeds, and we had obtained domestic bank credit facilities of approximately RMB500 million. These funding sources support our liquidity and working capital needs. [Company and Reporting Accountants to confirm amount, timing and disclosure presentation.]
+[P203] Trade and Other Payables
+[P204] Our trade and other payables primarily consisted of trade payables, other payables, subscription received for unissued shares with preference rights, accrued staff costs, value-added tax and other tax payables and notes payables. According to the Accountants' Report, our trade and other payables increased from RMB8.2 million as of December 31, 2023 to RMB47.5 million as of December 31, 2024 and RMB238.4 million as of December 31, 2025. According to the 2026 Q1 main statements, our trade and other payables further increased to RMB295.2 million as of March 31, 2026. Trade payables increased to RMB8.8 million as of December 31, 2025 and were aged within 90 days. The Accountants' Report states that the average credit period on purchases of goods and services is 30 to 90 days. The following table sets forth a breakdown of our trade and other payables as of the dates indicated.
+[P205] Our trade and other payables increased from RMB8.2 million as of December 31, 2023 to RMB47.5 million as of December 31, 2024, further to RMB238.4 million and RMB295.2 million as of December 31, 2025 and March 31, 2026, respectively, primarily in line with our business expansion, increased procurement of computing resources and daily operating purchases, and the increase in accrued staff costs and other payables.
+[P206] The following table sets forth the aging analysis of our trade payables as of the dates indicated.
+[P207] The following table sets forth our trade payables turnover days for the periods indicated:
+[P208] [Calculated by the average of opening and closing trade payables balances for such period divided by the cost of sales for the relevant period and multiplied by the number of days during such period (i.e. 90 days for 2026 and 360 days for 2023, 2024 and 2025).] [DTT to confirm]
+[P209] Our trade payables turnover days was [●] days, [●] days, [●] days and [●] days in 2023, 2024, 2025 and for the three months ended March 31, 2026, respectively. The [increase/decrease] was primarily due to [●].
+[P210] As of [●], 2026, approximately RMB[●] million, or [●]%, of our trade payables as of March 31, 2026 had been subsequently settled.
+[P211] Contract Liabilities 
+[P212] Our contract liabilities represented advances received from customers. Our contract liabilities amounted to nil, RMB1.1 million, RMB13.0 million and RMB38.1 million as of December 31, 2023, 2024, 2025 and March 31, 2026, respectively. According to the Accountants' Report, RMB1.1 million of revenue recognised in 2025 was included in contract liabilities at the beginning of the year. The increase in contract liabilities was generally in line with our business growth and reflected customer prepayments for platform software and solution projects.
+[P213] LIQUIDITY AND CAPITAL RESOURCES
+[P214] During the Track Record Period, our primary use of cash was to fund our R&D activities, employee benefit expenses, procurement and leasing of computing resources, sales and business development activities, lease payments, capital expenditures and other operational needs. We financed our operations and other capital requirements mainly through equity financing, bank borrowings and, to a lesser extent, cash generated from revenue-generating activities. According to the Accountants' Report, our cash and cash equivalents were short-term bank deposits with an original maturity of three months or less. We also had restricted bank deposits of RMB2.2 million as of December 31, 2025 and March 31, 2026, primarily restricted bank balances for the issue of bills, which carried a fixed interest rate of 1.35% per annum as of December 31, 2025. We will continue to manage our cash outflows with reference to our commercialisation progress, computing resource requirements and R&D plan.
+[P215] According to the Accountants' Report, our deferred income represented government grants received in relation to certain government-sponsored R&D projects for front-end technologies. These grants are recorded as deferred income before completion and acceptance by the government of the related R&D projects, and are transferred to income in the form of reduced depreciation charges over the useful lives of the relevant assets. Deferred income was RMB5.0 million, RMB3.9 million and RMB22.4 million as of December 31, 2023, 2024 and 2025, respectively. According to the 2026 Q1 main statements, non-current deferred income increased to RMB55.4 million as of March 31, 2026.
+[P216] Our anticipated cash needs primarily relate to [our business operations, sales and marketing, and R&D]. We expect to fund our future working capital and other cash requirements with [existing cash and cash equivalents, revenue generated from sales of our products and services, the proceeds from the Global Offering, and bank and other borrowings].
+[P217] Our current cash burn primarily consists of employee compensation, R&D investment, server and computing resource leasing or procurement, cloud and technical service costs, lease payments, capital expenditures for R&D equipment and other daily operating expenses. We expect our cash runway to be supported by our cash and cash equivalents, Series B financing proceeds received after the Track Record Period, available banking facilities, revenue generated from our products and services and the estimated net proceeds from the Global Offering. [Company and Reporting Accountants to confirm cash burn amount and runway period.]
+[P218] As of [●], 2026, the most recent practicable date for determining our indebtedness, we had cash and cash equivalent of RMB[●] million. Considering our internal resources, our cash flow from operations and the estimated net proceeds from the Global Offering, our Directors confirm that the working capital available to us is sufficient at present and for at least the next 12 months from the date of this prospectus. [Company to confirm]
+[P219] Cash Flows
+[P220] The following table sets forth a summary of our cash flows for the periods indicated. 
+[P221] Net Cash Flows [Used in] Operating Activities
+[P222] Cash Operating Costs
+[P223] The table below sets forth key information relating to our cash operating costs for the periods indicated. Cash operating costs are intended to present the principal cash outflows used to support our operations and commercialisation, including R&D, workforce employment, computing resource costs and other significant operating costs. The calculation below should be reconciled to the Accountants' Report and cash flow statements. [Reporting Accountants to confirm amounts and adjustments.]
+[P224] R&D Expenditure and Total Operating Expenditure
+[P225] For purposes of Chapter 18C of the Listing Rules, a Pre-Commercial Company is expected to demonstrate substantial R&D investment during the track record period. Based on the current financial statement line items and subject to confirmation by the Reporting Accountants, our R&D expenditure ratio calculated using research and development expenses divided by the sum of research and development expenses, selling and distribution expenses and administrative expenses was approximately 63.7%, 71.2%, 68.0% and 73.7% in 2023, 2024, 2025 and for the three months ended March 31, 2026, respectively, and approximately 69.0% for 2023 to 2025 in aggregate. The table below should be updated if the Reporting Accountants determine that any adjustments, including capitalised development expenditure, non-operating items, listing expenses or other items, should be included or excluded for Chapter 18C purposes.
+[P226] Our net cash [used in] operating activities was RMB[●] million for the three months ended March 31, 2026, primarily due to our loss before tax of RMB149.7 million, adjusted by certain non-cash and non-operating items, including [●] of RMB[●] million; and (i) changes in working capital that negatively affected our cash flows, primarily including [●] of RMB[●] million, and (ii) changes in working capital that positively affected our cash flows, primarily including [●] of RMB[●] million.
+[P227] Our net cash [used in] operating activities was RMB[●] million in 2025, primarily due to our loss before tax of RMB582.7 million, adjusted by certain non-cash and non-operating items, including [●] of RMB[●] million; and (i) changes in working capital that negatively affected our cash flows, primarily including [●] of RMB[●] million, and (ii) changes in working capital that positively affected our cash flows, primarily including [●] of RMB[●] million.
+[P228] Our net cash [used in] operating activities was RMB[●] million in 2024, primarily due to our loss before tax of RMB380.4 million, adjusted by certain non-cash and non-operating items, including [●] of RMB[●] million; and (i) changes in working capital that negatively affected our cash flows, primarily including [●] of RMB[●] million, and (ii) changes in working capital that positively affected our cash flows, primarily including [●] of RMB[●] million.
+[P229] Our net cash [used in] operating activities was RMB[●] million in 2023, primarily due to our loss before tax of RMB56.2 million, adjusted by certain non-cash and non-operating items, including [●] of RMB[●] million; and (i) changes in working capital that negatively affected our cash flows, primarily including [●] of RMB[●] million, and (ii) changes in working capital that positively affected our cash flows, primarily including [●] of RMB[●] million.
+[P230] Net Cash Flows Generated from Investing Activities
+[P231] Our net cash [generated from] investing activities was RMB[●] million for the three months ended March 31, 2026, primarily due to [●] of RMB[●] million.
+[P232] Our net cash [generated from] investing activities was RMB[●] million in 2025, primarily due to [●] of RMB[●] million.
+[P233] Our net cash [generated from] investing activities was RMB[●] million in 2024, primarily due to [●] of RMB[●] million.
+[P234] Our net cash [generated from] investing activities was RMB[●] million in 2023, primarily due to [●] of RMB[●] million.
+[P235] Net Cash Flows Generated from Financing Activities
+[P236] Our net cash [generated from] financing activities was RMB[●] million for the three months ended March 31, 2026, primarily due to [●] of RMB[●] million.
+[P237] Our net cash [generated from] financing activities was RMB[●] million in 2025, primarily due to [●] of RMB[●] million.
+[P238] Our net cash [generated from] financing activities was RMB[●] million in 2024, primarily due to [●] of RMB[●] million.
+[P239] Our net cash [generated from] financing activities was RMB[●] million in 2023, primarily due to [●] of RMB[●] million.
+[P240] Current Assets and Current Liabilities
+[P241] The following table sets forth our current assets and liabilities as of the dates indicated.
+[P242] Our net current assets [increased/decreased] from RMB334.3 million as of March 31, 2026 to RMB[●] million as of [●], 2026, primarily due to [●].
+[P243] Our net current assets decreased from RMB407.1 million as of December 31, 2025 to RMB334.3 million as of March 31, 2026, primarily due to a decrease in term deposits of RMB58.5 million, an increase in trade and other payables of RMB56.9 million, an increase in contract liabilities of RMB25.2 million, an increase in current lease liabilities of RMB25.8 million and a decrease in cash and cash equivalents of RMB37.0 million, partially offset by an increase in trade and other receivables of RMB150.6 million.
+[P244] Our net current assets increased from RMB250.0 million as of December 31, 2024 to RMB407.1 million as of December 31, 2025, primarily due to an increase in cash and cash equivalents of RMB211.3 million and an increase in trade and other receivables of RMB103.3 million, partially offset by an increase in trade and other payables of RMB190.9 million, an increase in bank borrowings of RMB62.8 million and an increase in contract liabilities of RMB11.9 million.
+[P245] Our net current assets remained relatively stable at RMB246.8 million as of December 31, 2023 and RMB250.0 million as of December 31, 2024.
+[P246] CAPITAL EXPENDITURE
+[P247] Our capital expenditures during the Track Record Period primarily related to [●]. Our capital expenditure amounted to RMB[●] million, RMB[●] million, RMB[●] million and RMB[●] million, respectively. We plan to fund our future capital expenditure with cash at hand, cash generated from our operations, the net proceeds from the Global Offering, and bank and other borrowings.
+[P248] CAPITAL COMMITMENTS 
+[P249] As of December 31, 2023, 2024, 2025 and March 31, 2026, our capital commitments amounted to RMB[●] million, RMB[●] million, RMB[●] million and RMB[●] million, representing [●]. We expect to satisfy our capital commitments using financial resources currently available to us and net proceeds to be received from the Global Offering.
+[P250] INDEBTEDNESS
+[P251] As of December 31, 2023, 2024, 2025, March 31, 2026 and [●], 2026, being the most recent practicable date for determining our indebtedness, except as disclosed in the table below, we did not have any material indebtedness. [DTT to advise items] 
+[P252] Lease Liabilities
+[P253] During the Track Record Period, our lease liabilities primarily related to [●]. Our lease liabilities increased from RMB5.8 million as of December 31, 2023 to RMB516.8 million as of December 2024, as [●]. Our lease liabilities decreased to RMB432.4 million as of December 31, 2025, primarily due to [●]. Our lease liabilities increased to RMB468.8 million as of March 31, 2026, since [●]. 
+[P254] Bank Borrowings
+[P255] Our bank borrowings increased from nil as of December 31, 2023 to RMB32.4 million as of December 31, 2024, RMB95.1 million as of December 31, 2025 and RMB116.3 million as of March 31, 2026. According to the Accountants' Report, as of December 31, 2025, our bank borrowings consisted of RMB29.9 million of unsecured and guaranteed bank borrowings and RMB65.2 million of unsecured and unguaranteed bank borrowings, all of which were repayable within one year. Our fixed-rate bank borrowings carried effective interest rates of 2.40% in 2024 and 2.20% to 2.40% in 2025, and our variable-rate bank borrowings carried effective interest rates of 2.25% to 2.35% in 2024 and 2.18% to 2.35% in 2025, with the variable-rate borrowings based on the one-year Loan Prime Rate minus 75 and 82 basis points and reset every three months. The increase as of March 31, 2026 was primarily due to additional drawdown of bank facilities to support business operations and payment for computing resource and equipment-related needs.
+[P256] During the Track Record Period, our bank loans came from commercial banks and financial institutions bearing effective interest rates in the range of 2.18% to 2.40% per annum.
+[P257] Our Directors confirm that as of the Latest Practicable Date, the agreements under our borrowings did not contain any covenants that would have a material and adverse effect on our ability to obtain additional borrowings or issue debt or equity securities in the future. Our Directors further confirm that we had no defaults in bank and other borrowings, nor did we breach any covenants during the Track Record Period and up to the Latest Practicable Date. Additionally, our Directors confirm that, during the Track Record Period and up to the Latest Practicable Date, we did not experience any difficulties in obtaining credit facilities, nor any withdrawal of facilities or requests for early repayment. [Company to confirm]
+[P258] Financial Liabilities on Shares with Preferential Rights
+[P259] We recorded financial liabilities on shares with preferential rights of RMB415.5 million, RMB932.0 million, RMB1,608.6 million and RMB1,648.3 million as of December 31, 2023, 2024, 2025 and March 31, 2026, respectively. According to the Accountants' Report, these liabilities arose from several rounds of financing through issuing shares with certain preferred rights, mainly including redemption rights, anti-dilution rights and liquidation preference rights. The redemption rights granted to investors constitute obligations to repurchase our own equity instruments and were recognised as redemption liabilities, initially measured at fair value and subsequently measured at amortised cost. The increase from 2023 to 2025 was primarily due to additions of RMB452.4 million and RMB565.3 million in 2024 and 2025, respectively, and finance costs charged on the liabilities of RMB64.1 million and RMB111.3 million in 2024 and 2025, respectively. The increase in the first quarter of 2026 was primarily due to finance costs accrued over time. [Company to confirm status of termination or conversion of preferential rights upon Listing.]
+[P260] Except as discussed above, we did not have any bank loans or any loan capital issued and outstanding or agreed to be issued, bank overdraft, borrowing or similar indebtedness, liabilities under acceptance (other than normal trade bills) or acceptance credits, debentures, mortgages, charges, hire purchases, or finance lease commitments, guarantees or other material contingent liabilities as of [●], being the most recent practicable date for determining our indebtedness. Our Directors confirm that there have been no material changes in our indebtedness since [●], 2026, and up to the date of this prospectus. [Company to confirm]
+[P261] RELATED PARTY TRANSACTIONS
+[P262] We may enter into transactions with our related parties from time to time. For details of our related party transactions, see Note [●] to the Accountants’ Report set out in Appendix I to this prospectus.
+[P263] CONTINGENT LIABILITIES 
+[P264] As of December 31, 2023, 2024, 2025 and March 31, 2026, we did not have any material contingent liabilities. Our Directors confirm that there has been no material change in our contingent liabilities since March 31, 2026 to the date of this prospectus. [Company to confirm]
+[P265] OFF-BALANCE SHEET COMMITMENTS AND ARRANGEMENTS
+[P266] As of the Latest Practicable Date, we had not entered into any off-balance sheet transactions. [Company to confirm]
+[P267] KEY FINANCIAL RATIOS [Sponsors to advise metrics] 
+[P268] Gross profit margin is calculated by dividing gross profit by our revenue for the period/year indicated.
+[P269] Current ratio is calculated by dividing current assets by current liabilities as of the date indicated.
+[P270] QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISKS [Pending Accountants’ Report]
+[P271] We are exposed to a variety of market and other financial risks, including [currency risk, credit risk, liquidity risk and interest rate risk]. We manage and monitor these exposures to ensure that appropriate measures are implemented in a timely and effective manner.
+[P272] [●]
+[P273] DIVIDEND 
+[P274] We did not declare or pay dividends on our H Shares during the Track Record Period. We currently expect to retain all future earnings for use in operation and expansion of our business, and do not anticipate paying cash dividends in the foreseeable future. The declaration and payment of any dividends in the future will be determined by our Board of Directors and subject to our Articles of Association and the PRC Company Law, and will depend on a number of factors, including the successful commercialization of our products as well as our earnings, capital requirements, overall financial condition and contractual restrictions. Currently, we do not have a dividend policy or pre-determined dividend payout ratio in place. [As confirmed by our PRC Legal Advisors, any future net profit that we make will have to be applied to make up for our historically accumulated losses in accordance with the PRC laws, after which we will be obliged to allocate 10% of our profit to our statutory common reserve fund until such fund has reached more than 50% of our registered capital. We will therefore only be able to declare dividends after (i) all our historically accumulated losses have been made up for; and (ii) we have allocated sufficient profit to our statutory common reserve fund as described above.] [CM to review]
+[P275] DISTRIBUTABLE RESERVES
+[P276] As of March 31, 2026, the Company did not have any reserves available for distribution to our Shareholders. [Company to confirm]
+[P277] LISTING EXPENSES
+[P278] Listing expenses to be borne by us are estimated to be approximately HK$[●] million (assuming an Offer Price of HK$[●] per Share, being the mid-point of the indicative Offer Price range of HK$[●] to HK$[●] per Share), representing approximately [●]% of the estimated gross proceeds from the Global Offering assuming no Shares are issued pursuant to the Over-allotment Option. The listing expenses consist of (i) underwriting-related expenses, including underwriting commission, of approximately HK$[●] million, and (ii) non-underwriting-related expenses of approximately HK$[●] million, comprising (a) fees and expenses of our legal advisors and reporting accountants of approximately HK$[●] million, and (b) other fees and expenses of approximately HK$[●] million. Among the total listing expenses, approximately RMB[●] million will be directly attributable to the issue of our Shares, which will be deducted from equity upon the completion of the Global Offering, and RMB[●] million has been expensed during the Track Record Period, and the remaining amount of approximately RMB[●] million is expected to be expensed upon the Listing. We do not believe any of the above fees or expenses are material or are unusually high to us. The listing expenses above are the latest practicable estimate for reference only, and the actual amount may differ from this estimate
+[P279] UNAUDITED PRO FORMA ADJUSTED CONSOLIDATED NET TANGIBLE ASSETS
+[P280] See “Appendix II — Unaudited Pro Forma Financial Information.”
+[P281] NO MATERIAL ADVERSE CHANGE
+[P282] Our Directors confirm that, as of the date of this prospectus, there has been no material adverse change in our financial or trading position or prospects since March 31, 2026, being the end date of the periods reported in Appendix I to this prospectus, and there was no event since March 31, 2026 that would materially affect the information as set out in the Accountants’ Report included in Appendix I to this prospectus. [Company to confirm]
+[P283] DISCLOSURE UNDER RULES 13.13 TO 13.19 OF THE LISTING RULES
+[P284] Our Directors confirm that, as of the Latest Practicable Date, they were not aware of any circumstance that would give rise to a disclosure requirement under Rules 13.13 to 13.19 of the Listing Rules. [Company to confirm]
+
+# Tables
+
+
+[T1]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | RMB | RMB | % | % | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+Revenue | — | N/A | 10,080 | 100.0 | 75,545 | 75,545 | 100.0 | 100.0 | [●] | [●] | 81,501 | 100.0
+Cost of sales | — | N/A | (2,249) | (22.3) | (33,850) | (33,850) | (44.8) | (44.8) | [●] | [●] | (64,693) | (79.4)
+Gross profit | — | N/A | 7,831 | 77.7 | 41,695 | 41,695 | 55.2 | 55.2 | [●] | [●] | 16,808 | 20.6
+Other income | 1,223 | N/A | 37,288 | 369.9 | 35,670 | 35,670 | 47.2 | 47.2 | [●] | [●] | 9,034 | 11.1
+Other gains and losses | 487 | N/A | 347 | 3.4 | 1,735 | 1,735 | 2.3 | 2.3 | [●] | [●] | (702) | (0.9)
+Impairment losses under expected  credit loss ("ECL") model, net of reversal | — | N/A | (399) | (4.0) | (5,851) | (5,851) | (7.7) | (7.7) | [●] | [●] | (3,223) | (4.0)
+Selling and distribution expenses | (2,736) | N/A | (32,932) | (326.7) | (84,307) | (84,307) | (111.6) | (111.6) | [●] | [●] | (12,984) | (15.9)
+Administrative expenses | (14,679) | N/A | (69,286) | (687.4) | (82,861) | (82,861) | (109.7) | (109.7) | [●] | [●] | (20,342) | (25.0)
+Research and development expenses | (30,596) | N/A | (252,924) | (2,509.2) | (354,653) | (354,653) | (469.5) | (469.5) | [●] | [●] | (93,361) | (114.6)
+Financing costs | (9,904) | N/A | (70,337) | (697.8) | (134,061) | (134,061) | (177.5) | (177.5) | [●] | [●] | (44,881) | (55.1)
+Share of results of associates | — | N/A | — | — | (35) | (35) | (0.0) | (0.0) | [●] | [●] | — | —
+Loss before tax | (56,205) | N/A | (380,412) | (3,773.9) | (582,668) | (582,668) | (771.3) | (771.3) | [●] | [●] | (149,651) | (183.6)
+Income tax credit | 4,355 | N/A | 2,249 | 22.3 | 3,354 | 3,354 | 4.4 | 4.4 | [●] | [●] | 3,508 | 4.3
+Loss and total comprehensive expense for the period | (51,850) | N/A | (378,163) | (3,751.6) | (579,314) | (579,314) | (766.8) | (766.8) | [●] | [●] | (146,143) | (179.3)
+
+[T2]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2024 | 2025 | 2025 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  | (unaudited) | (unaudited) | (unaudited)
+Loss for the year/period | (51,850) | (378,163) | (579,314) | [●] | [●] | [●]
+Add: Interest on financial liabilities on shares with preferential rights | 9,904 | 64,055 | 111,282 | [●] | [●] | [●]
+Add: Share-based payment expenses | 17,178 | 30,661 | 26,464 | [●] | [●] | [●]
+Add: Listing expenses | [●] | [●] | [●] | [●] | [●] | [●]
+Non-IFRS Measure: |  |  |  |  |  | 
+Adjusted net profit/loss (unaudited) | [●] | [●] | [●] | [●] | [●] | [●]
+
+[T3]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | % | RMB | % | RMB | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+Agentic platform software | — | N/A | 5,883 | 58.4 | 58.4 | 12,576 | 16.6 | [●] | [●] | [●] | [●] | [●]
+AGI enterprise solutions | — | N/A | 4,197 | 41.6 | 41.6 | 52,022 | 68.9 | [●] | [●] | [●] | [●] | [●]
+Agentic MaaS | — | N/A | — | — | — | 10,947 | 14.5 | [●] | [●] | [●] | [●] | [●]
+Total | — | N/A | 10,080 | 100.0 | 100.0 | 75,545 | 100.0 | [●] | [●] | 100.0 | 81,501 | 100.0
+
+[T4]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | % | RMB | % | RMB | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+[Cost of raw materials] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Direct labor cost] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Depreciation] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Utility] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Others(1) | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Total | — | N/A | 2,249 | 100.0 | 100.0 | 33,850 | 100.0 | [●] | [●] | 100.0 | 64,693 | 100.0
+
+[T5]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | Gross profit | Gross profit margin | Gross profit | Gross profit margin | Gross profit margin | Gross profit | Gross profit margin | Gross profit | Gross profit | Gross profit margin | Gross profit | Gross profit margin
+ |  | % |  | % | % |  | % |  |  | % |  | 
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+Agentic platform software | — | N/A | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+AGI enterprise solutions | — | N/A | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Agentic MaaS | — | N/A | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Total | — | N/A | 7,831 | 77.7 | 77.7 | 41,695 | 55.2 | [●] | [●] | [●] | 16,808 | 20.6
+
+[T6]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | % | RMB | % | RMB | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+Government grants | 1,223 | 100.0 | 21,990 | 59.0 | 59.0 | 23,162 | 64.9 | [●] | [●] | [●] | [●] | [●]
+Interest income | — | — | 7,473 | 20.0 | 20.0 | 8,302 | 23.3 | [●] | [●] | [●] | [●] | [●]
+Others(1) | — | — | 7,825 | 21.0 | 21.0 | 4,206 | 11.8 | [●] | [●] | [●] | [●] | [●]
+Total | 1,223 | 100.0 | 37,288 | 100.0 | 100.0 | 35,670 | 100.0 | [●] | [●] | 100.0 | 9,034 | 100.0
+
+[T7]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | % | RMB | % | RMB | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+[Staff costs] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Marketing and promotion expenses] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Travel and customer engagement expenses] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Others(1) | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Total | 2,736 | 100.0 | 32,932 | 100.0 | 100.0 | 84,307 | 100.0 | [●] | [●] | 100.0 | 12,984 | 100.0
+
+[T8]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | % | RMB | % | RMB | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+[Staff costs] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Professional service fees] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Office and rental expenses] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Depreciation and amortization] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Others(1) | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Total | 14,679 | 100.0 | 69,286 | 100.0 | 100.0 | 82,861 | 100.0 | [●] | [●] | 100.0 | 20,342 | 100.0
+
+[T9]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2024 | 2024 | 2025 | 2025 | 2025 | 2025 | 2025 | 2026 | 2026
+ | RMB | % | RMB | % | % | RMB | % | RMB | RMB | % | RMB | %
+ | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages) | (RMB in thousands except for percentages)
+ |  |  |  |  |  |  |  |  | (unaudited) | (unaudited) | (unaudited) | (unaudited)
+[Staff costs] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Professional service fees] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+[Computing resource and testing costs] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Others(1) | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Total | 30,596 | 100.0 | 252,924 | 100.0 | 100.0 | 354,653 | 100.0 | [●] | [●] | 100.0 | 93,361 | 100.0
+
+[T10]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited) | (unaudited)
+ |  |  |  |  |  | 
+Interest on financial liabilities on shares with preferential rights | 9,904 | 9,904 | 64,055 | 111,282 | [●] | [●]
+Interest on lease liabilities | — | — | 6,257 | 21,180 | [●] | [●]
+Interest on bank borrowings | — | — | 25 | 1,599 | [●] | [●]
+Total | 9,904 | 9,904 | 70,337 | 134,061 | [●] | 44,881
+
+[T11]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  |  | (unaudited)
+Non-current assets |  |  |  |  |  | 
+Property, plant and equipment | 71,419 | 71,419 | 71,419 | 78,719 | 51,684 | 41,251
+Right-of-use assets | 5,601 | 5,601 | 5,601 | 538,602 | 446,654 | 472,297
+Intangible assets | 11 | 11 | 11 | 140 | 115,424 | 111,212
+Interests in associates | — | — | — | — | 3,365 | 3,365
+Deferred tax assets | 4,355 | 4,355 | 4,355 | 12,059 | 12,097 | 13,996
+Rental deposits | 1,337 | 1,337 | 1,337 | 3,049 | 2,963 | 2,980
+Term deposits | 66,534 | 66,534 | 66,534 | 89,735 | — | —
+Total non-current assets | 149,257 | 149,257 | 149,257 | 722,304 | 632,187 | 645,101
+Current assets |  |  |  |  |  | 
+Inventories | [●] | [●] | [●] | [●] | 1,970 | 3,114
+Trade and other receivables | 50,296 | 50,296 | 50,296 | 83,899 | 187,226 | 337,813
+Contract costs | — | — | — | 785 | 1,970 | [●]
+Financial assets at FVTPL | 60,204 | 60,204 | 60,204 | — | — | —
+Term deposits | — | — | — | — | 92,445 | 33,991
+Restricted bank deposits | — | — | — | — | 2,170 | 2,170
+Cash and cash equivalents | 147,580 | 147,580 | 147,580 | 354,931 | 566,221 | 529,176
+Total current assets | 258,080 | 258,080 | 258,080 | 439,615 | 850,032 | 906,264
+Total assets | 407,337 | 407,337 | 407,337 | 1,161,919 | 1,482,219 | 1,551,365
+Current liabilities |  |  |  |  |  | 
+Trade and other payables | 8,240 | 8,240 | 8,240 | 47,514 | 238,398 | 295,249
+Contract liabilities | — | — | — | 1,094 | 12,974 | 38,134
+Lease liabilities | 2,998 | 2,998 | 2,998 | 107,753 | 96,419 | 122,208
+Bank borrowings | — | — | — | 32,361 | 95,123 | 116,327
+Deferred income | — | — | — | 918 | — | —
+Total current liabilities | 11,238 | 11,238 | 11,238 | 189,640 | 442,914 | 571,918
+Net current assets | 246,842 | 246,842 | 246,842 | 249,975 | 407,118 | 334,346
+Total assets less current liabilities | 396,099 | 396,099 | 396,099 | 972,279 | 1,039,305 | 979,447
+Non-current liabilities |  |  |  |  |  | 
+Lease liabilities | 2,847 | 2,847 | 2,847 | 409,028 | 335,973 | 346,614
+Deferred tax liabilities | — | — | — | 5,455 | 2,139 | 529
+Deferred income | — | — | — | 918 | — | —
+Financial liabilities on shares with preferential rights | 415,534 | 415,534 | 415,534 | 932,030 | 1,608,605 | 1,648,269
+Total non-current liabilities | 423,381 | 423,381 | 423,381 | 1,349,518 | 1,967,915 | 2,050,766
+Total liabilities | 434,619 | 434,619 | 434,619 | 1,539,158 | 2,412,024 | 2,622,684
+ |  |  |  |  |  | 
+Net liabilities | (27,282) | (27,282) | (27,282) | (377,239) | (929,805) | (1,071,319)
+ |  |  |  |  |  | 
+Capital and reserves |  |  |  |  |  | 
+Paid-in capital | 475 | 475 | 475 | 431 | 715 | 715
+Reserves | (27,757) | (27,757) | (27,757) | (377,670) | (930,520) | (1,072,034)
+Total deficits | (27,282) | (27,282) | (27,282) | (377,239) | (929,805) | (1,071,319)
+
+[T12]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+Electronic equipment | 71,342 | 71,342 | 78,306 | 50,396 | [●]
+Office furniture | 33 | 33 | 374 | 298 | [●]
+Others(1) | 44 | 44 | 39 | 990 | [●]
+Total | 71,419 | 71,419 | 78,719 | 51,684 | 41,251
+
+[T13]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+[●] | [●] | [●] | [●] | [●] | [●]
+[●] | [●] | [●] | [●] | [●] | [●]
+[●] | [●] | [●] | [●] | [●] | [●]
+Total | [●] | [●] | [●] | 1,970 | 3,114
+
+[T14]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+[Within one year] | [●] | [●] | [●] | [●] | [●]
+[One year to two years] | [●] | [●] | [●] | [●] | [●]
+[Over two years] | [●] | [●] | [●] | [●] | [●]
+Total | [●] | [●] | [●] | 1,970 | 3,114
+
+[T15]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31,
+ | 2023 | 2024 | 2024 | 2025 | 2026
+ |  |  |  |  | 
+Inventory turnover days(1) | [●] | [●] | [●] | [●] | [●]
+
+[T16]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+Trade receivables from contracts with customers | — | — | 680 | 43,537 | [●]
+Less: allowances for credit losses | — | — | (34) | (2,182) | [●]
+ | — | — | 646 | 41,355 | [●]
+Other receivables | — | — | 7,301 | 81,365 | [●]
+Less: allowances for credit losses | — | — | (365) | (4,068) | [●]
+ | — | — | 6,936 | 77,297 | [●]
+Prepayment | 42,735 | 42,735 | 40,345 | 20,987 | [●]
+Value-added tax recoverable | 7,006 | 7,006 | 26,174 | 35,275 | [●]
+Interest receivable | 431 | 431 | 620 | 132 | [●]
+Others | 124 | 124 | 9,178 | 12,180 | [●]
+Total | 50,296 | 50,296 | 83,899 | 187,226 | 337,813
+
+[T17]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+0 - 90 days | — | — | 646 | 41,253 | [●]
+Over 90 days | — | — | — | 102 | [●]
+Total | — | — | 646 | 41,355 | [●]
+
+[T18]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31,
+ | 2023 | 2024 | 2024 | 2025 | 2026
+ |  |  |  |  | 
+Trade receivables turnover days(1) | [●] | [●] | [●] | [●] | [●]
+
+[T19]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+Trade payable | — | — | 800 | 8,761 | [●]
+Other payables | 814 | 814 | 10,398 | 97,783 | [●]
+Subscription received for unissued shares with preference rights | — | — | — | 70,000 | [●]
+Accrued staff costs | 6,869 | 6,869 | 33,010 | 44,354 | [●]
+Value-added tax and other tax payable | 557 | 557 | 3,306 | 11,862 | [●]
+Notes payables | — | — | — | 5,638 | [●]
+Total | 8,240 | 8,240 | 47,514 | 238,398 | 295,249
+
+[T20]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31,
+ | 2023 | 2023 | 2024 | 2025 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited)
+ |  |  |  |  | 
+0 - 90 days | — | — | 800 | 8,761 | [●]
+Total | — | — | 800 | 8,761 | [●]
+
+[T21]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31,
+ | 2023 | 2024 | 2024 | 2025 | 2026
+ |  |  |  |  | 
+Trade payables turnover days(1) | [●] | [●] | [●] | [●] | [●]
+
+[T22]
+ | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Year ended December 31, | Three months ended March 31, | Three months ended March 31,
+ | 2023 | 2024 | 2024 | 2025 | 2025 | 2026 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  |  |  | (Unaudited)
+Net cash flows [used in] operating activities | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Net cash flows [from] investing activities | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Net cash flows [from] financing activities | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Net increase in cash and cash equivalents | [●] | [●] | [●] | [●] | [●] | [●] | [●]
+Cash and cash equivalents at beginning of the period | [●] | [●] | 147,580 | 147,580 | 354,931 | 354,931 | 566,221
+Cash and cash equivalents at end of the period | 147,580 | 147,580 | 354,931 | 354,931 | 566,221 | 566,221 | 529,176
+
+[T23]
+ | 2023 | 2024 | 2025 | Three months ended March 31, 2026 | Basis / note
+Research and development cash costs | [●] | [●] | [●] | [●] | R&D expenses excluding non-cash items and employee compensation, adjusted for related prepayments and payables.
+Workforce employment | [●] | [●] | [●] | [●] | Employee benefit expenses under R&D, selling, administrative and cost of sales, excluding non-cash share-based payments, adjusted for staff cost payables.
+Computing resource and direct delivery costs | [●] | [●] | [●] | [●] | Cost of sales and direct service costs relating to server, cloud, computing resource leasing/procurement and project delivery, excluding non-cash items and adjusted for related prepayments and payables.
+Sales, marketing and commercialisation | [●] | [●] | [●] | [●] | Selling and distribution expenses excluding employee compensation and non-cash items, adjusted for related payables.
+Other significant operating costs | [●] | [●] | [●] | [●] | Office, compliance, professional service, lease and other significant operating cash costs not included above.
+Total cash operating costs | [●] | [●] | [●] | [●] | 
+
+[T24]
+ | 2023 | 2024 | 2025 | Three months ended March 31, 2026 | 2023-2025 total
+Research and development expenses / R&D expenditure | 30,596 | 252,924 | 354,653 | 93,361 | 638,173
+Selling and distribution expenses | 2,700 | 32,900 | 84,300 | 13,000 | 119,900
+Administrative expenses | 14,700 | 69,300 | 82,900 | 20,300 | 166,900
+Total operating expenditure | 47,996 | 355,124 | 521,853 | 126,661 | 924,973
+R&D expenditure ratio | 63.7% | 71.2% | 68.0% | 73.7% | 69.0%
+
+[T25]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31, | As of [●],
+ | 2023 | 2023 | 2023 | 2024 | 2025 | 2026 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  |  | (Unaudited) | (Unaudited)
+Current assets |  |  |  |  |  |  | 
+Inventories | [●] | [●] | [●] | [●] | 1,970 | 3,114 | [●]
+Trade and other receivables | 50,296 | 50,296 | 50,296 | 83,899 | 187,226 | 337,813 | [●]
+Contract costs | — | — | — | 785 | 1,970 | [●] | [●]
+Financial assets at FVTPL | 60,204 | 60,204 | 60,204 | — | — | — | [●]
+Term deposits | — | — | — | — | 92,445 | 33,991 | [●]
+Restricted bank deposits | — | — | — | — | 2,170 | 2,170 | [●]
+Cash and cash equivalents | 147,580 | 147,580 | 147,580 | 354,931 | 566,221 | 529,176 | [●]
+Total current assets | 258,080 | 258,080 | 258,080 | 439,615 | 850,032 | 906,264 | [●]
+Current liabilities |  |  |  |  |  |  | 
+Trade and other payables | 8,240 | 8,240 | 8,240 | 47,514 | 238,398 | 295,249 | [●]
+Contract liabilities | — | — | — | 1,094 | 12,974 | 38,134 | [●]
+Lease liabilities | 2,998 | 2,998 | 2,998 | 107,753 | 96,419 | 122,208 | [●]
+Bank borrowings | — | — | — | 32,361 | 95,123 | 116,327 | [●]
+Deferred income | — | — | — | 918 | — | — | [●]
+Total current liabilities | 11,238 | 11,238 | 11,238 | 189,640 | 442,914 | 571,918 | [●]
+Net current assets | 246,842 | 246,842 | 246,842 | 249,975 | 407,118 | 334,346 | [●]
+Total assets less current liabilities | 396,099 | 396,099 | 396,099 | 972,279 | 1,039,305 | 979,447 | [●]
+
+[T26]
+ | As of December 31, | As of December 31, | As of December 31, | As of December 31, | As of March 31, | As of [●],
+ | 2023 | 2023 | 2024 | 2025 | 2026 | 2026
+ | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands) | (RMB in thousands)
+ |  |  |  |  | (unaudited) | (unaudited)
+ |  |  |  |  |  | 
+Current |  |  |  |  |  | 
+Lease liabilities | 2,998 | 107,753 | 107,753 | 96,419 | 122,208 | [●]
+Bank borrowings | — | 32,361 | 32,361 | 95,123 | 116,327 | [●]
+Subtotal | 2,998 | 140,114 | 140,114 | 191,542 | 238,535 | [●]
+Non-current |  |  |  |  |  | 
+Lease liabilities | 2,847 | 409,028 | 409,028 | 335,973 | 346,614 | [●]
+Financial liabilities on shares  with preferential rights | 415,534 | 932,030 | 932,030 | 1,608,605 | 1,648,269 | [●]
+Subtotal | 418,381 | 1,341,058 | 1,341,058 | 1,944,578 | 1,994,883 | [●]
+Total | 421,379 | 1,481,172 | 1,481,172 | 2,136,120 | 2,233,418 | [●]
+
+[T27]
+ | As of/for the year ended December 31, | As of/for the year ended December 31, | As of/for the year ended December 31, | As of/for the three months ended March 31, | As of/for the three months ended March 31,
+ | 2023 | 2024 | 2025 | 2025 | 2026
+ |  |  |  |  | 
+Gross profit margin(1) | — | 77.7% | 55.2% | [●]% | 20.6%
+Current ratio(2) | 23.0 | 2.3 | 1.9 | [●] | 1.6
+
+# Comments
+
+{"id": "0", "author": "Liang, Yan", "date": "2026-05-28T00:32:00Z", "text": "Pls check format throughout the document. Paragraphs need to be justified."}
+{"id": "2", "author": "Kirkland", "date": "2026-05-20T17:10:00Z", "text": "23非全年，后续表头可能还得改一下，先跟着审计报告这样写了"}
+{"id": "5", "author": "Liang, Yan", "date": "2026-05-28T00:33:00Z", "text": "Let’s change these to em dash globally"}
+{"id": "10", "author": "Liang, Yan", "date": "2026-05-28T00:36:00Z", "text": "Let’s spell it out when it first time appears in the section"}
+{"id": "11", "author": "Liang, Yan", "date": "2026-05-28T00:37:00Z", "text": "Let’s add percentage of the total revenue here. Same for R&D and admin expenses"}
+{"id": "16", "author": "Liang, Yan", "date": "2026-05-28T00:38:00Z", "text": "Please global change."}
+{"id": "18", "author": "Liang, Yan", "date": "2026-05-28T00:39:00Z", "text": "Let’s review to RMBXX thousand"}
+{"id": "24", "author": "Liang, Yan", "date": "2026-05-28T00:40:00Z", "text": "When supplementing analysis per FDD, please also refer to the tone in Infrawaves"}
+{"id": "30", "author": "Kirkland", "date": "2026-05-20T16:49:00Z", "text": "23-25 AR没有inventories这个item，不确定是不是nil"}
+{"id": "29", "author": "Liang, Yan", "date": "2026-05-28T00:42:00Z", "text": "Let’s put em dash here first"}
+{"id": "32", "author": "Kirkland", "date": "2026-05-20T16:50:00Z", "text": "26主表没有contract costs这个item，不确定是不是nil. "}
+{"id": "33", "author": "Liang, Yan", "date": "2026-05-28T00:43:00Z", "text": "Same as above"}
+{"id": "37", "author": "Liang, Yan", "date": "2026-05-28T00:44:00Z", "text": "The highlighted items need to be discussed below.For lease liabilities and financial liabilities on shares with preferential rights, let’s put the discussion in Indebtedness."}
+{"id": "38", "author": "Liang, Yan", "date": "2026-05-28T00:45:00Z", "text": "Let’s add elaboration on what electronic equipment the company has"}
+{"id": "39", "author": "Liang, Yan", "date": "2026-05-28T00:45:00Z", "text": "Let’s elaborate"}
+{"id": "41", "author": "Kirkland", "date": "2026-05-20T17:09:00Z", "text": "23年非全年"}
+{"id": "42", "author": "Liang, Yan", "date": "2026-05-28T00:47:00Z", "text": "Let’s add typical credit terms granted to customers"}
+{"id": "43", "author": "Liang, Yan", "date": "2026-05-28T00:48:00Z", "text": "We need to elaborate on the nature of each item. Please refer to Infrawaves and Wuxi XDC"}
+{"id": "44", "author": "Liang, Yan", "date": "2026-05-28T00:48:00Z", "text": "Please add typical credit term granted by suppliers"}
+{"id": "45", "author": "Liang, Yan", "date": "2026-05-28T00:50:00Z", "text": "We need to add the nature of this item, how the financial liabilities are valued, as well as the statement that this will convert to equity upon listing. Please see Infrawaves"}
+{"id": "56", "author": "Liang, Yan", "date": "2026-05-28T00:52:00Z", "text": "Let’s refer to accountants’ report like most projects."}
+
+# Revisions
+
+{"type": "ins", "author": "Liang, Yan", "date": "2026-05-28T00:34:00Z", "text": "O"}
+{"type": "ins", "author": "Liang, Yan", "date": "2026-05-28T00:39:00Z", "text": ", "}
+{"type": "ins", "author": "Liang, Yan", "date": "2026-05-28T00:40:00Z", "text": "primarily"}
+{"type": "ins", "author": "Liang, Yan", "date": "2026-05-28T00:39:00Z", "text": " due to [our loss positions]"}
+{"type": "ins", "author": "Liang, Yan", "date": "2026-05-28T00:40:00Z", "text": ":"}

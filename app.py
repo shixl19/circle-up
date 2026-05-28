@@ -18,6 +18,7 @@ st.set_page_config(
 def main() -> None:
     st.title("Comfort Marker")
     st.caption("Upload a text-based prospectus PDF and download the marked PDF plus CSV review log.")
+    st.info("Circle-up results are AI-generated and must be carefully reviewed before use.")
 
     uploaded_file = st.file_uploader("Prospectus PDF", type=["pdf"])
 
@@ -70,6 +71,7 @@ def process_pdf(
             )
 
         st.success(f"Marked {len(findings)} item(s).")
+        st.warning("Circle-up results are AI-generated. Please carefully review all marked items before relying on them.")
 
         pdf_output = output_pdf.read_bytes()
         csv_output = output_csv.read_bytes()

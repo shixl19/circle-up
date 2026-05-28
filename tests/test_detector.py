@@ -22,6 +22,11 @@ class DetectorTests(unittest.TestCase):
 
         self.assertEqual([hit.text for hit in hits], ["RMB88.0 million"])
 
+    def test_does_not_treat_year_plus_word_as_amount_suffix(self):
+        text = "The balance was US$30.0 million as of November 30, 2025 mainly due to cash movements."
+
+        self.assertEqual([hit.text for hit in find_numeric_hits(text)], ["US$30.0 million"])
+
     def test_broad_mode_captures_operating_numbers(self):
         hits = find_numeric_hits("The platform processed 12,500 workloads in 2025.", mode="broad")
 
@@ -34,6 +39,14 @@ class DetectorTests(unittest.TestCase):
 
     def test_skips_market_size_data(self):
         text = "The global foundation model market size is projected to exceed US$300 billion by 2030."
+
+        self.assertEqual(find_numeric_hits(text), [])
+
+    def test_skips_market_cagr_even_when_revenue_is_nearby(self):
+        text = (
+            "The global model-based foundation model market is expected to grow rapidly from "
+            "US$10.7 billion in 2024 to US$206.5 billion by 2029, representing a CAGR of 80.7%."
+        )
 
         self.assertEqual(find_numeric_hits(text), [])
 
@@ -81,6 +94,17 @@ class DetectorTests(unittest.TestCase):
         samples = [
             "R&D personnel accounted for 71.0% of non-manufacturing employees.",
             "Active users represented 56.3% of all registered users.",
+        ]
+
+        for sample in samples:
+            with self.subTest(sample=sample):
+                self.assertEqual(find_numeric_hits(sample), [])
+
+    def test_skips_environmental_metrics(self):
+        samples = [
+            "Energy consumption per unit of revenue was 13,760.67 kwh/US$ ten thousand.",
+            "Municipal water consumption was 935.64 ton and wastewater discharge was 748.51 ton.",
+            "Greenhouse gas emissions per unit of revenue was 7.96 ton of carbon dioxide equivalent.",
         ]
 
         for sample in samples:

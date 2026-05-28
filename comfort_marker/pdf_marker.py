@@ -143,9 +143,12 @@ APPENDIX_KEYWORDS = (
 
 CORE_SECTION_PATTERNS = (
     ("summary", "summary"),
+    ("this summary aims to give you an overview of the information contained in this", "summary"),
+    ("this summary aims to give you an overview of the information contained in this prospectus", "summary"),
     ("risk factors", "risk factors"),
     ("business", "business"),
     ("financial information", "financial information"),
+    ("discussion of certain key items from our consolidated statements of financial position", "financial information"),
     ("概要", "summary"),
     ("摘要", "summary"),
     ("风险因素", "risk factors"),
@@ -176,16 +179,23 @@ DIRECTOR_SECTION_PATTERNS = (
 
 STOP_SECTION_PATTERNS = (
     "history, reorganization and corporate structure",
+    "regulatory overview",
+    "directors and parties involved in the global offering",
+    "corporate information",
     "relationship with our controlling shareholders",
     "connected transactions",
     "share capital",
     "substantial shareholders",
     "cornerstone investors",
+    "the cornerstone placing",
+    "cornerstone placing",
+    "our cornerstone investors",
     "future plans and use of proceeds",
     "underwriting",
     "structure of the global offering",
     "how to apply",
     "appendix",
+    "appendices",
     "附录",
     "附錄",
 )
@@ -196,50 +206,90 @@ def update_section_state(current: SectionState, page_text: str) -> SectionState:
     if not headings:
         return current
 
-    joined = " ".join(headings)
-    for pattern, section_name in CORE_SECTION_PATTERNS:
-        if heading_contains(joined, pattern):
-            return SectionState(section_name, PROCESS_ALL)
-    if any(heading_contains(joined, pattern) for pattern in INDUSTRY_SECTION_PATTERNS):
-        return SectionState("industry overview", PROCESS_ISSUER_REVENUE_ONLY)
-    if any(heading_contains(joined, pattern) for pattern in DIRECTOR_SECTION_PATTERNS):
+    if any(heading_matches(line, pattern) for line in headings[:12] for pattern in DIRECTOR_SECTION_PATTERNS):
         return SectionState("directors/statutory", PROCESS_DIRECTOR_EMOLUMENTS_ONLY)
-    if any(heading_contains(joined, pattern) for pattern in STOP_SECTION_PATTERNS):
+    if any(heading_matches(line, pattern) for line in headings[:12] for pattern in STOP_SECTION_PATTERNS):
         return SectionState("other", SKIP_SECTION)
+    if any(heading_matches(line, pattern) for line in headings[:12] for pattern in INDUSTRY_SECTION_PATTERNS):
+        return SectionState("other", SKIP_SECTION)
+    joined_headings = normalize_heading_text(" ".join(headings[:14]))
+    if "discussion of certain key items from our consolidated statements of financial position" in joined_headings:
+        return SectionState("financial information", PROCESS_ALL)
+    for pattern, section_name in CORE_SECTION_PATTERNS:
+        if any(heading_matches(line, pattern) for line in headings):
+            return SectionState(section_name, PROCESS_ALL)
     return current
 
 
 def get_page_heading_candidates(page_text: str) -> list[str]:
     lines = [line.strip().lower() for line in page_text.splitlines() if line.strip()]
     candidates: list[str] = []
-    for line in lines[:18]:
+    for line in [*lines[:18], *lines[-10:]]:
         cleaned = re.sub(r"\s+", " ", line)
-        if len(cleaned) <= 90:
+        if len(cleaned) <= 110 and cleaned not in candidates:
             candidates.append(cleaned)
     return candidates
 
 
-def heading_contains(text: str, pattern: str) -> bool:
-    return pattern.lower() in text.lower()
+def heading_matches(line: str, pattern: str) -> bool:
+    if is_table_of_contents_line(line):
+        return False
+    normalized_line = normalize_heading_text(line)
+    normalized_pattern = normalize_heading_text(pattern)
+    if normalized_line == normalized_pattern:
+        return True
+    if normalized_line.startswith(f"{normalized_pattern} "):
+        trailing = normalized_line[len(normalized_pattern) :].strip()
+        return bool(re.fullmatch(r"[ivxlcdm0-9.() -]+", trailing))
+    return False
+
+
+def is_table_of_contents_line(line: str) -> bool:
+    return ". ." in line or re.search(r"\.{3,}", line)
+
+
+def normalize_heading_text(text: str) -> str:
+    cleaned = re.sub(r"[\u0000-\u001f]+", " ", text.lower())
+    cleaned = re.sub(r"[^a-z0-9\u4e00-\u9fff&/,'’ -]+", " ", cleaned)
+    return re.sub(r"\s+", " ", cleaned).strip(" -")
 
 
 def should_skip_page(page_text: str, section: SectionState | None = None) -> bool:
     normalized = " ".join(page_text.lower().split())
     if any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS):
         return False
-    if is_non_comfort_page(normalized):
-        return True
     if section and section.policy == SKIP_SECTION:
+        return True
+    if is_key_financial_ratios_context(normalized[:1400]) and section and section.policy == PROCESS_ALL:
+        return False
+    if is_non_comfort_page(normalized):
         return True
     return is_appendix_page(page_text)
 
 
 def is_appendix_page(page_text: str) -> bool:
-    first_lines = [line.strip().lower() for line in page_text.splitlines() if line.strip()][:8]
+    first_lines = [line.strip().lower() for line in page_text.splitlines() if line.strip()][:25]
     first_block = " ".join(first_lines)
+    full_block = " ".join(line.strip().lower() for line in page_text.splitlines() if line.strip())
     appendix_heading = any(re.match(r"^(appendix|appendices)\b", line) for line in first_lines)
+    appendix_in_page_head = any(re.match(r"^(appendix|appendices)\s+[ivxlcdm0-9]+\b", line) for line in first_lines)
+    appendix_title_anywhere = bool(
+        re.search(
+            r"\bappendix\s+[ivxlcdm0-9]+\b.{0,80}\b("
+            r"accountant|summary|constitution|cayman islands|statutory|general information|unaudited pro forma|property valuation|"
+            r"documents delivered|documents available"
+            r")\b",
+            full_block,
+        )
+    )
     chinese_appendix_heading = any(line.startswith(("附录", "附錄")) for line in first_lines)
-    return appendix_heading or chinese_appendix_heading or first_block.startswith(APPENDIX_KEYWORDS)
+    return (
+        appendix_heading
+        or appendix_in_page_head
+        or appendix_title_anywhere
+        or chinese_appendix_heading
+        or first_block.startswith(APPENDIX_KEYWORDS)
+    )
 
 
 def is_non_comfort_table_region(page_text: str, region_context: str) -> bool:
@@ -255,20 +305,17 @@ def is_non_comfort_table_region(page_text: str, region_context: str) -> bool:
 
 STRONG_NON_COMFORT_PAGE_KEYWORDS = (
     "global offering statistics",
+    "history, reorganization and corporate structure",
+    "regulatory overview",
+    "unaudited pro forma statement of adjusted consolidated net tangible assets",
+    "based on an offer price",
     "future plans and use of proceeds",
     "use of proceeds",
+    "net proceeds",
     "pricing strategy",
     "structure of the global offering",
     "underwriting",
     "how to apply",
-    "offer price",
-    "offer shares",
-    "offer size adjustment option",
-    "over-allotment option",
-    "share capital",
-    "substantial shareholders",
-    "beneficial interests",
-    "voting rights",
 )
 
 
@@ -280,6 +327,8 @@ def is_non_comfort_page(normalized_page_text: str) -> bool:
 def should_process_table_region(page_text: str, region: TableRegion, section: SectionState) -> bool:
     if section.policy != PROCESS_ALL:
         return False
+    if is_key_financial_ratios_context(region.context):
+        return True
     if is_non_comfort_table_region(page_text, region.context):
         return False
     surrounding = get_region_surrounding_text(page_text, region.context)
@@ -325,6 +374,16 @@ FINANCIAL_TABLE_KEYWORDS = (
     "income statement",
     "balance sheet",
     "financial position",
+    "financial ratios",
+    "key financial ratios",
+    "current ratio",
+    "aging analysis",
+    "ageing analysis",
+    "turnover days",
+    "trade receivables turnover days",
+    "trade and bills payables turnover days",
+    "in thousands, except for percentages",
+    "in thousand, except for percentages",
     "current assets",
     "current liabilities",
     "non-current assets",
@@ -360,6 +419,17 @@ NON_FINANCIAL_TABLE_KEYWORDS = (
     "headcount",
     "customers",
     "api calls",
+    "environmental",
+    "environment, social and governance",
+    "esg",
+    "greenhouse gas",
+    "energy consumption",
+    "municipal water",
+    "wastewater",
+    "indicators/unit",
+    "kwh",
+    "ton/m2",
+    "ton/m²",
     "offer price",
     "offer shares",
     "global offering",
@@ -441,11 +511,55 @@ CUSTOMER_SUPPLIER_FINANCIAL_TABLE_KEYWORDS = (
 
 def is_financial_table_context(context: str) -> bool:
     normalized = " ".join(context.lower().split())
+    if is_key_financial_ratios_context(normalized):
+        return True
     if is_customer_supplier_financial_table_context(normalized):
+        return True
+    if is_single_row_financial_table_context(normalized):
         return True
     if any(keyword in normalized for keyword in NON_FINANCIAL_TABLE_KEYWORDS):
         return False
     return any(keyword in normalized for keyword in FINANCIAL_TABLE_KEYWORDS)
+
+
+def is_single_row_financial_table_context(context: str) -> bool:
+    normalized = " ".join(context.lower().split())
+    has_aging = "aging analysis" in normalized or "ageing analysis" in normalized
+    has_turnover_days = "turnover days" in normalized or ("turnover" in normalized and "days" in normalized)
+    has_financial_account = any(
+        account in normalized
+        for account in (
+            "trade receivables",
+            "trade and bills payables",
+            "receivables",
+            "payables",
+        )
+    )
+    has_table_signal = "(us$ in thousands)" in normalized or "(days)" in normalized or "as of december 31" in normalized
+    return (has_aging or has_turnover_days) and has_financial_account and has_table_signal
+
+
+def is_key_financial_ratios_context(context: str) -> bool:
+    normalized = " ".join(context.lower().split())
+    has_ratio_label = any(
+        label in normalized
+        for label in (
+            "key financial ratios",
+            "key income statement ratio",
+            "key balance sheet ratio",
+        )
+    )
+    has_ratio_rows = any(
+        label in normalized
+        for label in (
+            "revenue growth",
+            "gross margin",
+            "net loss margin",
+            "adjusted net loss margin",
+            "current ratio",
+        )
+    )
+    return has_ratio_label and has_ratio_rows
 
 
 def is_customer_supplier_financial_table_context(normalized: str) -> bool:
@@ -541,6 +655,8 @@ def detect_table_numeric_regions(fitz_module, lines: list[list[tuple]]) -> list[
             continue
         if is_header_numeric_line(numeric_words):
             continue
+        if not is_table_candidate_line(line_index, line, data_cell_words, numeric_words, lines):
+            continue
 
         x_values = [word[0] for word in data_cell_words]
         if max(x_values) - min(x_values) < 45:
@@ -565,7 +681,7 @@ def detect_table_numeric_regions(fitz_module, lines: list[list[tuple]]) -> list[
             current = [candidate]
 
     append_table_region(fitz_module, regions, current, lines)
-    return regions
+    return extend_table_regions_with_sparse_financial_rows(fitz_module, regions, lines)
 
 
 def append_table_region(
@@ -574,11 +690,15 @@ def append_table_region(
     rows: list[tuple[int, list[tuple], list[tuple]]],
     all_lines: list[list[tuple]],
 ) -> None:
-    if len(rows) < 3:
+    if not rows:
         return
     context = build_table_context(rows, all_lines)
+    is_single_row_financial_table = is_single_row_financial_table_context(context)
+    min_rows = 1 if is_single_row_financial_table else 3
+    if len(rows) < min_rows:
+        return
     min_repeated_columns = 2 if is_customer_supplier_financial_table_context(" ".join(context.lower().split())) else 3
-    if not has_repeated_data_columns(rows, min_repeated_columns=min_repeated_columns):
+    if not is_single_row_financial_table and not has_repeated_data_columns(rows, min_repeated_columns=min_repeated_columns):
         return
 
     data_cell_words = [word for _, _, row_data_cell_words in rows for word in row_data_cell_words]
@@ -605,14 +725,171 @@ def build_table_context(rows: list[tuple[int, list[tuple], list[tuple]]], all_li
     context_lines: list[str] = []
     for index, line in enumerate(all_lines):
         y = line_mid_y(line)
-        is_near_header = index < first_index and first_y - 115 <= y < first_y
+        is_near_header = index < first_index and first_y - 165 <= y < first_y
         is_table_body = first_index <= index <= last_index and first_y <= y <= last_y + 1
         if is_near_header or is_table_body:
             text = compact_context(join_words(line), limit=100)
             if text:
                 context_lines.append(text)
 
-    return compact_context(" | ".join(context_lines), limit=420)
+    return compact_context(" | ".join(context_lines), limit=900)
+
+
+def extend_table_regions_with_sparse_financial_rows(
+    fitz_module,
+    regions: list[TableRegion],
+    lines: list[list[tuple]],
+) -> list[TableRegion]:
+    extended: list[TableRegion] = []
+    for region in regions:
+        sparse_rows = find_following_sparse_financial_rows(region, lines)
+        if not sparse_rows:
+            extended.append(region)
+            continue
+
+        data_cell_words = [
+            word
+            for _, line in sparse_rows
+            for word in line
+            if is_table_data_cell_word(str(word[4]))
+        ]
+        rect = fitz_module.Rect(
+            min(region.rect.x0, min(word[0] for word in data_cell_words) - 2.0),
+            region.rect.y0,
+            max(region.rect.x1, max(word[2] for word in data_cell_words) + 2.0),
+            max(max(word[3] for _, line in sparse_rows for word in line) + 2.0, region.rect.y1),
+        )
+        extra_context = " | ".join(compact_context(join_words(line), limit=100) for _, line in sparse_rows)
+        extended.append(
+            TableRegion(
+                rect=rect,
+                row_count=region.row_count + len(sparse_rows),
+                context=compact_context(f"{region.context} | {extra_context}", limit=900),
+            )
+        )
+    return extended
+
+
+def find_following_sparse_financial_rows(region: TableRegion, lines: list[list[tuple]]) -> list[tuple[int, list[tuple]]]:
+    sparse_rows: list[tuple[int, list[tuple]]] = []
+    label_window: list[str] = []
+    for index, line in enumerate(lines):
+        y = line_mid_y(line)
+        if y <= region.rect.y1 or y - region.rect.y1 > 135:
+            continue
+        text = join_words(line)
+        if is_page_footer_line(text):
+            continue
+        label_window.append(text.lower())
+        nearby_text = " ".join(label_window[-8:])
+        data_cell_words = [word for word in line if is_table_data_cell_word(str(word[4]))]
+        if len(data_cell_words) < 2:
+            continue
+        if not is_sparse_financial_continuation_context(nearby_text):
+            continue
+        if not row_overlaps_region_columns(region, data_cell_words):
+            continue
+        sparse_rows.append((index, line))
+    return sparse_rows
+
+
+def is_sparse_financial_continuation_context(text: str) -> bool:
+    return any(
+        keyword in text
+        for keyword in (
+            "loss per share",
+            "earnings per share",
+            "basic and diluted",
+            "for loss for the",
+            "for profit for the",
+            "turnover days",
+        )
+    )
+
+
+def row_overlaps_region_columns(region: TableRegion, data_cell_words: list[tuple]) -> bool:
+    inside = [
+        word
+        for word in data_cell_words
+        if region.rect.x0 - 18 <= (word[0] + word[2]) / 2 <= region.rect.x1 + 18
+    ]
+    return len(inside) >= max(2, len(data_cell_words) - 1)
+
+
+def is_page_footer_line(text: str) -> bool:
+    return bool(re.fullmatch(r"[–—-]?\s*\d+\s*[–—-]?", text.strip()))
+
+
+def is_table_candidate_line(
+    line_index: int,
+    line: list[tuple],
+    data_cell_words: list[tuple],
+    numeric_words: list[tuple],
+    all_lines: list[list[tuple]],
+) -> bool:
+    local_context = build_local_table_context(line_index, all_lines)
+    normalized_context = " ".join(local_context.lower().split())
+    has_financial_header = is_financial_table_context(normalized_context)
+    has_customer_supplier_header = is_customer_supplier_financial_table_context(normalized_context)
+    has_table_ruling_or_leaders = line_has_dot_leader(line) or nearby_line_has_ruling(line_index, all_lines)
+    has_placeholder_or_dash = any(
+        is_dash_word(str(word[4])) or is_placeholder_word(str(word[4])) or is_na_word(str(word[4]))
+        for word in data_cell_words
+    )
+
+    word_count = max(len(line), 1)
+    data_density = len(data_cell_words) / word_count
+    numeric_density = len(numeric_words) / word_count
+
+    x_values = [word[0] for word in data_cell_words]
+    has_spread_columns = max(x_values) - min(x_values) >= 45 if x_values else False
+    if not has_spread_columns:
+        return False
+
+    if has_customer_supplier_header:
+        return True
+
+    # A narrative sentence immediately below a financial table may include
+    # several currency amounts. It should be handled as line-level text, not
+    # merged into the table's numeric-area rectangle.
+    looks_like_prose = word_count >= 10 and data_density < 0.35 and not line_has_dot_leader(line)
+    if looks_like_prose:
+        return False
+
+    if data_density >= 0.35:
+        return True
+
+    if len(data_cell_words) >= 4 and (has_financial_header or has_table_ruling_or_leaders or has_placeholder_or_dash):
+        return True
+
+    if len(data_cell_words) >= 3 and has_financial_header and has_placeholder_or_dash:
+        return True
+
+    return has_financial_header and len(data_cell_words) >= 3
+
+
+def build_local_table_context(line_index: int, all_lines: list[list[tuple]], lookback: int = 8) -> str:
+    start = max(0, line_index - lookback)
+    context_lines = [compact_context(join_words(line), limit=100) for line in all_lines[start : line_index + 1]]
+    return " | ".join(line for line in context_lines if line)
+
+
+def line_has_dot_leader(line: list[tuple]) -> bool:
+    return any(re.fullmatch(r"[.·]{2,}", str(word[4]).strip()) for word in line)
+
+
+def nearby_line_has_ruling(line_index: int, all_lines: list[list[tuple]], lookaround: int = 2) -> bool:
+    start = max(0, line_index - lookaround)
+    end = min(len(all_lines), line_index + lookaround + 1)
+    for line in all_lines[start:end]:
+        if sum(1 for word in line if is_rule_like_word(str(word[4]))) >= 2:
+            return True
+    return False
+
+
+def is_rule_like_word(text: str) -> bool:
+    cleaned = text.strip()
+    return bool(re.fullmatch(r"[_=\-–—]{2,}", cleaned))
 
 
 def has_repeated_data_columns(
@@ -640,7 +917,7 @@ def has_repeated_data_columns(
 
 
 def is_table_data_cell_word(text: str) -> bool:
-    return is_table_number_word(text) or is_dash_word(text) or is_placeholder_word(text)
+    return is_table_number_word(text) or is_dash_word(text) or is_placeholder_word(text) or is_na_word(text)
 
 
 def is_table_number_word(text: str) -> bool:
@@ -659,6 +936,10 @@ def is_placeholder_word(text: str) -> bool:
     if re.fullmatch(r"\[\s*(?:\d{1,3}(?:,\d{3})*(?:\.\d+)?|[*·•.-]+)\s*\]", cleaned):
         return True
     return cleaned in {"[*]", "[·]", "[•]", "[--]", "[-]"}
+
+
+def is_na_word(text: str) -> bool:
+    return text.strip().lower().rstrip(".,") in {"n/a", "na"}
 
 
 def is_header_numeric_line(numeric_words: list[tuple]) -> bool:

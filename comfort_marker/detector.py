@@ -214,6 +214,20 @@ NON_FINANCIAL_PERCENT_CONTEXT_KEYWORDS = (
     "人数",
 )
 
+ENVIRONMENTAL_DATA_KEYWORDS = (
+    "environmental",
+    "environment, social and governance",
+    "esg",
+    "greenhouse gas",
+    "energy consumption",
+    "municipal water",
+    "wastewater",
+    "carbon dioxide",
+    "kwh",
+    "ton/m2",
+    "ton/m²",
+)
+
 PERIOD_KEYWORDS = (
     "year ended",
     "years ended",
@@ -263,7 +277,7 @@ NUMBER_PATTERN = re.compile(
         \(?\d+(?:\.\d+)?\)?
     )
     \s*
-    (?P<suffix>%|percent|percentage\ points?|bps|basis\ points?|days?|million|billion|trillion|thousand|m|bn|tn|万|億|亿|千)?
+    (?P<suffix>%|percent|percentage\ points?|bps|basis\ points?|days?|million|billion|trillion|thousand|m\b|bn\b|tn\b|万|億|亿|千)?
     """,
     re.IGNORECASE | re.VERBOSE,
 )
@@ -289,6 +303,7 @@ def find_numeric_hits(text: str, *, mode: str = "conservative") -> list[NumericH
     has_financial_context = any(keyword in normalized for keyword in FINANCIAL_KEYWORDS)
     has_period_context = any(keyword in normalized for keyword in PERIOD_KEYWORDS)
     has_market_data_context = any(keyword in normalized for keyword in MARKET_DATA_KEYWORDS)
+    has_environmental_data_context = any(keyword in normalized for keyword in ENVIRONMENTAL_DATA_KEYWORDS)
     has_non_comfort_context = is_non_comfort_context(normalized)
     has_director_emoluments_context = any(keyword in normalized for keyword in DIRECTOR_EMOLUMENTS_KEYWORDS)
     has_non_financial_operating_context = is_non_financial_operating_context(normalized)
@@ -307,6 +322,7 @@ def find_numeric_hits(text: str, *, mode: str = "conservative") -> list[NumericH
             has_financial_context=has_financial_context,
             has_period_context=has_period_context,
             has_market_data_context=has_market_data_context,
+            has_environmental_data_context=has_environmental_data_context,
             has_non_comfort_context=has_non_comfort_context,
             has_director_emoluments_context=has_director_emoluments_context,
             has_non_financial_operating_context=has_non_financial_operating_context,
@@ -325,6 +341,7 @@ def classify_number(
     has_financial_context: bool,
     has_period_context: bool,
     has_market_data_context: bool,
+    has_environmental_data_context: bool,
     has_non_comfort_context: bool,
     has_director_emoluments_context: bool,
     has_non_financial_operating_context: bool,
@@ -346,7 +363,9 @@ def classify_number(
         return None
     if has_non_financial_operating_context and not has_currency and not has_percent and not has_day_metric:
         return None
-    if has_market_data_context and not has_financial_context:
+    if has_environmental_data_context:
+        return None
+    if has_market_data_context:
         return None
     if has_currency:
         return "currency amount"

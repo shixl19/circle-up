@@ -1,0 +1,2419 @@
+--- Page 1 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY 
+JOINT STOCK COMPANY LIMITED 
+ 上海无问芯穹智能科技股份有限公司 
+ 
+ Accountants' Report 
+ For each of the three years ended 31 December 2025
+
+--- Page 2 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+HISTORICAL FINANCIAL INFORMATION OF THE GROUP 
+ 
+Preparation of Historical Financial Information 
+ 
+Set out below is the Historical Financial Information which forms an integral part of this accountants’ 
+report. 
+ 
+The consolidated financial statements of the Group for the Track Record Period, on which the Historical 
+Financial Information is based, have been prepared in accordance with the accounting policies which 
+conform with IFRS Accounting Standards issued by International Accounting Standards Board (the 
+“IASB”) and were audited by us in accordance with Hong Kong Standards on Auditing issued by the 
+HKICPA (“Underlying Financial Statements”). 
+ 
+The Historical Financial Information is presented in Renminbi (“RMB”) and all values are rounded to the 
+nearest thousand (“RMB’000”) except when otherwise indicated.
+
+--- Page 3 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+CONSOLIDATED STATEMENTS OF PROFIT OR LOSS AND OTHER COMPREHENSIVE 
+INCOME 
+ 
+ Year ended 31 December 
+ NOTES 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+Revenue 6 - 10,080 75,545 
+Cost of sales - (2,249) (33,850) _______ _______ _______ 
+Gross profit - 7,831 41,695 
+Other income 7 1,223 37,288 35,670 
+Other gains and losses 487 347 1,735 
+Impairment losses under expected 
+ credit loss ("ECL") model, net of reversal - (399) (5,851) 
+Selling and distribution expenses (2,736) (32,932) (84,307) 
+Administrative expenses (14,679) (69,286) (82,861) 
+Research and development expenses (30,596) (252,924) (354,653) 
+Finance costs 8 (9,904) (70,337) (134,061) 
+Share of results of associates - - (35) _______ _______ _______ 
+Loss before tax (56,205) (380,412) (582,668) 
+Income tax credit 9 4,355 2,249 3,354 _______ _______ _______ 
+Loss and total comprehensive expense 
+ for the year 10 (51,850) (378,163) (579,314) _______ _______ _______ 
+Loss and total comprehensive expense 
+ attributable to owners of the Company (51,850) (378,163) (579,314) 
+ 
+Loss per share 12 
+ Basic and diluted (RMB) (0.21) (0.84) (1.00) _______ _______ _______ _______ _______ _______
+
+--- Page 4 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+CONSOLIDATED STATEMENTS OF FINANCIAL POSITION OF THE GROUP 
+ 
+ As at 31 December 
+ NOTES 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+Non-current assets 
+ Property, plant and equipment 13 71,419 78,719 51,684 
+ Right-of-use assets 14 5,601 538,602 446,654 
+ Intangible assets 15 11 140 115,424 
+ Interests in associates 16 - - 3,365 
+ Deferred tax assets 17 4,355 12,059 12,097 
+ Rental deposits 1,337 3,049 2,963 
+ Term deposits 21 66,534 89,735 - _______ _______ _______ 
+ 149,257 722,304 632,187 _______ _______ _______ 
+Current assets 
+ Trade and other receivables 19 50,296 83,899 187,226 
+Contract costs 18 - 785 1,970 
+ Financial assets at fair value 
+through profit or loss (“FVTPL”) 20 60,204 - - 
+ Term deposits 21 - - 92,445 
+ Restricted bank deposits 21 - - 2,170 
+ Cash and cash equivalents 21 147,580 354,931 566,221 _______ _______ _______ 
+ 258,080 439,615 850,032 _______ _______ _______ 
+Current liabilities 
+ Trade and other payables 22 8,240 47,514 238,398 
+ Contract liabilities 23 - 1,094 12,974 
+ Lease liabilities 24 2,998 107,753 96,419 
+ Bank borrowings 25 - 32,361 95,123 
+ Deferred income 26 - 918 1,195 _______ _______ _______ 
+ 11,238 189,640 444,109 _______ _______ _______ 
+Net current assets 246,842 249,975 405,923 _______ _______ _______ 
+Total assets less current liabilities 396,099 972,279 1,038,110 _______ _______ _______ _______ _______ _______
+
+--- Page 5 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+CONSOLIDATED STATEMENTS OF FINANCIAL POSITION OF THE GROUP - continued 
+ 
+ As at 31 December 
+ NOTES 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+Non-current liabilities 
+ Lease liabilities 24 2,847 409,028 335,973 
+ Deferred tax liabilities 17 - 5,455 2,139 
+ Deferred income 26 5,000 3,005 21,198 
+ Financial liabilities on shares 
+with preferential rights 27 415,534 932,030 1,608,605 _______ _______ _______ 
+ 423,381 1,349,518 1,967,915 _______ _______ _______ 
+ (27,282) (377,239) (929,805) _______ _______ _______ _______ _______ _______ 
+Capital and reserves 
+ Paid-in capital 28 475 431 715 
+ Reserves 28 (27,757) (377,670) (930,520) _______ _______ _______ 
+Deficits attributable to owners of the Company (27,282) (377,239) (929,805) 
+ 
+Total deficits (27,282) (377,239) (929,805) _______ _______ _______ _______ _______ _______
+
+--- Page 6 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+STATEMENTS OF FINANCIAL POSITION OF THE COMPANY 
+ 
+ As at 31 December 
+ NOTES 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+Non-current assets 
+ Property, plant and equipment 13 66,747 73,708 47,582 
+ Right-of-use assets 14 - 531,124 441,194 
+ Investment in subsidiaries 35 21,570 171,648 147,817 
+ Intangible assets 15 - 127 115,374 
+ Interests in associates 16 - - 1,948 
+ Deferred tax assets 2,456 - 3,209 
+ Rental deposits 1,337 3,049 2,963 
+ Term deposits 21 66,534 89,735 - _______ _______ _______ 
+ 158,644 869,391 760,087 _______ _______ _______ 
+Current assets 
+ Trade and other receivables 19 54,346 75,266 169,339 
+ Financial assets at FVTPL 20 60,204 - - 
+ Contract costs 18 - 785 1,970 
+ Term deposits 21 - - 92,445 
+ Restricted bank deposits 21 - - 2,170 
+ Cash and cash equivalents 21 146,313 342,609 551,673 _______ _______ _______ 
+ 260,863 418,660 817,597 _______ _______ _______ 
+Current liabilities 
+ Trade and other payables 22 2,538 42,251 206,643 
+ Contract liabilities 23 - 1,094 12,974 
+ Lease liabilities 24 - 100,595 93,586 
+ Bank borrowings 25 - 32,361 65,203 
+ Deferred income 26 - 918 918 _______ _______ _______ 
+ 2,538 177,219 379,324 _______ _______ _______ 
+Net current assets 258,325 241,441 438,273 _______ _______ _______ 
+Total assets less current liabilities 416,969 1,110,832 1,198,360 _______ _______ _______ _______ _______ _______
+
+--- Page 7 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+STATEMENTS OF FINANCIAL POSITION OF THE COMPANY - continued 
+ 
+ As at 31 December 
+ NOTES 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+Non-current liabilities 
+ Lease liabilities 24 - 408,786 333,189 
+ Deferred tax liability - 37 - 
+ Deferred income 26 5,000 2,005 19,774 
+ Preferred shares 27 415,534 932,030 1,608,605 _______ _______ _______ 
+ 420,534 1,342,858 1,961,568 _______ _______ _______ 
+ (3,565) (232,026) (763,208) _______ _______ _______ _______ _______ _______ 
+Capital and reserves 
+ Registered capital 28 475 431 715 
+ Reserves 28 (4,040) (232,457) (763,923) _______ _______ _______ 
+Deficits attributable to owners of the Company (3,565) (232,026)
+ (763,208) 
+ 
+Total deficits (3,565) (232,026) (763,208) _______ _______ _______ _______ _______ _______
+
+--- Page 8 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海无问芯穹智能科技股份有限公司 
+ 
+CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY 
+ 
+ Paid-in Share Other Retained Non-controlling 
+ capital premium reserve earnings Subtotal interest Total 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+ 
+At 31 May 2023 - - - - - - - _______ _______ _______ _______ _______ _______ _______ 
+Loss and total comprehensive 
+ income for the year - - - (51,850) (51,850) - (51,850) 
+Capital injection 475 6,915 - - 7,390 - 7,390 
+Recognition of equity-settled 
+ Share-based payments - - 17,178 - 17,178 - 17,178 _______ _______ _______ _______ _______ _______ _______ 
+At 31 December 2023 475 6,915 17,178 (51,850) (27,282) - (27,282) _______ _______ _______ _______ _______ _______ _______ 
+Loss and total comprehensive 
+ income for the year - - - (378,163) (378,163) - (378,163) 
+Capital reduction (44) (2,411) - - (2,455) - (2,455) 
+Recognition of equity-settled 
+ Share-based payments - - 30,661 - 30,661 - 30,661 _______ _______ _______ _______ _______ _______ _______ 
+At 31 December 2024 431 4,504 47,839 (430,013) (377,239) - (377,239) 
+Loss and total comprehensive 
+ income for the year - - - (579,314) (579,314) - (579,314) 
+Capital injection 284 - - - 284 - 284 
+Recognition of equity-settled 
+ Share-based payments - - 26,464 - 26,464 - 26,464 _______ _______ _______ _______ _______ _______ _______ 
+At 31 December 2025 715 4,504 74,303 (1,009,327) (929,805) - (929,805) _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______
+
+--- Page 9 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+1. GENERAL INFORMATION 
+ 
+The Company was incorporated in the People’s Republic of China ("PRC") on 31 May 2023, as a 
+limited liability company under the Companies Law of the PRC. The addresses of the registered 
+office and the principal place of business of the Company are set out in the section headed 
+"Corporate Information" to the Prospectus. The Company was restructured from a limited 
+company to a joint-stock company on [XX XX 2026]. 
+ 
+ The Group is principally engaged in AI infrastructure services throughout the Track Record 
+Period. Details of the subsidiaries are disclosed in note [35]. 
+ 
+The Historical Financial Information are presented in RMB, which is also the functional currency 
+of the Company. 
+ 
+ 
+2. BASIS OF PREPARATION OF HISTORICAL FINANCIAL INFORMATION 
+ 
+ The Historical Financial Information has been prepared based on the accounting policies which 
+conform with IFRS Accounting Standards. In addition, the Historical Financial Information 
+include applicable disclosures required by the Rules Governing the Listing of Securities on The 
+Stock Exchange of Hong Kong Limited (“Listing Rules”) and by the Hong Kong Companies 
+Ordinance. 
+ 
+The statutory financial statements of the Company for the year ended 31 December 2024 and 
+2025, were prepared in accordance with the relevant accounting principles and regulations in the 
+PRC and were audited by Grant Thornton Certified Public Accountants LLP (
+致同會計師事務所(特
+殊普通合夥)). 
+ 
+[As at 31 December 2025, the Group had net liabilities of RMB929,805. The net liabilities 
+primarily arise from the financial liabilities on shares with preferential rights amounting 
+RMB1,608,605 as at 31 December 2025. On [date] 2025, the Company and the holders of the 
+shares with preferential rights have entered into a supplemental agreement, pursuant to which the 
+holders waived the preferred rights during the Company’s listing process and extended the trigger 
+event of redemption liability associated with requirement of a qualified initial public offering (the 
+“QIPO”) from[date] to [date]. Taking into account the financial resources available to the Group, 
+including cash and cash equivalents on hand and the supplementary agreement on the shares with 
+preferential rights as above, the directors of the Company (the“Directors”) believe that the 
+Group will have sufficient cash resources to satisfy its future working capital in the next twelve 
+months from the [reporting date]. Accordingly, the Directors consider that it is appropriate that 
+the Historical Financial Information is prepared on a going concern basis.]
+
+--- Page 10 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+3. APPLICATION OF NEW AND AMENDMENTS TO IFRS ACCOUNTING STANDARDS 
+ 
+ For the purpose of preparing the Historical Financial Information for the Track Record Period, the 
+Group has consistently applied the accounting policies which conform with IFRS Accounting 
+Standards issued by the IASB for the first time, which are mandatorily effective for the 
+accounting period beginning on 1 January 2025 throughout the Track Record Period. 
+ 
+ New and amendments to IFRS Accounting Standards in issue but not yet effective 
+ 
+ The Group has not early applied the following new and amendments to IFRS Accounting 
+Standards that have been issued but not yet effective: 
+ 
+ Amendments to IFRS 9 Amendments to the Classification and Measurement of 
+ and IFRS 7 Financial Instruments
+2 
+ Amendments to IFRS 9 Contracts Referencing Nature- dependent Electricity2 
+ and IFRS 7 
+ Amendments to IFRS 10 Sale or Contribution of Assets between an Investor 
+ and IAS 28 and its Associate or Joint Venture1 
+ Amendments to IFRS Annual Improvements to IFRS Accounting Standards 
+ Accounting Standard - Volume 112 
+ IFRS 18 Presentation and Disclosure in Financial Statements3 
+ 
+1 Effective for annual periods beginning on or after a date to be determined. 
+2 Effective for annual periods beginning on or after 1 January 2026. 
+3 Effective for annual periods beginning on or after 1 January 2027. 
+ 
+ Except for the new IFRS Accounting Standard mentioned below, the directors of the Company 
+anticipate that the application of all amendments to IFRS Accounting Standards will have no 
+material impact on the Group's financial position and performance in the foreseeable future. 
+ 
+ IFRS 18 Presentation and Disclosure in Financial Statements 
+ 
+ IFRS 18 Presentation and Disclosure in Financial Statements, which sets out requirements on 
+ presentation and disclosures in financial statements, will replace IAS 1 Presentation of Financial 
+ Statements. This new IFRS Accounting Standard, while carrying forward many of the requirements 
+in IAS 1, introduces new requirements to present specified categories and defined subtotals in the 
+statement of profit or loss; provide disclosures on management -defined performance measures in 
+the notes to the financial statements and improve aggregation and disaggregation of information to 
+be disclosed in the financial statements. In addition, some IAS 1 paragraphs have been moved to 
+IAS 8 Accounting Policies Changes in Accounting Estimates and Errors (the title of which will be 
+changed to Basis of Preparation of Financial Statements upon effective of I FRS 18) and I FRS 7. 
+Minor amendments to IAS 7 Statement of Cash Flows and IAS 33 Earnings per Share are also made.
+
+--- Page 11 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+3. APPLICATION OF NEW AND AMENDMENTS TO IFRS ACCOUNTING STANDARDS - 
+continued 
+ 
+ IFRS 18 Presentation and Disclosure in Financial Statements - continued 
+ 
+IFRS 18 and amendments to other standards, will be effective for annual periods beginning on or 
+after 1 January 2027, with early application permitted. 
+ 
+IRS 18 requires retrospective application with specific transition provisions. The application of 
+the new standard is not expected to have significant impact on the financial performance and 
+positions of the Group in terms of recognition and measurement. However, it is expected to affect 
+the structure and presentation of the consolidated statement of profit or loss. 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION 
+ 
+The Historical Financial Information has been prepared in accordance with the accounting 
+policies which conform with IFRS Accounting Standards issued by the IASB. For the purpose of 
+preparation of the Historical Financial Information, information is considered material if such 
+information is reasonably expected to influence decisions made by primary users. In addition, the 
+Historical Financial Information includes applicable disclosures required by the Rules Governing 
+the Listing of Securities on The Stock Exchange of Hong Kong Limited (the "Listing Rules") and 
+by the Hong Kong Companies Ordinance. 
+ 
+ Basis of consolidation 
+ 
+ The Historical Financial Information incorporates the financial statements of the Company and 
+entities controlled by the Company and its subsidiaries. Control is achieved when the Company: 
+ 
+• has power over the investee; 
+• is exposed, or has rights, to variable returns from its involvement with the investee; and 
+• has the ability to use its power to affect its returns. 
+ 
+ The Group reassesses whether or not it controls an investee if facts and circumstances indicate 
+that there are changes to one or more of the three elements of control listed above. 
+ 
+ When necessary, adjustments are made to the financial statements of subsidiaries to bring their 
+accounting policies into line with the Group's accounting policies. 
+ 
+ All intragroup assets and liabilities, equity, income, expenses and cash flows relating to 
+transactions between members of the Group are eliminated in full on consolidation. 
+ 
+ Non-controlling interests in subsidiaries are presented separately from the Group's equity therein, 
+which represent present ownership interests entitling their holders to a proportionate share of net 
+assets of the relevant subsidiaries upon liquidation.
+
+--- Page 12 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Investments in subsidiaries 
+ 
+Investments in subsidiaries are included in the statements of financial position of the Company at 
+cost less any identified impairment loss, if any. 
+ 
+Revenue from contracts with customers 
+ 
+ Information about the Group's accounting policies relating to contracts with customers is provided 
+in note [6] and note [18]. 
+ 
+ Leases 
+ 
+ The Group assesses whether a contract is or contains a lease based on the definition under IFRS 
+16 at inception of the contract. Such contract will not be reassessed unless the terms and 
+conditions of the contract are subsequently changed. 
+ 
+ The Group as a lessee 
+ 
+Short-term leases 
+ 
+The Group applies the short-term lease recognition exemption to leases that have a lease term of 
+12 months or less from the commencement date and do not contain a purchase option. Lease 
+payments on short-term leases are recognised as expense on a straight-line basis is more 
+representative of the time pattern in which economic benefits from the leased assets are 
+consumed. 
+ 
+ Right-of-use assets 
+ 
+The cost of right-of-use assets includes: 
+ 
+• the amount of the initial measurement of the lease liabilities; 
+• any lease payments made at or before the commencement date, less any lease incentives 
+received; 
+• any initial direct costs incurred by the Group; and 
+• an estimate of costs to be incurred by the Group in dismantling and removing the 
+underlying assets, restoring the site on which it is located or restoring the underlying asset 
+to the condition required by the terms and conditions of the lease. 
+ 
+Right-of-use assets are measured at cost, less any accumulated depreciation and impairment 
+losses, and adjusted for any remeasurement of lease liabilities. 
+ 
+Right-of-use assets are depreciated on a straight-line basis over the shorter of its estimated useful 
+life and the lease term. 
+ 
+The Group presents right-of-use assets as a separate line item on the consolidated statements of 
+financial position.
+
+--- Page 13 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Leases - continued 
+ 
+ The Group as a lessee - continued 
+ 
+ Refundable rental deposits 
+ 
+Refundable rental deposits paid are accounted under IFRS 9 and initially measured at fair value. 
+Adjustments to fair value at initial recognition are considered as additional lease payments and 
+included in the cost of right-of-use assets. 
+ 
+Lease liabilities 
+ 
+At the commencement date of a lease, the Group recognises and measures the lease liability at the 
+present value of lease payments that are unpaid at that date. In calculating the present value of 
+lease payments, the Group uses the incremental borrowing rate at the lease commencement date if 
+the interest rate implicit in the lease is not readily determinable. The incremental borrowing rate 
+depends on the term, currency and start date of the lease and is determined based on a series of 
+inputs including: [] 
+ 
+The lease payments include fixed payments (including in-substance fixed payments) less any lease 
+incentives receivable. 
+ 
+Variable lease payments that reflect changes in market rental rates are initially measured using the 
+market rental rates as at the commencement date. Variable lease payments that do not depend on 
+an index or a rate are not included in the measurement of lease liabilities and right-of-use assets, 
+and are recognised as expense in the period in which the event or condition that triggers the 
+payment occurs. 
+ 
+After the commencement date, lease liabilities are adjusted by interest accretion and lease 
+payments. 
+ 
+The Group remeasures lease liabilities (and makes a corresponding adjustment to the related right-
+of-use assets) whenever: 
+ 
+• the lease term has changed, in which case the related lease liability is remeasured by 
+discounting the revised lease payments using a revised discount rate at the date of 
+reassessment. 
+• a lease contract is modified and the lease modification is not accounted for as a separate 
+lease (see below for the accounting policy for "lease modifications"). 
+ 
+The Group presents lease liabilities as a separate line item on the consolidated statement of 
+financial position.
+
+--- Page 14 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Leases - continued 
+ 
+ The Group as a lessee - continued 
+ 
+Lease modifications 
+ 
+The Group accounts for a lease modification as a separate lease if: 
+ 
+• the modification increases the scope of the lease by adding the right to use one or more 
+underlying assets; and 
+• the consideration for the leases increases by an amount commensurate with the stand-
+alone price for the increase in scope and any appropriate adjustments to that stand-alone 
+price to reflect the circumstances of the particular contract. 
+ 
+For a lease modification that is not accounted for as a separate lease, the Group remeasures the 
+lease liability, less any lease incentive receivable, based on the lease term of the modified lease by 
+discounting the revised lease payments using a revised discount rate at the effective date of the 
+modification. 
+ 
+The Group accounts for the remeasurement of lease liabilities by making corresponding 
+adjustments to the relevant right-of-use asset. 
+ 
+A lessee applying the practical expedient accounts for changes in lease payments resulting from 
+rent concessions the same way it would account for the changes applying IFRS 16 if the changes 
+are not a lease modification. Forgiveness or waiver of lease payments are accounted for as 
+variable lease payments. The related lease liabilities are adjusted to reflect the amounts forgiven 
+or waived with a corresponding adjustment recognised in the profit or loss in the period in which 
+the event occurs. 
+ 
+Government grants 
+ 
+Government grants are not recognised until there is reasonable assurance that the Group will 
+comply with the conditions attaching to them and that the grants will be received. 
+ 
+Government grants are recognised in profit or loss on a systematic basis over the periods in which 
+the Group recognises as expenses the related costs for which the grants are intended to 
+compensate. Specifically, government grants whose primary condition is that the Group should 
+purchase, construct or otherwise acquire non-current assets are recognised as deferred income in 
+the consolidated statement of financial position and transferred to profit or loss on a systematic 
+and rational basis over the useful lives of the related assets. 
+ 
+Government grants related to income that are receivable as compensation for expenses or losses 
+already incurred or for the purpose of giving immediate financial support to the Group with no 
+future related costs are recognised in profit or loss in the period in which they become receivable. 
+Such grants are presented under "other income".
+
+--- Page 15 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Employee benefits 
+ 
+Retirement benefit costs 
+ 
+Payments to state-managed retirement benefit schemes are recognised as an expense when 
+employees have rendered service entitling them to the contributions. 
+ 
+Short-term employee benefits 
+ 
+Short-term employee benefits are recognised at the undiscounted amount of the benefits expected 
+to be paid as and when employees rendered the services. All short-term employee benefits are 
+recognised as an expense unless another IFRS Accounting Standard requires or permits the 
+inclusion of the benefit in the cost of an asset. 
+ 
+A liability is recognised for benefits accruing to employees (such as wages and salaries) after 
+deducting any amount already paid. 
+ 
+Taxation 
+ 
+Income tax expense represents the sum of current and deferred income tax expense. 
+ 
+The tax currently payable is based on taxable profit for the year. Taxable profit differs from profit 
+before tax because of income or expense that are taxable or deductible in other years, and items that 
+are never taxable or deductible. The Group 's liability for current tax is calculated using tax rates 
+that have been enacted or substantively enacted by the end of each reporting period. 
+ 
+Deferred tax is recognised on temporary differences between the carrying amounts of assets and 
+liabilities in the Historical Financial Information and the corresponding tax bases used in the 
+computation of taxable profit. Deferred tax liabilities are generally recognised for all taxable 
+temporary differences. Deferred tax assets are generally recognised for all deductible temporary 
+differences to the extent that it is probable that taxable profit will be available against which those 
+deductible temporary di fferences can be utilised. Such deferred tax assets and liabilities are not 
+recognised if the temporary difference arises from the initial recognition ( other than in a business 
+combination) of assets and liabilities in a transaction that affects neither the taxable profit nor the 
+accounting profit and at the time of the transaction does not give rise to equal taxable and deductible 
+temporary differences. 
+ 
+The carrying amount of deferred tax assets is reviewed at the end of each reporting period and 
+reduced to the extent that it is no longer probable that sufficient taxable profits will be available to 
+allow all or part of the asset to be recovered. 
+ 
+Deferred tax assets and liabilities are measured at the tax rates that are expected to apply in the 
+period in which the liability is settled or the asset is realised, based on tax rates (and tax laws) that 
+have been enacted or substantively enacted by the end of each reporting period.
+
+--- Page 16 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Taxation - continued 
+ 
+The measurement of deferred tax liabilities and assets reflects the tax consequences that would 
+follow from the manner in which the Group expects, at the end of each reporting period, to 
+recover or settle the carrying amount of its assets and liabilities. 
+ 
+For the purposes of measuring deferred tax for leasing transactions in which the Group recognises 
+the right-of-use asset and the related lease liabilities, the Group first determines whether the tax 
+deductions are attributable to the right-of-use asset or the lease liabilities. 
+ 
+For leasing transactions in which the tax deductions are attributable to the lease liabilities, the 
+Group applies IAS 12 Income Taxes requirements to lease liabilities and the related assets 
+separately. The Group recognises a deferred tax asset related to lease liabilities to the extent that it 
+is probable that taxable profit will be available against which the deductible temporary difference 
+can be utilised and a deferred tax liability for all taxable temporary differences. 
+ 
+Deferred tax assets and liabilities are offset when there is a legally enforceable right to set off 
+current tax assets against current tax liabilities and when they relate to income taxes levied to the 
+same taxable entity by the same taxation authority. 
+ 
+Current and deferred tax are recognised in profit or loss. 
+ 
+Property, plant and equipment 
+ 
+ Property, plant and equipment are tangible assets that are held for use in supply of goods or 
+services, or for administrative purposes. Property, plant and equipment are stated in the 
+consolidated statements of financial position at cost less subsequent accumulated depreciation and 
+subsequent accumulated impairment losses, if any. 
+ 
+ Depreciation is recognised so as to write off the cost of assets less their residual values over their 
+estimated useful lives, using the straight-line method. The estimated useful lives, residual values 
+and depreciation method are reviewed at the end of each reporting period, with the effect of any 
+changes in estimate accounted for on a prospective basis. 
+ 
+ An item of property, plant and equipment is derecognised upon disposal or when no future 
+economic benefits are expected to arise from continued use of the asset. Any gain or loss arising 
+on the disposal or retirement of an item of property, plant and equipment is determined as the 
+difference between the sales proceeds and the carrying amount of the asset and is recognised in 
+profit or loss.
+
+--- Page 17 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Intangible assets 
+ 
+Intangible assets acquired separately 
+ 
+Intangible assets with finite useful lives that are acquired separately are carried at costs less 
+accumulated amortisation and any accumulated impairment losses. Amortisation for intangible 
+assets with finite useful lives is recognised on a straight-line basis over their estimated useful 
+lives. The estimated useful life and amortisation method are reviewed at the end of each reporting 
+period, with the effect of any changes in estimate being accounted for on a prospective basis. 
+ 
+Internally-generated intangible assets - research and development expenditure 
+ 
+Expenditure on research activities is recognised as an expense in the period in which it is incurred. 
+ 
+An internally-generated intangible asset arising from development activities (or from the 
+development phase of an internal project) is recognised if, and only if, all of the following have 
+been demonstrated: 
+ 
+• the technical feasibility of completing the intangible asset so that it will be available for 
+use or sale; 
+• the intention to complete the intangible asset and use or sell it; 
+• the ability to use or sell the intangible asset; 
+• how the intangible asset will generate probable future economic benefits; 
+• the availability of adequate technical, financial and other resources to complete the 
+development and to use or sell the intangible asset; and 
+• the ability to measure reliably the expenditure attributable to the intangible asset during its 
+development. 
+ 
+The amount initially recognised for internally-generated intangible asset is the sum of the 
+expenditure incurred from the date when the intangible asset first meets the recognition criteria 
+listed above. Where no internally generated intangible asset can be recognised, development 
+expenditure is charged to profit or loss in the period in which it is incurred. 
+ 
+Subsequent to initial recognition, internally-generated intangible assets are reported at cost less 
+accumulated amortisation and accumulated impairment losses (if any), on the same basis as 
+intangible assets acquired separately.
+
+--- Page 18 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Impairment on property, plant and equipment, right-of-use assets, contract costs and intangible 
+assets 
+ 
+At the end of each reporting period, the Group reviews the carrying amounts of property, plant 
+and equipment and right-of-use assets to determine whether there is any indication that those 
+assets have suffered an impairment loss. If any such indication exists, the recoverable amount of 
+the relevant asset is estimated in order to determine the extent of the impairment loss (if any). 
+ 
+The recoverable amount of property and equipment, right-of-use assets, and intangible assets are 
+estimated individually. When it is not possible to estimate the recoverable amount individually, 
+the Group estimates the recoverable amount of the cash-generating unit to which the asset 
+belongs. 
+ 
+In testing a cash-generating unit for impairment, corporate assets are allocated to the relevant 
+cash-generating unit when a reasonable and consistent basis of allocation can be established, or 
+otherwise they are allocated to the smallest group of cash generating units for which a reasonable 
+and consistent allocation basis can be established. The recoverable amount is determined for the 
+cash generating unit or group of cash-generating units to which the corporate asset belongs, and is 
+compared with the carrying amount of the relevant cash-generating unit or group of cash-
+generating units. 
+ 
+Before the Group recognises an impairment loss for assets capitalised as contract costs under 
+IFRS 15, the Group assesses and recognises any impairment loss on other assets related to the 
+relevant contracts in accordance with applicable standards. Then, impairment loss, if any, for 
+assets capitalised as contract costs is recognised to the extent the carrying amounts exceeds the 
+remaining amount of consideration that the Group expects to receive in exchange for related 
+goods or services less the costs which relate directly to providing those goods or services that 
+have not been recognised as expenses. The assets capitalised as contract costs are then included in 
+the carrying amount of the cash-generating unit to which they belong for the purpose of 
+evaluating impairment of that cash-generating unit. 
+ 
+Recoverable amount is the higher of fair value less costs of disposal and value in use. In assessing 
+value in use, the estimated future cash flows are discounted to their present value using a pre-tax 
+discount rate that reflects current market assessments of the time value of money and the risks 
+specific to the asset (or a cash-generating unit) for which the estimates of future cash flows have 
+not been adjusted. 
+ 
+If the recoverable amount of an asset (or a cash-generating unit) is estimated to be less than its 
+carrying amount, the carrying amount of the asset (or a cash-generating unit) is reduced to its 
+recoverable amount. For corporate assets or portion of corporate assets which cannot be allocated 
+on a reasonable and consistent basis to a cash-generating unit, the Group compares the carrying 
+amount of a group of cash-generating units, including the carrying amounts of the corporate assets 
+or portion of corporate assets allocated to that group of cash-generating units, with the recoverable 
+amount of the group of cash-generating units. In allocating the impairment loss, the impairment 
+loss is allocated to reduce the carrying amount of other assets on a pro-rata basis based on the 
+carrying amount of each asset in the unit or the group of cash-generating units. The carrying
+
+--- Page 19 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Impairment on property, plant and equipment, right-of-use assets, contract costs and intangible 
+assets - continued 
+ 
+amount of an asset is not reduced below the highest of its fair value less costs of disposal (if 
+measurable), its value in use (if determinable) and zero. The amount of the impairment loss that 
+would otherwise have been allocated to the asset is allocated pro rata to the other assets of the unit 
+or the group of cash-generating units. An impairment loss is recognised immediately in profit or 
+loss. 
+ 
+When an impairment loss subsequently reverses, the carrying amount of the asset (or cash 
+generating unit or a group of cash-generating units) is increased to the revised estimate of its 
+recoverable amount, but so that the increased carrying amount does not exceed the carrying 
+amount that would have been determined had no impairment loss been recognised for the asset (or 
+a cash generating unit or a group of cash-generating units) in prior years. A reversal of an 
+impairment loss is recognised immediately in profit or loss. 
+ 
+Cash and cash equivalents 
+ 
+For the purposes of the consolidated statement of cash flows, cash and cash equivalents consist of: 
+ 
+(a) cash, which comprises of cash on hand and demand deposits, excluding bank balances that 
+are subject to regulatory restrictions that result in such balances no longer meeting the definition 
+of cash; and 
+(b) cash equivalents, which comprises of short-term (generally with original maturity of three 
+months or less), highly liquid investments that are readily convertible to a known amount of cash 
+and which are subject to an insignificant risk of changes in value. Cash equivalents are held for 
+the purpose of meeting short-term cash commitments rather than for investment or other purposes. 
+ 
+ 
+ Financial instruments 
+ 
+ Financial assets and financial liabilities are recognised when a group entity becomes a party to the 
+contractual provisions of the instrument. All regular way purchases or sales of financial assets are 
+recognised and derecognised on a trade date basis. 
+ 
+Financial assets and financial liabilities are initially measured at fair value except for trade 
+receivables arising from contracts with customers which are initially measured in accordance with 
+IFRS 15 Revenue from Contracts with Customers. Transaction costs that are directly attributable 
+to the acquisition or issue of financial assets and financial liabilities (other than financial assets at 
+FVTPL) are added to or deducted from the fair value of the financial assets or financial liabilities, 
+as appropriate, on initial recognition. 
+Transaction costs directly attributable to the acquisition of 
+financial assets or financial liabilities at FVTPL are recognised immediately in profit or loss.
+
+--- Page 20 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+ 
+4 MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+Financial instruments - continued 
+ 
+ The effective interest method is a method of calculating the amortised cost of a financial asset or 
+financial liability and of allocating interest income and interest expense over the relevant periods. 
+The effective interest rate is the rate that exactly discounts estimated future cash receipts and 
+payments (including all fees paid or received that form an integral part of the effective interest 
+rate, transaction costs and other premiums or discounts) through the expected life of the financial 
+asset or financial liability, or, where appropriate, a shorter period, to the net carrying amount on 
+initial recognition. 
+ 
+ Financial assets 
+ 
+ All regular way purchases or sales of financial assets are recognised and derecognised on a trade 
+date basis. Regular way purchases or sales are purchases or sales of financial assets t 
+at require delivery of assets within the time frame established generally by regulation or 
+convention in the market place concerned. 
+ 
+ All recognised financial assets are measured subsequently in their entirety at either amortised cost 
+or fair value, depending on the classification of the financial assets. 
+ 
+ Classification and subsequent measurement of financial assets 
+ 
+ Financial assets that meet the following conditions are subsequently measured at amortised cost: 
+ 
+• the financial asset is held within a business model whose objective is to collect contractual 
+cash flows; and 
+ 
+• the contractual terms give rise on specified dates to cash flows that are solely payments of 
+principal and interest on the principal amount outstanding. 
+ 
+ All other financial assets are subsequently measured at fair value. 
+ 
+ Amortised cost and interest income 
+ 
+ Interest income is recognised using the effective interest method for financial assets measured 
+subsequently at amortised cost. Interest income is calculated by applying the effective interest 
+ 
+ rate to the gross carrying amount of a financial asset, except for financial assets that have 
+subsequently become credit-impaired. For financial assets that have subsequently become credit- 
+ impaired, interest income is recognised by applying the effective interest rate to the amortised cost 
+of the financial asset from the next reporting period. If the credit risk on the credit-impaired 
+financial instrument improves so that the financial asset is no longer credit-impaired, interest 
+income is recognised by applying the effective interest rate to the gross carrying amount of the 
+financial asset from the beginning of the reporting period following the determination that the 
+asset is no longer credit-impaired.
+
+--- Page 21 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Financial instruments - continued 
+ 
+ Financial assets - continued 
+ 
+ Classification and subsequent measurement of financial assets - continued 
+ 
+Financial assets at FVTPL 
+ 
+Financial assets that do not meet the criteria for being measured at amortised cost are measured at 
+FVTPL. 
+ 
+Financial assets at FVTPL are measured at fair value at the end of each reporting period, with any 
+fair value gains or losses recognised in profit or loss. The net fair value gain or loss recognised in 
+profit or loss includes any dividend or interest earned on the financial asset and is included in the 
+"other gains and losses" line item in profit or loss. 
+ 
+ Impairment of financial assets subject to impairment assessment under IFRS 9 
+ 
+ The Group performs impairment assessment under expected credit loss ("ECL") model on 
+financial assets (including trade and other receivables, amounts due from related parties and cash 
+and cash equivalents) which are subject to impairment assessment under IFR 9. The amount of 
+ECL is updated at each reporting date to reflect changes in credit risk since initial recognition. 
+ 
+ Lifetime ECL represents the ECL that will result from all possible default events over the 
+expected life of the relevant instrument. In contrast, 12-month ECL ("12m ECL") represents the 
+portion of lifetime ECL that is expected to result from default events that are possible within 12 
+months after the reporting date. Assessments are done based on the Group's historical credit loss 
+experience, adjusted for factors that are specific to the debtors, general economic conditions and 
+an assessment of past events and current conditions at the reporting date as well as the forecast of 
+future economic conditions. 
+ 
+ The Group always recognises lifetime ECL for trade receivables, which are assessed individually 
+based on internal credit rating. 
+ 
+For all other instruments, the Group measures the loss allowance equal to 12m ECL, unless there 
+has been a significant increase in credit risk since initial recognition, in which case the Group 
+recognises lifetime ECL. The assessment of whether lifetime ECL should be recognised is based 
+on significant increases in the likelihood or risk of a default occurring since initial recognition.
+
+--- Page 22 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Financial instruments - continued 
+ 
+ Financial assets - continued 
+ 
+Impairment of financial assets subject to impairment assessment under IFRS 9 - continued 
+ 
+(i) Significant increase in credit risk 
+ 
+ In assessing whether the credit risk has increased significantly since initial recognition, the 
+Group compares the risk of a default occurring on the financial instrument as at each 
+reporting date with the risk of a default occurring on the financial instrument as at the date 
+of initial recognition. In making this assessment, the Group considers both quantitative 
+and qualitative information that is reasonable and supportable, including historical 
+experience and forward-looking information that is available without undue cost or effort. 
+Forward-looking information considered includes the future prospects of the industries in 
+which the Group’s debtors operate, obtained from [economic expert reports, financial 
+analysts, governmental bodies, relevant think-tanks and other similar organisations], as 
+well as consideration of various external sources of actual and forecast economic 
+information that relate to the Group's core operations. 
+ 
+ In particular, the following information is taken into account when assessing whether 
+credit risk has increased significantly: 
+ 
+• an actual or expected significant deterioration in the financial instrument's external 
+(if available) or internal credit rating; 
+• significant deterioration in external market indicators of credit risk, e.g. a 
+significant increase in the credit spread, the credit default swap prices for the 
+debtor; 
+• existing or forecast adverse changes in business, financial or economic conditions 
+that are expected to cause a significant decrease in the debtor's ability to meet its 
+debt obligations; 
+• an actual or expected significant deterioration in the operating results of the debtor; 
+• an actual or expected significant adverse change in the regulatory, economic, or 
+technological environment of the debtor that results in a significant decrease in the 
+debtor's ability to meet its debt obligations. 
+ 
+ Irrespective of the outcome of the above assessment, the Group presumes that the credit 
+risk has increased significantly since initial recognition when contractual payments are 
+more than 30 days past due, unless the Group has reasonable and supportable information 
+that demonstrates otherwise. 
+ 
+ The Group regularly monitors the effectiveness of the criteria used to identify whether 
+there has been a significant increase in credit risk and revises them as appropriate to 
+ensure that the criteria are capable of identifying significant increase in credit risk before 
+the amount becomes past due.
+
+--- Page 23 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Financial instruments - continued 
+ 
+ Financial assets - continued 
+ 
+ Impairment of financial assets subject to impairment assessment under IFRS 9 - continued 
+ 
+(ii) Definition of default 
+ 
+ For internal credit risk management, the Group considers an event of default occurs when 
+information developed internally or obtained from external sources indicates that the 
+debtor is unlikely to pay its creditors, including the Group, in full (without taking into 
+account any collaterals held by the Group). 
+ 
+ Irrespective of the above, the Group considers that default has occurred when a financial 
+asset is more than 90 days past due unless the Group has reasonable and supportable 
+information to demonstrate that a more lagging default criterion is more appropriate. 
+ 
+(iii) Credit-impaired financial assets 
+ 
+ A financial asset is credit-impaired when one or more events of default that have a 
+detrimental impact on the estimated future cash flows of that financial asset have occurred. 
+Evidence that a financial asset is credit-impaired includes observable data about the 
+following events: 
+ 
+• significant financial difficulty of the issuer or the borrower; 
+• a breach of contract, such as a default or past due event; 
+• the lender(s) of the borrower, for economic or contractual reasons relating to the 
+borrower's financial difficulty, having granted to the borrower a concession(s) that 
+the lender(s) would not otherwise consider; or 
+• it is becoming probable that the borrower will enter bankruptcy or other financial 
+reorganisation. 
+• the disappearance of an active market for that financial asset because of financial 
+difficulties. 
+ 
+(iv) Write-off policy 
+ 
+ The Group writes off a financial asset when there is information indicating that the 
+counterparty is in severe financial difficulty and there is no realistic prospect of recovery, 
+for example, when the counterparty has been placed under liquidation or has entered into 
+bankruptcy proceedings. Financial assets written off may still be subject to enforcement 
+activities under the Group's recovery procedures, taking into account legal advice where 
+appropriate. A write-off constitutes a derecognition event. Any subsequent recoveries are 
+recognised in profit or loss.
+
+--- Page 24 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Financial instruments - continued 
+ 
+ Financial assets - continued 
+ 
+ Impairment of financial assets subject to impairment assessment under IFRS 9 - continued 
+ 
+(v) Measurement and recognition of ECL 
+ 
+ The measurement of ECL is a function of the probability of default, loss given default (i.e. 
+the magnitude of the loss if there is a default) and the exposure at default. The assessment 
+of the probability of default and loss given default is based on historical data adjusted by 
+forward-looking information. Estimation of ECL reflects an unbiased and probability-
+weighted amount that is determined with the respective risks of default occurring as the 
+weights. 
+ 
+ Generally, the ECL is the difference between all contractual cash flows that are due to the 
+Group in accordance with the contract and the cash flows that the Group expects to 
+receive, discounted at the effective interest rate determined at initial recognition. 
+ 
+Interest income is calculated based on the gross carrying amount of the financial asset 
+unless the financial asset is credit-impaired, in which case interest income is calculated 
+based on amortised cost of the financial asset. 
+ 
+The Group recognises an impairment gain or loss in profit or loss for all financial 
+instruments by adjusting their carrying amount, with the exception of trade receivables 
+where the corresponding adjustment is recognised through a loss allowance account. 
+ 
+Derecognition of financial assets 
+ 
+ The Group derecognises a financial asset only when the contractual rights to the cash flows from 
+the asset expire. On derecognition of a financial asset measured at amortised cost, the difference 
+between the asset's carrying amount and the sum of the consideration received and receivable is 
+recognised in profit or loss. 
+ 
+Financial liabilities and equity instruments 
+ 
+ Classification as debt or equity 
+ 
+ Debt and equity instruments are classified as either financial liabilities or as equity in accordance 
+with the substance of the contractual arrangements and the definitions of a financial liability and 
+an equity instrument.
+
+--- Page 25 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+4. MATERIAL ACCOUNTING POLICY INFORMATION - continued 
+ 
+ Financial instruments - continued 
+ 
+ Financial liabilities and equity instruments - continued 
+ 
+ Equity instruments 
+ 
+ An equity instrument is any contract that evidences a residual interest in the assets of the Group 
+after deducting all of its liabilities. Equity instruments issued by the Company are recognised at 
+the proceeds received, net of direct issue costs. 
+ 
+Financial liabilities at amortised cost 
+ 
+ Financial liabilities including trade and other payables, borrowings and preferred shares are 
+subsequently measured at amortised cost, using the effective interest method. 
+ 
+ Derecognition of financial liabilities 
+ 
+ The Group derecognises financial liabilities when, and only when, the Group's obligations are 
+discharged, cancelled or have expired. The difference between the carrying amount of the 
+financial liability derecognised and the consideration paid and payable is recognised in profit or 
+loss. 
+ 
+ 
+5. KEY SOURCES OF ESTIMATION UNCERTAINTY 
+ 
+ In the application of the Group's accounting policies, the directors of the Company are required to 
+make estimates and assumptions about the carrying amounts of assets and liabilities that are not 
+readily apparent from other sources. The estimates and underlying assumptions are based on 
+historical experience and other factors that are considered to be relevant. Actual results may 
+differ from these estimates. 
+ 
+ The estimates and underlying assumptions are reviewed on an ongoing basis. Revisions to 
+accounting estimates are recognised in the period in which the estimate is revised if the revision 
+affects only that period, or in the period of the revision and future periods if the revision affects 
+both current and future periods. 
+ 
+ The following are the key assumptions concerning the future, and other key sources of estimation 
+uncertainty at the end of each reporting period that may have a significant risk of causing a 
+material adjustment to the carrying amounts of assets and liabilities within the next financial year.
+
+--- Page 26 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+5. KEY SOURCES OF ESTIMATION UNCERTAINTY - continued 
+ 
+Provision of ECL for trade receivables 
+ 
+[The assessment of the correlation among historical observed default rates, forecast economic 
+conditions and ECLs is a significant estimate. The amount of ECLs is sensitive to changes in 
+circumstances and forecast economic conditions. The Group’s historical credit loss experience 
+and forecast of economic conditions may also not be representative of a customer’s actual default 
+in the future. The information about the ECLs on the Group’s trade receivables is disclosed in 
+notes 19 and 30 to the Historical Financial Information.] 
+ 
+Recognition of equity-settled share-based payment expenses 
+ 
+[The share-based payment expenses are calculated using the fair value of the share rewards at the 
+grant date. During the years ended December 31, 2023, 2024 and 2025, share-based payment 
+expenses of RMB17,178,000, RMB30,661,000 and RMB26,464,000, respectively, are 
+recognised. Discounted cash flow model is used to determine the fair value of the share with key 
+assumptions including discount rate, expected volatility and risk-free interest rate. Changes in 
+these assumptions could significantly affect the fair value of share awards at the grant date and 
+hence the amount of compensation expenses the Group recognise in the Historical Financial 
+Information. Details of the share-based payment expenses are disclosed in Note 32. ]
+
+--- Page 27 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+6. REVENUE AND SEGMENT INFORMATION 
+ 
+Disaggregation of revenue from contracts with customers 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Types of revenue line: 
+ Industry Solution - 4,197 52,022 
+ Platform Software - 5,883 12,576 
+ Model-as-a-Service ("MaaS") - - 10,947 _______ _______ _______ 
+ - 10,080 75,545 _______ _______ _______ _______ _______ _______ 
+ Timing of revenue recognition: 
+ At a point in time - 10,080 64,598 
+ Over time - - 10,947 _______ _______ _______ 
+ - 10,080 75,545 _______ _______ _______ _______ _______ _______ 
+ 
+Performance obligations for contracts with customers and revenue recognition policies 
+ 
+ (a) Industry Solution 
+ 
+The revenue of industry solution service is recognized at the point in time when the software 
+platform and related services are delivered to the customer’s designated place, inspected and 
+accepted by the customer. The payment is generally due within 1- 3 months from delivery. 
+ 
+ (b) Platform Software 
+ 
+The revenue of platform software service is recognised at the point in time when the software are 
+delivered to the customer, inspected and accepted by the customer. The payment is generally due 
+within 1- 3 months from delivery. 
+ 
+ (c) MaaS 
+ 
+The Group provides MAAS through infrastructure. For usage -based contracts, revenue is 
+recognised as services are rendered based on the customer’s consumption of resources.
+
+--- Page 28 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+6. REVENUE AND SEGMENT INFORMATION - continued 
+ 
+Segment information 
+ 
+Information reported to the chief executive officer of the Company, who is identified as the chief 
+operating decision maker ("CODM") of the Company, in order to allocate resources and to assess 
+performance, focuses on the operating results of the Group as a whole as the Group's resources are 
+integrated and no discrete operating segment financial information is reviewed by the CODM. 
+Accordingly, no operating segment information is presented. 
+ 
+Geographical information 
+ 
+Information about the Group’s revenue is presented based on the incorporated place of the customer 
+and non-current assets are all located in the PRC. 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Mainland China - 7,917 72,787 
+ Overseas - 2,163 2,758 _______ _______ _______ 
+ - 10,080 75,545 _______ _______ _______ _______ _______ _______ 
+ 
+ 
+Information about major customers 
+ 
+Revenue from customers of the corresponding years contributing over 10% of the total revenue of 
+the Group are as follows: 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+Customer A - 5,028 2,199 
+Customer B - 2,163 - 
+Customer C - - 10,717 
+Customer D - - 9,427
+
+--- Page 29 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ __________________ 
+7. OTHER INCOME 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Government grants (note) 1,223 21,990 23,162
+ Interest income - 7,473 8,302 
+ Others - 7,825 4,206 _______ _______ _______ 
+ 1,223 37,288 35,670 _______ _______ _______ _______ _______ _______ 
+ 
+ Note: Government grants mainly represent subsidies received from local governments in Beijing, 
+Shanghai to reward for contribution by the subsidiaries to the local economic growth or for 
+industry development. There are no unfulfilled conditions or contingencies relating to these 
+grants. 
+ 
+ 
+8. FINANCE COSTS 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Interest on financial liabilities on shares 
+ with preferential rights 9,904 64,055 111,282 
+ Interest on lease liabilities - 6,257 21,180 
+ Interest on bank borrowings - 25 1,599 _______ _______ _______ 
+ 9,904 70,337 134,061 _______ _______ _______ _______ _______ _______
+
+--- Page 30 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+9. INCOME TAX CREDIT 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ PRC Enterprise Income Tax 
+ Current tax - - - _______ _______ _______ 
+ 
+ Deferred tax credit 4,355 2,249 3,354 _______ _______ _______ 
+ 4,355 2,249 3,354 _______ _______ _______ _______ _______ _______ 
+ 
+Under the Law of the PRC on Enterprise Income Tax (the "EIT Law") and Implementation 
+Regulation of the EIT Law, the tax rate of the PRC subsidiaries is 25% during the Track Record 
+Period, except for group entities which entitled preferential tax rate as explained below. 
+ 
+Under the EIT Law effective on January 1, 2008, the "High and New Technology Enterprise" (the 
+"HNTE") status of qualifying entities is valid for three years and qualifying entities can re-apply 
+for an additional three years provided their business operations continue to qualify for the HNTE 
+status. Shanghai Infinigence AI Technology Joint Stock Company Limited (the “Shanghai 
+Infinigence”) was qualified as a HNTE on 25 December 2025 and was entitled to a preferential 
+tax rate of 15% from 2025 to 2027, [Beijing Wuwen Core Dome Technology Co., Ltd. (the 
+“Beijing Wuwen”)] was qualified as a HNTE on 30 December 2025 and was entitled to a 
+preferential tax rate of 15% from 2025 to 2027. 
+ 
+ According to a policy promulgated by the State Tax Bureau of the PRC and effective from 2018 
+onwards, enterprises engaged in Research and development ("R&D") activities are entitled to 
+claim an additional tax deduction amounting to 75% of the qualified R&D expenses incurred in 
+determining its tax assessable profits for that year ("Super Deduction"). Starting from January 
+2021, the Super Deduction ratio increased to 100% for manufacturing industry. Starting from 
+October 1, 2022, the Super Deduction ratio was increased to 100% for other industries. Beijing 
+Wuwen and Shanghai Infinigence were entitled to Super Deduction during the Track Record 
+Period.
+
+--- Page 31 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+9. INCOME TAX CREDIT – continued 
+ 
+The income tax expense for the Track Record Period can be reconciled to the loss before tax per 
+the consolidated statements of profit or loss and other comprehensive income as follows: 
+ 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Loss before tax (56,205) (380,412) (582,668) _______ _______ _______ _______ _______ _______ 
+ 
+ Tax at the statutory PRC EIT rate of 25% (14,051) (95,103) (145,667) 
+ Tax effect of expenses not deductible for tax purpose 198 196 485 
+ Tax effect of extra deduction of research and 
+ development expenses (3,990) (21,579) (28,107) 
+ Tax effect of deductible temporary 
+ differences not recognised 4,355 2,249 5,996 
+ Tax effect of tax losses not recognised 13,488 114,237 167,293 _______ _______ _______ 
+ I ncome tax expense for the year - - - _______ _______ _______ 
+ 
+10. LOSS FOR THE YEAR 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Loss for the year is arrived at after charging/[(crediting)]: 
+ 
+ Contracted staff costs 
+ Directors' emoluments (note 11) [ ] [ ] [ ]
+ Other staff costs (excluding directors' emoluments): 
+ Salaries and other benefits 18,258 136,452 215,100 
+ Performance related incentive payments 17,178 30,661 26,464 
+ Contribution to retirement benefit schemes 959 8,552 13,748 _______ _______ _______ 
+ Total staff costs [] [] [] _______ _______ _______ _______ _______ _______ 
+ 
+ 
+ Depreciation of property, plant and equipment 1,637 33,593 39,781 
+ Depreciation of right-of-use assets 244 52,529 154,466 
+ Amortisation of intangible assets 2 11 7,863 _______ _______ _______ 
+ Total depreciation and amortisation 1,883 86,133 202,110 _______ _______ _______ _______ _______ _______ 
+ Auditors' remuneration - 92 349 _______ _______ _______ _______ _______ _______
+
+--- Page 32 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+11. DIRECTORS' EMOLUMENTS AND EMOLUMENTS OF EMPLOYEES 
+ 
+ Directors' emoluments 
+ 
+ The emoluments paid or payable to the directors of the Company (including emoluments for 
+services as employee/directors/supervisors of the Group prior to becoming the 
+directors/supervisors of the Company) during the Track Record Period disclosed pursuant to the 
+applicable Listing Rules and Hong Kong Companies Ordinance were as follows: 
+ 
+ Performance Contributions 
+ Salaries related to retirement 
+ Directors' and other incentive benefit Total 
+ fees benefits payments schemes emoluments 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ (note i) 
+ For the year ended 31 December 2023 
+ 
+ 
+ 
+ 
+ 
+ _______ _______ _______ _______ _______ 
+ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+ For the year ended 31 December 2024 
+ 
+ 
+ 
+ 
+ 
+ _______ _______ _______ _______ _______ 
+ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+ For the year ended 31 December 2025 
+ 
+ 
+ 
+ 
+ 
+ _______ _______ _______ _______ _______ 
+ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+Notes: 
+ 
+(i) Performance related incentive payments were determined having regard to the 
+performance of directors/supervisors and the Group's operating results.
+
+--- Page 33 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+13. EMOLUMENTS AND EMOLUMENTS OF EMPLOYEES - continued 
+ 
+ Directors' emoluments - continued 
+ 
+The executive directors' emoluments shown above were for their services in connection with the 
+management of the affairs of the Company and the Group. 
+ 
+ Mr. Xia Li Xue is also the chief executive of the Company and his emoluments disclosed above 
+included those for services rendered by him as the chief executive. 
+ 
+ There was no arrangement under which the c hief executive or a director waived or agreed to 
+waive any emoluments during the Track Record Period. 
+ 
+ Emoluments of Employees 
+ 
+ During the years ended 31 December 2023, 2024 and 2025, of the five individual s with the 
+highest emoluments of the Group, [ ], [ ] and [ ] of them were directors of the Company whose 
+emoluments are included above, respectively. The emoluments of the remaining [ ], [ ] and [ ] 
+individuals for the years ended 31 December 2023, 2024 and 2025, respectively, are disclosed as 
+follows: 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Salaries and other benefits 
+ Performance related incentive payments 
+ Contributions to retirement benefit schemes _______ _______ _______ 
+ _______ _______ _______ _______ _______ _______ 
+ 
+ Year ended 31 December 
+ No. of employees 
+ 2023 2024 2025 
+ Their emoluments were within the following bands: 
+ Nil to HK$ 1,000,000 _______ _______ _______ _______ _______ _______ 
+ 
+ No emoluments were paid by the Group to the directors, supervisors or the above individuals as 
+an inducement to join the Group or as a compensation for loss of office during the Track Record 
+Period.
+
+--- Page 34 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+12. LOSS PER SHARE 
+ 
+ The calculation of basic and diluted loss per share attributable to the owners of the Company is 
+based on the following data: 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ Loss figures are calculated as follows: 
+ 
+ Loss for the year attributable to the owners of 
+ the Company for the purpose of basic loss per share (51,850) (378,163) (579,314) _______ _______ _______ _______ _______ _______ 
+ 
+ Year ended 31 December 
+ 2023 2024 2025 
+ '000 '000 '000 
+ No. of shares: 
+ 
+ Weighted average number of ordinary shares 
+ for the purpose of basic loss per share (note) 243,356 450,808 579,407 _______ _______ _______ _______ _______ _______ 
+ 
+ Note: [] 
+ 
+The computation of diluted loss per share for the year ended 31 December 2023, 2024 and 2025 
+has not taken into consideration the exercise of the Company's options, as the effect is anti-
+dilutive.
+
+--- Page 35 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+13. PROPERTY, PLANT AND EQUIPMENT 
+ 
+The Group 
+ 
+ Electronic Office 
+ equipment furniture Others Total 
+ RMB'000 RMB'000 RMB'000 RMB'000 
+ COST 
+ At 31 May 2023 - - - - 
+ Additions 72,979 33 44 73,056 _______ _______ _______ _______ 
+ At 31 December 2023 72,979 33 44 73,056 
+ Additions 40,458 430 5 40,893 _______ _______ _______ _______ 
+ At 31 December 2024 113,437 463 49 113,949 
+ Additions 11,840 50 1,120 13,010 
+ Disposals (307) - - (307) _______ _______ _______ _______ 
+ At 31 December 2025 124,970 513 1,169 126,652 _______ _______ _______ _______ 
+ 
+ DEPRECIATION 
+ At 31 May 2023 - - - - 
+ Provided for the year (1,637) - - (1,637) _______ _______ _______ _______ 
+ At 31 December 2023 (1,637) - - (1,637) 
+ Provided for the year (33,494) (89) (10) (33,593) _______ _______ _______ _______ 
+ At 31 December 2024 (35,131) (89) (10) (35,230) 
+ Provided for the year (39,486) (126) (169) (39,781) 
+ Eliminated on disposals 43 - - 43 _______ _______ _______ _______ 
+ At 31 December 2025 (74,574) (215) (179) (74,968) _______ _______ _______ _______ 
+ CARRYING VALUES 
+ At 31 December 2023 71,342 33 44 71,419 ______________ _______ _______ _______ _______ _______ _______ _______ 
+ At 31 December 2024 78,306 374 39 78,719 _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ At 31 December 2025 50,396 298 990 51,684 _______ _______ _______ _______ _______ _______ _______ _______ _______
+
+--- Page 36 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+13. PROPERTY, PLANT AND EQUIPMENT - continued 
+ 
+ The Company 
+ 
+ 
+ Electronic Office 
+ equipment furniture Others Total 
+ RMB'000 RMB'000 RMB'000 RMB'000 
+ COST 
+ At 31 May 2023 - - - - 
+ Additions 67,776 33 10 67,819 _______ _______ _______ _______ 
+ At 31 December 2023 67,776 33 10 67,819 
+ Additions 38,389 15 20 38,424 _______ _______ _______ _______ 
+ At 31 December 2024 106,165 48 30 106,243 
+ Additions 10,487 39 448 10,974 
+ Disposals (307) - - (307) _______ _______ _______ _______ 
+ At 31 December 2025 116,345 87 478 116,910 _______ _______ _______ _______ 
+ 
+ DEPRECIATION 
+ At 31 May 2023 - - - - 
+ Provided for the year (1,072) - - (1,072) _______ _______ _______ _______ 
+ At 31 December 2023 (1,072) - - (1,072) 
+ Provided for the year (31,446) (11) (6) (31,463) _______ _______ _______ _______ 
+ At 31 December 2024 (32,518) (11) (6) (32,535) 
+ Provided for the year (36,733) (20) (83) (36,836) 
+ Eliminated on disposals 43 - - 43 _______ _______ _______ _______ 
+ At 31 December 2025 (69,208) (31) (89) (69,328) _______ _______ _______ _______ 
+ CARRYING VALUES 
+ At 31 December 2023 66,704 33 10 66,747 _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ At 31 December 2024 73,647 37 24 73,708 _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ At 31 December 2025 47,137 56 389 47,582 _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+ The above items of property, plant and equipment, after taking into account the residual values, 
+are depreciated on a straight-line basis at the following rates per annum: 
+ 
+ Electronic equipment 33.33% 
+ Office furniture 20%-25% 
+ Others 33.33%
+
+--- Page 37 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+14. RIGHT-OF-USE ASSETS 
+ 
+The Group 
+ Leased 
+ properties Server device Total 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Carrying amount 
+ As at 31 May 2023 - - - 
+ Additions 5,845 - 5,845 
+ Modification of lease contract - - - 
+ Depreciation charge (244) - (244) _______ _______ _______ 
+ As at 31 December 2023 5,601 - 5,601 
+ Additions 9,058 591,374 600,432 
+ Modification of lease contract - (14,902) (14,902) 
+ Depreciation charge (6,170) (46,359) (52,529) _______ _______ _______ 
+ As at 31 December 2024 8,489 530,113 538,602 
+ Additions 6,476 97,913 104,389 
+ Modification of lease contract (508) (41,363) (41,871) 
+ Depreciation charge (7,985) (146,481) (154,466) _______ _______ _______ 
+ As at 31 December 2025 6,472 440,182 446,654 _______ _______ _______ _______ 
+ 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Expense relating to short-term leases [] [] [] 
+ Total cash outflow for leases [] [] [] _______ _______ _______ _______ _______ _______
+
+--- Page 38 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+14 RIGHT-OF-USE ASSETS - continued 
+ 
+The Company 
+ Leased 
+ properties Server device Total 
+ RMB'000 RMB'000 RMB'000 
+ 
+Carrying amount 
+ As at 31 May 2023 and 31 December 2023 - - - 
+ Additions 1,514 591,373 592,887 
+ Modification of lease contract - (14,902) (14,902) 
+ Depreciation charge (502) (46,359) (46,861) _______ _______ _______ 
+ As at 31 December 2024 1,012 530,112 531,124 
+ Additions 1,048 97,912 98,960 
+ Modification of lease contract (178) (41,364) (41,542) 
+ Depreciation charge (866) (146,482) (147,348) _______ _______ _______ 
+ As at 31 December 2025 1,016 440,178 441,194 _______ _______ _______ _______ 
+ 
+ Year ended 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Expense relating to short-term leases [] [] [] 
+ Total cash outflow for leases [] [] [] _______ _______ _______ _______ _______ _______ 
+ 
+ The Group and the Company Server device, Leased properties for its operations. Lease contracts 
+are entered into for fixed term of 1 year to 5 years, but may have extension and termination 
+options as described below. Lease terms are negotiated on an individual basis and contain 
+different terms and conditions. In determining the lease term and assessing the length of the non-
+cancellable period, the Group and the Company applies the definition of a contract and determines 
+the period for which the contract is enforceable. 
+ 
+The Group and the Company regularly entered into short-term leases for server device for its 
+operations. As at 31 December 2023, 2024 and 2025, the portfolio of short-term leases is similar 
+to the portfolio of short-term leases to which the short-term lease expense disclosed above.
+
+--- Page 39 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+15. INTANGIBLE ASSETS 
+ 
+The Group 
+ 
+ Software Patent Total 
+ RMB'000 RMB'000 RMB'000 
+ COST 
+ At 31 May 2023 - - - 
+ Additions 13 - 13 _______ _______ _______ 
+ At 31 December 2023 13 - 13 
+ Additions 140 - 140 _______ _______ _______ 
+ At 31 December 2024 153 - 153 
+ Additions 12,502 110,645 123,147 _______ _______ _______ 
+ At 31 December 2025 12,655 110,645 123,300 _______ _______ _______ 
+ 
+ AMORTISATION 
+ At 31 May 2023 - - - 
+ Provided for the year (2) - (2) _______ _______ _______ 
+ At 31 December 2023 (2) - (2) 
+ Provided for the year (11) - (11) _______ _______ _______ 
+ At 31 December 2024 (13) - (13) 
+ Provided for the year (3,233) (4,630) (7,863) _______ _______ _______ 
+ At 31 December 2025 (3,246) (4,630) (7876) _______ _______ _______ 
+ CARRYING VALUES 
+ At 31 December 2023 11 - 11 _______ _______ _____________________ _______ _______ _______ 
+ At 31 December 2024 140 - 140 _______ _______ _____________________ _______ _______ _______ 
+ At 31 December 2025 9,409 106,015 115,424 _______ _______ _____________________ _______ _______ _______
+
+--- Page 40 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+15 INTANGIBLE ASSETS - continued 
+ 
+The Company 
+ 
+ Software Patent Total 
+ RMB'000 RMB'000 RMB'000 
+ COST 
+ At 31 May 2023 and 31 December 2023 - - - 
+ Additions 133 - 133 _______ _______ _______ 
+ At 31 December 2024 133 - 133 
+ Additions 12,446 110,645 123,091 _______ _______ _______ 
+ At 31 December 2025 12,579 110,645 123,224 _______ _______ _______ 
+ 
+ AMORTISATION 
+ At 31 May 2023 and 31 December 2023 - - - 
+ Provided for the year (6) - (6) _______ _______ _______ 
+ At 31 December 2024 (6) - (6) 
+ Provided for the year (3,214) (4,630) (7,844) _______ _______ _______ 
+ At 31 December 2025 (3,220) (4,630) (7,850) _______ _______ _______ 
+ CARRYING VALUES 
+ At 31 December 2023 - - - _______ _______ _____________________ _______ _______ _______ 
+ At 31 December 2024 127 - 127 _______ _______ _____________________ _______ _______ _______ 
+ At 31 December 2025 9,359 106,015 115,374 _______ _______ _____________________ _______ _______ _______ 
+ 
+The above intangible assets have finite useful lives. Such intangible assets are amortised on a 
+straight-line basis over 2-10 years.
+
+--- Page 41 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+16. INTERESTS IN ASSOCIATES 
+ 
+ Details of the Group's investment in associates are as follows: 
+ 
+The Group 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Cost of unlisted investments - - 3,400 
+ Share of results and other comprehensive income - - (35) _______ _______ _______ 
+ - - 3,365 _______ _______ _______ _______ _______ _______ 
+ 
+The Company 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Cost of unlisted investments - - 2,000 
+ Share of results and other comprehensive income - - (52) _______ _______ _______ 
+ - - 1,948 _______ _______ _______ _______ _______ _______ 
+ 
+Aggregate information of associates that are not individually material: 
+ 
+The Group 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ The Group's share of loss and 
+ total comprehensive expense for the year - - (35) 
+ 
+ Aggregate carrying amount of the Group's interests 
+ in these investments - - 3,365 _______ _______ _______ 
+ 
+ 
+The Company 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ The Group's share of loss and 
+ total comprehensive expense for the year - - (52) 
+ 
+ Aggregate carrying amount of the Group's interests 
+ in these investments - - 1,948 _______ _______ _______
+
+--- Page 42 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+17. DEFERRED TAX ASSETS (LIABILITIES) 
+ 
+ The following is the analysis of the deferred tax balances for financial reporting purposes: 
+ 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Deferred tax assets 4,355 12,059 12,097 
+ Deferred tax liabilities - (5,455) (2,139) _______ _______ _______ 
+ 4,355 6,604 9,958 _______ _______ _______ _______ _______ _______ 
+ 
+ The followings are the deferred tax assets (liabilities) recognised and movements thereon during 
+ the Track Record Period: 
+ 
+ Right-of-use Lease Share-based Allowance for 
+ assets liabilities payments credit loss Total 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+ 
+At 31 May 2023 - - - - - 
+(Charge)/credit to profit or loss (1,400) 1,461 4,294 - 4,355 _______ _______ _______ _______ _______ 
+At 31 December 2023 (1,400) 1,461 4,294 - 4,355 
+(Charge)/credit to profit or loss (133,250) 127,734 7,665 100 2,249 _______ _______ _______ _______ _______ 
+At 31 December 2024 (134,650) 129,195 11,959 100 6,604 
+Credit/(charge) to profit or loss 67,652 (64,336) (814) 852 3,354 _______ _______ _______ _______ _______ 
+At 31 December 2025 (66,998) 64,859 11,145 952 9,958 _______ _______ _______ _______ _______ 
+ 
+As at 31 December 2023, 2024 and 2025, the Group has unused tax losses of RMB844,917,000, 
+RMB409,825,000 and RMB[1,216,049,000] available for offset against future profits. No 
+deferred tax asset has been recognised in respect of such losses as at 31 December 2023, 2024 and 
+2025 due to the unpredictability of future profit streams. 
+ 
+18. CONTRACT COSTS 
+ 
+The Group and company 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Costs to fulfill contracts - 785 1,970 _______ _______ _______ _______ _______ _______ 
+ 
+ Costs to fulfill contracts mainly comprise the engineering cost incurred directly related to an 
+ existing contract that will be used to satisfy performance obligations in the future.
+
+--- Page 43 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+19. TRADE AND OTHER RECEIVABLES 
+ 
+ The Group The Company 
+ At 31 December At 31 December 
+ 2023 2024 2025 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ Trade receivables from 
+ contracts with customers - 680 43,537 - 680 42,544 
+ Less: Allowances for credit losses - (34) (2,182) - (34) (2,132) _______ _______ _______ _______ _______ _______ 
+ - 646 41,355 - 646 40,412 _______ _______ _______ _______ _______ _______ 
+ 
+ Other receivables - 7,301 81,365 - 7,301 79,327 
+ Less: Allowances for credit losses - (365) (4,068) - (365) (3,966) _______ _______ _______ _______ _______ _______ 
+ - 6,936 77,297 - 6,936 75,361 _______ _______ _______ _______ _______ _______ 
+ 
+ Prepayment 42,735 40,345 20,987 42,558 39,376 14,336
+ Value-added tax recoverable 7,006 26,174 35,275 6,121 23,351 28,920 
+ Interest receivable 431 620 132 431 620 132 
+ Others 124 9,178 12,180 5,238 4,337 10,178
+ _______ _______ _______ _______ _______ _______ 
+ 50,296 76,317 68,574 54,348 67,684 53,566 _______ _______ _______ _______ _______ _______ 
+ 50,296 83,899 187,226 54,348 75,266 169,339 _______ _______ _______ _______ _______ _______ 
+ 
+ The following is an ageing analysis of trade receivables (net of allowance of credit losses) 
+presented based on the date of delivery of goods and services at the end of the reporting period: 
+ 
+ The Group The Company 
+ At 31 December At 31 December 
+ 2023 2024 2025 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+ 0 - 90 days - 646 41,253 - 646 40,310
+ Over 90 days - - 102 - - 102 _______ _______ _______ _______ _______ _______ 
+ - 646 41,355 - 646 40,412 _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+Details of impairment assessment of trade and other receivables are set out in note 30.
+
+--- Page 44 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+20. FINANCIAL ASSETS AT FVTPL 
+ 
+The Group and company 
+ 
+ The Group The Company 
+ At 31 December At 31 December 
+ 2023 2024 2025 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+ Wealth management products 
+ issued by banks 60,204 - - 60,204 - - _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+ As at 31 December 2023, the structured deposits issued by a bank are [ .] 
+ 
+21. CASH AND CASH EQUIVALENTS/RESTRICTED BANK DEPOSITS/TERM DEPOSITS 
+ 
+Cash and cash equivalents held by the Group and the Company are short-term bank deposits with 
+an original maturity of three months or less and carry interest at market rates range from [ ]% to 
+[ ]%, [ ]% to [ ]% and [ ]% to [ ]% per annum as at 31 December 2023, 2024 and 2025. 
+respectively. 
+ 
+The restricted bank deposits consist primarily of restricted bank balances for the issue of bills. 
+The restricted bank deposits carried fixed interest rate of 1.35% per annum as at 31 December 
+2025. 
+ 
+Term deposits represent short-term and long-term bank deposits at interest rates ranging from 
+[ ]% to [ ]%, [ ]% to [ ]% and [ ]% to [ ]% per annum as at 31 December 2023, 2024 and 2025. 
+respectively.
+
+--- Page 45 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+22. TRADE AND OTHER PAYABLES 
+ The Group The Company 
+ At 31 December At 31 December 
+ 2023 2024 2025 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+ Trade payable - 800 8,761 - 18,157 15,067
+ Other payables 814 10,398 97,783 423 9,784 91,241 
+ Subscription received for unissued 
+ shares with preference rights - - 70,000 - - 70,000 
+ Accrued staff costs 6,869 33,010 44,354 1,885 12,993 19,234 
+ Value-added tax 
+ and other tax payable 557 3,306 11,862 230 1,317 5,463 
+ Notes payables - - 5,638 - - 5,638 _______ _______ _______ _______ _______ _______ 
+ 8,240 47,514 238,398 2,538 42,251 206,643 _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+The following is an ageing analysis of trade payables and presented based on the date of goods 
+and services received at the end of each reporting period: 
+ 
+ The Group The Company 
+ At 31 December At 31 December 
+ 2023 2024 2025 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+ 0 - 90 days - 800 8,761 - 18,157 15,067 _______ _______ _______ _______ _______ _______ 
+ 
+ 
+ The average credit period on purchases of goods and services of the Group and Company is 30 to 
+90 days.
+
+--- Page 46 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+23. CONTRACT LIABILITIES 
+ 
+The Group and company 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ _______ _______ _______ 
+ Contract liabilities - 1,094 12,974 _______ _______ _______ _______ _______ _______ 
+ - 1,094 12,974 _______ _______ _______ _______ _______ _______ 
+ 
+ The following table shows the revenue recognised to carried-forward contract liabilities and how 
+much relates to performance obligations that were satisfied in prior periods. 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ _______ _______ _______ 
+ Revenue recognised that was included 
+ in the contract liabilities 
+ at the beginning of the year - - 1,094 _______ _______ _______ _______ _______ _______ 
+ 
+24. LEASE LIABILITIES 
+ The Group The Company 
+ At 31 December At 31 December 
+ 2023 2024 2025 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 RMB'000 
+ Lease liabilities payable: 
+ Within one year 2,998 107,753 96,419 - 100,595 93,586 
+ Over one year but not exceeding 
+ two years 2,847 120,744 121,058 - 120,502 118,501 
+ Over two years but not exceeding 
+ five years - 288,284 214,915 - 288,284 214,688 _______ _______ _______ _______ _______ _______ 
+ 5,845 516,781 432,392 - 509,381 426,775 
+ Less: Amount due for settlement 
+ within 12 months shown 
+ under current liabilities (2,998) (107,753) (96,419) - (100,595) (93,586) _______ _______ _______ _______ _______ _______ 
+ Amount due for settlement after 
+ 12 months shown under 
+ non-current liabilities 2,847 409,028 335,973 - 408,786 333,189 _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ _______ 
+ 
+ The weighted average incremental borrowing rate applied to lease liabilities at 3.88%, 3.95% and 
+3.95% per annum during the years ended 31 December 2023, 2024 and 2025, respectively.
+
+--- Page 47 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+25. BANK BORROWINGS 
+ 
+The Group 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ _______ _______ _______ 
+ Bank borrowings – unsecured and guaranteed - - 29,920 
+ Bank borrowings – unsecured and unguaranteed - 32,361 65,203 _______ _______ _______ _______ _______ _______ 
+ - 32,361 95,123 _______ _______ _______ _______ _______ _______ 
+ 
+The bank borrowing is repayable as follows: 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Amont due within one year shown under 
+ current liabilities - 32,361 95,123 _______ _______ _______ _______ _______ _______ 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ 
+ Bank borrowings - fixed-rate - 5,117 68,067 
+ Bank borrowings - variable-rate - 27,244 27,056 _______- _______ _______ _______ _______ _______ 
+ - 32,361 95,123 _______ _______ _______ _______ _______ _______ 
+ 
+The Group's variable-rate borrowings carry interest at 1-year Loan Prime Rate ("LPR") minus 75 
+and 82 basis points per annum, with a 3-month reset cycle. 
+ 
+ Year ended 31 December 
+ 2024 2025 
+ 
+ Effective interest rate: 
+ Bank borrowings - fixed-rate 2.40% 2.20%-2.40% 
+ Bank borrowings - variable-rate 2.25%-2.35% 2.18%-2.35% _______- _______ _______ _______ _______
+
+--- Page 48 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+25. BANK BORROWINGS - continued 
+ 
+The Company 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Bank borrowings – unsecured and unguaranteed - 32,361 65,203 _______ _______ _______ 
+ 
+The bank borrowing is repayable as follows: 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ Amont due within one year shown under 
+ current liabilities - 32,361 65,203 _______ _______ _______ _______ _______ _______ 
+ 
+ At 31 December 
+ 2023 2024 2025 
+ RMB'000 RMB'000 RMB'000 
+ 
+ 
+ Bank borrowings - fixed-rate - 5,117 38,147 
+ Bank borrowings - variable-rate - 27,244 27,056 _______- _______ _______ _______ _______ _______ 
+ - 32,361 65,203 _______ _______ _______ _______ _______ _______ 
+ 
+The Group's variable-rate borrowings carry interest at 1-year Loan Prime Rate (LPR) minus 75 
+and 82 basis points per annum, with a 3-month reset cycle. 
+ 
+ Year ended 31 December 
+ 2024 2025 
+ 
+ Effective interest rate: 
+ Bank borrowings - fixed-rate 2.40% 2.20%-2.40% 
+ Bank borrowings - variable-rate 2.25%-2.35% 2.18%-2.35% _______- _______ _______ _______ _______
+
+--- Page 49 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+26. DEFERRED INCOME 
+ 
+The Group 
+ RMB'000 
+ 
+At 31 May 2023 - 
+ Government grants received 5,000 
+ Credit to profit or loss - ______ 
+At 31 December 2023 5,000 
+ Government grants received 1,400 
+ Credit to profit or loss (2,477) ______ 
+At 31 December 2024 3,923 ______ 
+ Government grants received 25,923 
+ Credit to profit or loss (7,453) ______ 
+At 31 December 2025 22,393 ______ 
+ 
+ 
+The Company 
+ RMB'000 
+ 
+At 1 May 2023 - 
+ Government grants received 5,000 
+ Credit to profit or loss - ______ 
+At 31 December 2023 5,000 
+ Government grants received 400 
+ Credit to profit or loss (2,477) ______ 
+At 31 December 2024 2,923 ______ 
+ Government grants received 24,990 
+ Credit to profit or loss (7,221) ______ 
+At 31 December 2025 20,692 ______ 
+ 
+The Group and the Company mainly received government grants in relation to certain government 
+sponsored research and development projects for front-end technologies. The government grants 
+were recorded as deferred income before the completion and acceptance by the government of the 
+related research and development projects. The amount is transferred to income in the form of 
+reduced depreciation charges over the useful lives of the relevant assets.
+
+--- Page 50 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+27. FINANCIAL LIABILITIES ON SHARES WITH PREFERENTIAL RIGHTS 
+ 
+The Group and the Company 
+ 
+Since the date of its incorporation, the Company has completed several rounds of financing through 
+issuing shares with certain preferred rights, mainly including redemption rights, anti-dilution rights 
+and liquidation preference rights, including series angel, series Pre-A, series A1, series A2, Strategic 
+series, series A+, each leading to an increase in the capital of the Company. The details of these 
+financing are set out below: 
+ 
+ Subscription 
+ price Number Total 
+Series Date of issuance per share of shares consideration 
+ RMB RMB'000 
+ 
+ 
+Series Angel June 2023 361 190,103 68,630 
+Series Pre-A September 2023 1,008 334,226 337,000 
+Series A1 May 2024 1,181 59,279 70,000 
+Series A2 June 2024 1,181 321,799 380,000 
+Series Seed June 2024 82 29,639 2,411 
+Strategic series June 2025 431 255,730 110,160 
+Series A+ September 2025 1,312 346,867 455,133 
+ 
+Terms of the Preferred Shares are as follows: 
+ 
+Redemption rights 
+ 
+The Company shall redeem the Preferred Shares if (i) the Company has not consummated a qualified 
+initial public offering or a trade sale before the eighth (8th) anniversary of the Closing Date; (ii) the 
+Company and/or the Management Shareholders breach the provisions of the Transaction Documents 
+and/or abuse shareholder rights, in each case resulting in a Material Adverse Effect; (iii) If the 
+aggregate registered capital of the Target Company held by the Management Shareholders is less 
+than the aggregate registered capital of the Target Company held by the Management Shareholders 
+as of the Closing Date. (iv) Any other investor requests to exercise the investor's redemption right. 
+ 
+The redemption amount shall be the total consideration paid by the investors to subscribe for the 
+Company’s equity interest, plus interest accrued from the investment completion date as stipulated in 
+the agreements to the redemption trigger date: for Angel Round and Pre-A Round investors, interest 
+shall be calculated at an annual simple interest rate of 8%; for investors of all other rounds, interest 
+shall be calculated at an annual compound interest rate of 10%. In all cases, the aforesaid amount 
+shall be less any dividends (if any) declared and distributed to such investors.
+
+--- Page 51 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+ 
+27. FINANCIAL LIABILITIES ON SHARES WITH PREFERENTIAL RIGHTS - continued 
+ 
+Anti-dilution right 
+ 
+Without the prior written consent of investors holding individually or in aggregate more than two-
+thirds (2/3) of the preferred shares of any series, and more than two-thirds (2/3) of the investor 
+directors, the Target Company shall not conduct any subsequent financing at a price lower than 
+the unit price of the preferred shares of such series (the Original Price). 
+ 
+If the subscription price per Renminbi unit of registered capital of the Target Company in any 
+subsequent financing is lower than the Original Price corresponding to the preferred shares held 
+by any investor, such investor shall have the right (but not the obligation) to require the Target 
+Company to adopt the following anti-dilution measures and adjust its applicable Original Price by 
+way of narrow-based weighted average method. Upon adjustment, the Original Price of the 
+corresponding equity interests held by such anti-dilution right holders in the Company shall be 
+adjusted to the price calculated in accordance with the formula below: 
+ 
+Adjusted Price = Original Price × (X/Y) 
+ 
+X = a + b， Y = a + c 
+ 
+a means the amount of registered capital of the Target Company prior to the below-price capital 
+increase (excluding any options, warrants and other convertible securities issued by the Target 
+Company that are convertible into the Company’s registered capital but not yet exercised or 
+settled at that time); 
+ 
+b means the amount of new registered capital issuable in the below-price capital increase if 
+subscribed at the Original Price; 
+ 
+c means the amount of new registered capital issuable in the below-price capital increase if 
+subscribed at the new lower price. 
+ 
+Liquidation preferences 
+ 
+In the event of any liquidation, dissolution or, winding up of the Company (the each an 
+"Liquidation Event") occurs, either voluntary or involuntary, the holders of the series of the 
+Preferred Shares shall entitle liquidation proceeds in the following sequences: (1) first to holders 
+of the series A+ Preferred Shares, (2) second to series A Preferred Shares, (3) third to series Pre-A 
+Preferred Shares, (4) fourth to series Angel Preferred Shares, and (5) fifth to seed Preferred 
+Shares. After the all series of the Preferred Shares liquidation amount have been paid as set forth 
+above, any remaining funds or assets of the Company legally available for distribution to 
+shareholders shall be distributed on a pro rata, pair passu basis among the holders of the Preferred 
+Shares and ordinary shares on a fully-diluted and as converted basis. 
+ 
+In the event of any liquidation, the liquidation consideration shall be determined as follows: 
+(1)For Angel Round and Pre-A Round investors, The liquidation amount shall be the total 
+consideration paid by the investors to subscribe for the Company’s equity interest; for investors of 
+all other rounds, their liquidation amount shall be the total consideration paid by such investors to 
+subscribe for the Company’s equity interest plus interest accrued at an annual compound interest 
+rate of 10% for the period from the investment completion date as stipulated in the agreements to 
+the occurrence of the Liquidation
+
+--- Page 52 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+27. FINANCIAL LIABILITIES ON SHARES WITH PREFERENTIAL RIGHTS - continued 
+ 
+Liquidation preferences - continued 
+ 
+Event. In all cases, the foregoing amount shall be net of any dividends (if any) declared and 
+distributed to such investors. 
+ 
+In the event of a Sale Event, the investor shall be entitled to receive the higher of the amounts set 
+forth in Item (1) and Item (2). 
+(2) the distributable property to which such investor is entitled based on its shareholding ratio of 
+the current round equity in the Target Company; 
+ 
+Dividends rights 
+ 
+When the Target Company has sufficient funds and the shareholders have duly approved and 
+declared profit distribution, all shareholders of the Target Company (including all investors) shall 
+participate in the profit distribution in proportion to their respective paid-in capital contributions. 
+Each party agrees that the Target Company shall not distribute dividends to any other 
+shareholders prior to paying dividends to the investors. 
+ 
+Presentation and classification 
+ 
+The anti-dilution right is a derivative financial instrument measured at FVTPL, of which the fair 
+value is considered close to nil as the Directors of the Company expected the possibility of a new 
+round of lower price financing was remote before the Company’s successful qualified initial 
+public offering. 
+The redemption rights granted to the investors constitute as the Company’s obligations to 
+repurchase its own equity instruments. These obligations were recognised as redemption liabilities 
+which are initially measured at fair value and subsequently measured at amortised cost. The 
+redemption liabilities are analyzed as non-current liabilities as the Company have the right at each 
+reporting date to defer settlement of the liabilities for at least twelve months after that date. 
+ 
+The movement of the Preferred Shares is set out as below: 
+ 
+ RMB'000 
+ 
+ At 31 May 2023 - 
+ Additions 405,630 
+ Charged to finance costs 9,904 _______ 
+ At 31 December 2023 415,534 
+ Additions 452,441 
+ Charged to finance costs 64,055 _______ 
+ At 31 December 2024 932,030 
+ Additions 565,293 
+ Charged to finance costs 111,282 _______ 
+ At 31 December 2025 1,608,605 _______ _______
+
+--- Page 53 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+28. PAID-IN CAPITAL AND RESERVES 
+ 
+The Group and the Company 
+ 
+ Number of shares Amount 
+ RMB'000 
+Registered capital: 
+ 
+At 31 May 2023 N/A - 
+Capital contribution (note (i)) N/A 475 __________ _______ 
+At 31 December 2023 N/A 475 
+Capital reduction (note (i)) N/A (44) __________ _______ 
+At 31 December 2024 N/A 431 
+Capital contribution (note (i)) N/A 284 __________ _______ 
+At 31 December 2025 N/A 715 __________ _______ __________ _______ 
+ 
+Note:[] 
+ 
+Reserves of the Company 
+ 
+Below table sets out details of the reserves of the Company: 
+ 
+ Share Other Accumulated 
+ premium reserves deficit Total 
+ RMB'000 RMB'000 RMB'000 RMB'000 
+ 
+At 31 May 2023 - - - - _______ _______ _______ _______ 
+Loss and total comprehensive expense 
+ for the year - - (28,133) (28,133) 
+Capital injection 6,915 - - 6,915 
+Recognition of equity-settled 
+ share-based payments - 17,178 - 17,178 _______ _______ _______ _______ 
+At 31 December 2023 6,915 17,178 (28,133) (4,040) ______ _______ _______ _______ 
+Loss and total comprehensive expense 
+ for the year - - (256,667) (256,667) 
+Capital reduction (2,411) - - (2,411) 
+Recognition of equity-settled 
+ share-based payments - 30,661 - 30,661 _______ _______ _______ _______ 
+At 31 December 2024 4,504 47,839 (284,800) (232,457) ______ _______ _______ _______ ______ _______ _______ _______ 
+Loss and total comprehensive expense 
+ for the year - - (557,930) (557,930) 
+Recognition of equity-settled 
+ share-based payments - 26,464 - 26,464 _______ _______ _______ _______ 
+At 31 December 2025 4,504 74,303 (842,730) (763,923) ______ _______ _______ _______ ______ _______ _______ _______
+
+--- Page 54 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+29. CAPITAL RISK MANAGEMENT 
+ 
+The Group manages its capital to ensure that the Group will be able to continue as a going 
+concern while maximising the return to shareholders through the optimisation of the debt and 
+equity balance. The Group's overall strategy remains unchanged throughout the Track Record 
+Period. 
+ 
+The capital structure of the Group consists of net debt, which includes the bank borrowings 
+disclosed in Note 25, lease liabilities disclosed in Note 24, the financial liabilities on shares with 
+preferred rights disclosed in Note 27, net of cash and cash equivalents and equity attributable to 
+owners of the Company, comprising registered capital , other reserve, accumulated deficit and 
+translation reserve. 
+ 
+The management reviews the capital structure on a semi-annual basis. As part of this review, the 
+management considers the cost of capital and the risks associated with each class of capital. Based 
+on recommendations of the management, the Group will balance its overall capital structure 
+through the new share issues as well as the issue of new debt or the redemption of existing debt.
+
+--- Page 55 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+30. [FINANCIAL INSTRUMENTS] 
+31. SHARE-BASED PAYMENTS 
+ 
+The Group and the Company 
+ 
+In [ ]2023, the Company adopted the option plan (the "[ ]"). The Company can grant options to 
+purchase up to [ ] ordinary shares of the Company. In September 2020, the company reserved [ ] 
+ordinary shares for issuance upon the exercise of options granted under the plan. 
+ 
+Vesting conditions of share options granted including: 
+ 
+(1) Service condition: the shares option is subject to a four-year service requirement and shall 
+vest 25% each year over the four-year period commencing from the vesting commencement date, 
+with no performance conditions attached. 
+ 
+The following table discloses movements of the Company's Share Options held by employees 
+during the Track Record Period: 
+ 
+ Weighted 
+ Number of average 
+ Share options exercise price 
+ 
+Options outstanding as at May 31, 2023 - 0.1 
+Granted [] 0.1 
+Forfeited [] 0.1 
+Options outstanding as at 31 December 2023 [] 0.1 
+Granted [] 0.1 
+Forfeited [] 0.1 
+Options outstanding as at 31 December 2024 [] 0.1 
+Granted [] 0.1 
+Forfeited [] 0.1 
+Options outstanding as at 31 December 2025 [] 0.1 _______ _______ 
+ _______ _______ 
+As at 31 December 2023, 2024 and 2025, the weighted average remaining contractual life of 
+Time-Based Share Options outstanding is 3.50, 3.50, and 3.38 years, respectively. 
+ 
+As at 31 December 2023, 2024 and 2025, the Group recognised the total expense of 
+RMB17,178,000, RMB30,661,000 and RMB26,464,000 in relation to share options granted by 
+the Company.
+
+--- Page 56 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+32. [RECONCILIATION OF LIABILITIES ARISING FROM FINANCING ACTIVITIES] 
+ 
+ Bank Lease 
+ borrowings liabilities Total 
+ RMB'000 RMB'000 RMB'000 
+ 
+ At 1 January 2023 
+ Interest accrued 
+ Financing cash flows _______ _______ _______ 
+ At 31 December 2023 
+ Interest accrued 
+ Financing cash flows _______ _______ _______ 
+ At 31 December 2024 
+ Interest accrued 
+ Financing cash flows _______ _______ _______ 
+ At 31 December 2025 _______ _______ _______ _______ _______ _______ _______ 
+ 
+ 
+33. RETIREMENT BENEFITS SCHEMES 
+ 
+The Group are members of a state-managed retirement benefit scheme operated by the PRC 
+government. The Group are required to contribute certain percentage of payroll costs to the 
+retirement benefits schemes to fund the benefits. The only obligation of the Group with respect to 
+the retirement benefit schemes is to make the specific contributions. 
+ 
+The total expense recognised in profit or loss of approximately RMB959,000 ,RMB8,552,000 and 
+RMB13,748,000 for the years ended 31 December 2023, 2024 and 2025, respectively, representing 
+contributions paid/payable to these plans by the Group at rates specified in the rules of the plans. 
+As at 31 December 2023, 2024 and 2025, contributions of RMB 343,000, RMB 1,017,000 and 
+RMB1,134,000, respectively, due in respect of those years then ended, had not been paid over to 
+the plans.
+
+--- Page 57 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+34. INVESTMENT IN SUBSIDIARIES/PARTICULARS OF SUBSIDIARIES 
+ 
+At the date of this report, the Company has direct and indirect interest in the following 
+subsidiaries: 
+ 
+ Percentage of attributable equity 
+ interest held by the Group 
+ Place of Paid up issued 
+ incorporation Date of share capital/ At date 
+ or registration/ incorporation registered At 31 December of this 
+ Name of subsidiaries establishment or registration capital 2023 2024 2025 report Legal form Principal activities 
+ % % % % 
+ 
+[Beijing Wuwen PRC 8/5/2023 145,000,000/ 100 100 100 100 Limited Liability AI computing 
+Core Dome 260,000,000 Company optimization and 
+Technology Co., Ltd.] computing power 
+(北京無問芯穹科技有限公司)] solutions 
+[Wuwen Xinqiong PRC 2/7/2024 100,000/ - 100 100 100 Limited Liability AI computing 
+(Beijing) Intelligent 50,000,000 Company optimization and 
+Technology Co., Ltd. computing power 
+(無問芯穹（北京）智能科技有限公司)] solutions 
+[Chengdu Wuwen PRC 6/9/2024 110,000/ - 100 100 100 Limited Liability AI computing 
+Xinqiong Intelligent 1,000,000 Company optimization and 
+Technology Co., Ltd. ] computing power 
+(成都無問芯穹智能科技有限公司)] solutions 
+[Ningxia Wuwen PRC 14/12/2023 - / 1,000,000 100 100 100 100 Limited Liability AI computing 
+Xinqiong Intelligent Company optimization and 
+Technology Co., Ltd.] computing power 
+(寧夏無問芯穹智能科技有限公司)] solutions 
+[Ningbo Wuwen PRC 25/7/2024 - / 15,000,000 - 100 100 100 Limited Liability AI computing 
+Xinqiong Intelligent Company optimization and 
+Technology Co., Ltd. computing power 
+(寧波無問芯穹智能科技有限公司)] solutions 
+[Tianjin Wuwen PRC 18/6/2024 - / 1,000,000 - 90 90 90 Limited Liability AI computing 
+Xinqiong Intelligent Company optimization and 
+Technology Co., Ltd.] computing power 
+(天津無問芯穹智能科技有限公司)] solutions 
+[Hangzhou Wuwen PRC 20/11/2025 - / 20,000,000 - - 100 100 Limited Liability AI computing 
+ Xinqiong Company optimization and 
+ Technology Co., Ltd. computing power 
+(杭州無問芯穹科技有限公司)] solutions 
+[Tianjin Wuqiong Star PRC 6/1/2026 - / 1,000,000 - - - 100 Limited Liability AI computing 
+Technology Co., Ltd. Company optimization and 
+(天津無穹之星科技有限公司)] computing power 
+ solutions 
+[Zhuhai Wuwen PRC 3/2/2026 - / 80,000,000 - - - 100 Limited Liability AI computing 
+Core Dome Company optimization and 
+Technology Co., Ltd. computing power 
+(珠海無問芯穹科技有限公司)] solutions 
+[Xiamen Wuwen PRC 18/3/2026 - / 20,000,000 - - - 100 Limited Liability AI computing 
+Xinqiong Company optimization and 
+Technology Co., Ltd. computing power 
+(廈門無問芯穹科技有限公司)] solutions 
+ 
+ 
+ All subsidiaries have a financial year end of 31 December. None of the subsidiaries had issued 
+any debt securities during the Track Record period.
+
+--- Page 58 ---
+SHANGHAI INFINIGENCE AI TECHNOLOGY JOINT STOCK COMPANY LIMITED 
+上海無問芯穹智能科技股份有限公司 
+NOTES TO THE HISTORICAL FINANCIAL INFORMATION 
+ 
+35. EVENTS AFTER THE REPORTING PERIOD 
+ 
+【】 
+ 
+36. SUBSEQUENT FINANCIAL STATEMENTS 
+ 
+【】
